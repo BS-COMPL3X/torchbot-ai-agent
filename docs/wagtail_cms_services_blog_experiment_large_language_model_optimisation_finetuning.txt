@@ -1,0 +1,316 @@
+Victor Miti
+Engineer
+To Finetune or not to Finetune: An experiment in Large Language Model optimisation
+14 Aug 2024
+/
+12 mins read
+Since the launch of
+ChatGPT
+by
+OpenAI
+on November 30, 2022, the digital landscape has been abuzz with the transformative potential of artificial intelligence. The emergence of several Large Language Models (LLMs) has provided developers and consumers with a wealth of options, each promising to revolutionise how we interact with AI. However, the one-size-fits-all nature of these models means they often fall short in specialised tasks. Tailoring these LLMs to meet specific needs—through techniques such as
+Prompt Engineering
+,
+Retrieval Augmented Generation
+, and
+Finetuning
+—has become a crucial frontier in AI optimisation.
+At Torchbox, our journey with LLMs has spanned various projects, leveraging Prompt Engineering and RAG to serve clients like the
+Royal National Institute of Blind People
+and the
+London Museum
+. Yet, the quest for even greater personalisation and efficiency led us to the doorstep of finetuning.
+This is the first post in a two-part series, where we explore the world of finetuning, as part of our
+Strategic AI Roadmap
+. We'll share our firsthand experiences, the challenges we faced, and the unexpected lessons learned. Whether you're looking to enhance an LLM's performance for a niche application or are simply curious about the potential of AI customisation, join us on our exploration.
+What is finetuning?
+Before we delve into finetuning, we’ll begin by defining Prompt Engineering and Retrieval Augmented Generation.
+Prompt Engineering
+is the art and science of designing, refining, and optimising prompts, that is, questions or instructions, to guide LLMs towards producing desired and accurate outputs.
+Retrieval Augmented Generation (RAG)
+is a technique to enhance the accuracy and reliability of LLMs by retrieving relevant facts and data from external knowledge bases.
+Finetuning
+is the process of adapting a pre-trained model like ChatGPT or
+Llama 3
+by further training it on a domain-specific dataset or adjusting its parameters to improve performance for specific tasks or use cases. This technique customises the model to better handle particular types of data or achieve more accurate results in a given context, refining its capabilities beyond the initial broad training.
+Here are several key reasons why you would consider finetuning:
+You have business-specific tasks that you intend to use often
+The business domain is not commonly found on the internet or the use case requires newer events.
+You would like to generate a distinctive style or length of response
+You need to comply with strict data privacy requirements in regulated industries like healthcare or finance.
+You aim to reduce societal biases present in the broad pre-training data by finetuning on curated datasets.
+For our exploration, the primary focus was on employing finetuning to enrich an LLM’s foundational knowledge, and determine to what extent this differed from our existing RAG approach.
+It is important to note that effectively finetuning a LLM requires using a large, high-quality, representative, and sufficiently specified dataset to ensure accuracy. Microsoft
+recommends
+having thousands or tens of thousands of examples. Higher data quality leads to better performance of your finetuned model.
+Establishing the baseline
+In order to have the right basis for evaluating between RAG and finetuning, we needed to establish a baseline based on RAG. We picked what we considered to be a sufficiently large dataset, consisting of over 1,500 pages of content. We were able to run our RAG pipeline, built around
+Wagtail Vector Index
+, with OpenAI’s text-embedding-3-small model used for embeddings, and the gpt-3.5-turbo model used for inference. We came up with a set of 14 questions, and took note of the answers we got from the model upon inference.
+Now, before we proceed, it’s important to highlight some fundamental concepts.
+Fundamental concepts
+Parameters
+In the world of LLMs,
+parameters
+are the essential building blocks that define the model's ability to understand and process language. They can be understood as the adjustable numerical values that the model optimises during training to minimise errors in its predictions.
+The number and configuration of parameters determine the overall behaviour of the LLM. More parameters generally allow for a more complex understanding of language, leading to potentially better performance in tasks like generating text, languages, or writing different kinds of creative content.
+While a higher parameter count can be beneficial, it's not the only factor. A well-designed model with fewer parameters might outperform a larger one, especially if it's finetuned for specific tasks.
+Computation challenges
+Finetuning large language models (LLMs) can be very expensive, especially for models with many parameters. Models with fewer than 10 billion parameters can usually be finetuned without significant infrastructure challenges. However, larger models, such as Meta Llama 3 70B, require around 1.5 terabytes of GPU vRAM, equivalent to about 20 Nvidia A100s with 80GB of vRAM each. This setup is costly, even with cloud providers, with costs reaching approximately $12,000 for a five-day finetuning session using 20 GPUs (
+source
+).
+Due to these high costs, most practitioners prefer smaller LLMs with less than 10 billion parameters, as they are more affordable to train, typically needing only 16GB to 24GB of vRAM. However, even a 7B model requires
+quantization
+to fit within this vRAM capacity.
+Quantization is a technique to reduce the computational and memory costs of running inference by reducing the precision of floating-point numbers, which normally occupy 32 bits, to integers of 8 or even 4 bits. This reduction occurs in the model’s parameters, specifically in the weights of the neural layers, and in the activation values that flow through the model’s layers.
+Finetuning approaches and methods
+Finetuning involves adjusting an LLM's parameters to specialise it for a particular task. The extent of these adjustments varies based on the task's complexity.
+There are
+primarily
+two methods for finetuning LLMs:
+Feature extraction (repurposing)
+– a technique where an LLM trained on one task is adapted for a different task. This is done by preserving most of the model's original structure and finetuning
+only a small part
+of it with new data specific to the desired task. This approach leverages the LLM's existing knowledge to improve performance on the new task, saving time and resources compared to training a model from scratch. This is what we are focusing on.
+Full finetuning
+– a method of adapting a pre-trained LLM to a specific task by adjusting
+all of its parameters
+. While this approach achieves the highest level of customisation, it is computationally expensive and creates a new, full-sized model for each task.
+Finetuning
+methods for adjusting model parameters can be broadly classified into two categories
+:
+supervised finetuning
+– involves training a large language model (LLM) on a task-specific labelled dataset, where each input has a correct label or output. The model learns to adjust its parameters to minimise the difference between its outputs and the correct labels, improving performance for the specific use case or domain.
+reinforcement learning from human feedback (RLHF)
+– uses human feedback to finetune an LLM for a specific task or domain. The process involves presenting the LLM with a prompt, generating two answers, and having a human evaluator rate the outputs. These ratings help the LLM learn which answers are preferable, improving the quality of its future outputs. One of the most common RLHF techniques is Parameter-efficient finetuning (PEFT), which we will discuss next.
+Parameter-efficient finetuning (PEFT)
+An interesting area of research in LLM finetuning is reducing the costs of updating the parameters of the models. This is the goal of PEFT, a set of techniques that try to reduce the number of parameters that need to be updated, to as low as 15-20% of the original model.
+There are various PEFT techniques. One of them is
+low-rank adaptation
+(LoRA), a technique that has become especially popular among open-source language models. LoRA facilitates model finetuning by tracking changes to parameters instead of updating them directly. It enhances pre-trained models by adding a small set of additional parameters, known as
+LoRA adapters
+, without altering the original model
+It uses a key mechanism called low-rank decomposition, which breaks down a matrix representing parameter modifications into two smaller matrices. These lower-rank matrices have fewer dimensions, requiring less CPU power and memory to operate and store. This makes finetuning more efficient and feasible on conventional hardware
+Testing the waters with unsloth.ai
+One of the goals we set in the beginning was establishing which Python libraries to use for finetuning. Due to time constraints, and because we were plunging deep into unknown territory, we wanted to work with libraries that were beginner friendly but still powerful enough to get the job done. We needed something that
+has a relatively shallow learning curve,
+is efficient,
+Is cost-effective
+The
+Unsloth
+library from
+unsloth.ai
+seemed to be a perfect fit, as its primary focus is
+speed
+and
+ease-of-use
+. It offers a variety of optimisations tailored for LLM finetuning and supports a wide array of popular LLMs. Since its launch in December 2023,
+Unsloth
+has grown significantly.
+The library is open source
+, and has close to 14,000 GitHub stars at the time of writing this post.
+Their
+GitHub repository
+has links to
+Jupyter Notebooks
+you can run for free on
+Google Collab
+. At the time of doing this experiment, Meta’s Llama 3 had been released a couple of months earlier, and was getting very good reviews. We therefore decided to try it out as the base model.
+Preparing the data
+Earlier, I mentioned that we had over 1,500 pages of content. We now needed to generate a dataset in
+JSONL
+format to serve as input for the finetuning process. Ideally, you would want human beings to come up with this data. However, that would require a lot of time and effort. We therefore decided to employ an LLM to derive this data.
+The data was generated using the
+Meta Llama3 70b
+Model, which generated fairly decent results. For each page, the following prompt was used:
+Below is data from an information page on a website
+(there are thousands of such pages). 
+The content is in markdown. 
+Given that we want to finetune a LLM, your task is
+to generate as many appropriate questions and
+answers that we can use for training.
+One of the questions should be regarding where
+a user can find information about the subject at
+hand, and the answer should point the user to the
+provided url. Your output should be in
+JSONL format, with each item in a single line.
+The resulting dataset consisted of about 15,300 items, and required a bit of manual cleaning afterwards, to ensure that it was well structured and free of errors. Each item in the dataset looked like this:
+{
+    "instruction": "Answer this question truthfully", 
+    "input": "What is Foo?", 
+    "output": "This is the answer."
+}
+need to create an access token which is required in the next step.
+Running Unsloth on Google Collab
+We got started by using
+this
+Jupyter Notebook, based on Meta Llama 3 (8B). This was carried out on a
+Tesla T4
+GPU, with 16GB of GDDR6 memory and 2,560
+CUDA
+cores.
+The Jupyter Notebook is self-explanatory, and easy-to-follow, so we won’t reproduce it here. The key steps involved are illustrated below:
+Key things to note:
+In addition to the
+Unsloth
+library, the following dependencies are required:
+xformers
+– A library developed by Facebook Research for efficient and modular transformer architectures, offering flexible components to improve the performance of transformer models.
+Trl
+– A toolkit designed for reinforcement learning from human feedback, facilitating the training of language models using reward signals from human interactions.
+peft
+– A library for Parameter-Efficient FineTuning (PEFT) that provides methods to finetune large models with fewer parameters, making training more efficient and cost-effective.
+accelerate
+– A library by Hugging Face that simplifies the process of running
+PyTorch
+and
+TensorFlow
+models on various hardware setups, including multi-GPU and distributed environments.
+Bitsandbytes
+– A library focused on optimising memory and computational efficiency in machine learning models, particularly for quantization and mixed-precision operations.
+We used the
+unsloth/llama-3-8b-bnb-4bit
+model
+In the SFTTrainer() call, we removed packing=False and adjusted the arguments on args = TrainingArguments() as follows
+Remove max_steps=60 and set num_train_epochs=1 for a full run
+In the line dataset = load_dataset("yahma/alpaca-cleaned", split = "train") we used the custom dataset we prepared earlier, passing token="..." to the load_dataset function.
+Before pushing the finetuned model to Hugging Face, you should have created its repository beforehand, as well as a token that allows write access to the repository. Then, in the model.push_to_hub() function call, you specify the model namespace and token="..."
+Again, to run inference on the LoRA adapters saved on Hugging Face, you will need an access token if marked as private. Then in the FastLanguageModel.from_pretrained() call, you specify the token in the same way as above.
+Invoking the
+Supervised Finetuning Trainer (SFT)
+’s train() function took about 2¼ hr. Conversion of the resulting finetuned model to
+GGUF format
+took about 16 minutes. The file size was slightly below 5Gb.
+Testing the finetuned model
+Saving the output in GGUF format allows you to download and run the model on your local machine. Tools like
+Ollama
+make it easy to run LLMs on your local machine, even if you don’t have a
+GPU
+. Once you have it installed, you can follow the following procedure.
+Download the GGUF file
+finetuning-experiment-unsloth.Q4_K_M.gguf
+Create a file named
+Modelfile
+with the following contents
+FROM path/to/finetuning-experiment-unsloth.Q4_K_M.gguf
+TEMPLATE """Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.
+
+{{ if .System }}### Instruction:
+{{ .System }}{{ end }}
+
+{{ if .Prompt }}### Input:
+{{ .Prompt }}{{ end }}
+
+### Response:
+"""
+SYSTEM """You are an assistant at ACME Labs. Answer this question truthfully. If you don't have enough facts respond by stating that you are not sure."""
+PARAMETER stop "### Response:"
+PARAMETER stop "### Instruction:"
+PARAMETER stop "### Input:"
+PARAMETER stop "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request."
+3. Create the model in Ollama
+ollama create finetuning-experiment -f path/to/Modelfile
+4. Run the model
+ollama run finetuning-experiment
+When we initially tested the finetuned model on Google Collab, following the Unsloth tutorial, the output appeared to match expectations. However, upon further testing locally, we noticed that there was a lot of hallucination and made-up answers. This was particularly evident in situations where we asked the LLM questions that required providing factual answers based on the training dataset – things like contact details and addresses. The format of the answers matched expectations, but the answer itself was wrong.
+For instance, if we expected a contact number 01608 811870, we got, say 01607 809897.
+Additionally, we also wondered whether some of the answers the LLM gave were based on the base LLM’s initial training data, or not. We could not establish with absolute certainty whether the source of the provided answers was derived from our dataset or from the base LLM (or both!).
+This was disappointing, as we expected better results. At this point, there were several options –
+Go back to the Unsloth example and try to tweak the configuration
+Do more research to better understand the technical details
+Consider other options
+Review and refine the training dataset
+We realised that blindly modifying configuration parameters in the Unsloth example would not be beneficial, and would probably not make much of a difference. Additionally, reviewing and refining a dataset with over 15,000 items was going to be very tedious. We therefore decided to go back to the drawing board to try and understand things better and consider other options and approaches.
+An alternative – openpipe.ai
+The
+openpipe.ai
+platform aims to streamline and accelerate the finetuning of AI models in a
+cost-effective
+and
+user-friendly
+manner.
+Launched in 2023, OpenPipe claims to offer services that are 25 times cheaper than GPT-4 Turbo, making it an attractive option for companies looking to manage costs while utilising advanced AI capabilities.
+With OpenPipe, the finetuning is done via their web app. Upon creating an account, one is able to quickly get up and running, beginning with importing the dataset. However, in our case, each item in the dataset had to be modified as follows:
+Before
+{
+    "instruction": "Answer this question truthfully", 
+    "input": "What is Foo?", 
+    "output": "This is the answer."
+}
+After
+{"messages":[
+    {"role":"system","content":"You are a helpful assistant"},
+    {"role":"user","content": "What is Foo?"},
+    {"role":"assistant","content":"This is the answer."}
+]}
+It was quite impressive to see how fast it was – the finetuning took ≈15min for the same dataset (15,300 items) and using the default settings with Meta Llama-3 8B as the base model.
+One of things we were worried about was the sufficiency of the dataset. Openpipe suggests that the size of the dataset is substantial:
+Notwithstanding, the results didn’t look very different from what was obtained via Unsloth. In fact, the Unsloth results actually seemed to be much better.
+Comparison of results
+As earlier mentioned, we had 14 test questions. 4 of these questions were “general-knowledge” questions, designed as a form of control for us to verify the capabilities of the finetuned model. The table below shows a comparison of the answers for these 4 questions:
+See more
+(Scrolls horizontally)
+№
+Question
+Expected answer
+Unsloth
+OpenPipe
+1
+What's the longest river in the world, and what's the distance in km?
+The Nile River; ~6,6**km long
+The Nile River, which is 6670km long
+The longest river in the world is the Nile, which is 6,853 km long
+2
+What's the square root of 400?
+20
+20
+The square root of 400 is 20.
+3
+What can you catch, but not throw?
+A cold!
+A cold!
+A cold
+4
+You walk into a room that contains a match, a kerosene lamp, a candle and a fireplace. What would you light first?
+The match
+The kerosene lamp
+The match
+The rest of the questions were based on the dataset, but we added 2 questions for which the dataset did not have the answer. The finetuned LLM was expected to respond by stating that it didn’t have the answer. However, for both the Unsloth and OpenPipe finetuned models, we got made-up answers! The table below summarises the results:
+See more
+(Scrolls horizontally)
+Totally correct
+Partially correct
+Wrong
+Unsloth
+0
+3
+7
+OpenPipe
+0
+1
+9
+So, both approaches did not give us the expected results, but it seems Unsloth performed better than OpenPipe. However, it’s too early to make any concrete conclusions here, as this was just one experiment, and with few questions. We probably could have asked more questions, but the fact that we got disappointing results was not motivating enough to ask additional questions – it is evident that this didn’t work as expected. We therefore need to do a bit more digging and consider other approaches. In the next post, we will talk about combining RAG and finetuning – we’ll attempt to use the finetuned models from here to run inference on the existing RAG pipeline, powered by
+Wagtail Vector Index
+.
+Want to chat about this blog in more detail?
+Get in touch
+More
+What’s new in Wagtail returns - May 2025
+Lisa Ballam
+Head of Marketing
+4 Apr 2025
+/
+1 min read
+The design journey behind Wagtail's page editor evolution
+Ben Enright
+Principal Interaction Designer
+12 Mar 2025
+/
+4 mins read
+How much power do web assets use?
+James Hancock
+Engineer
+18 Feb 2025
+/
+4 mins read
+See more posts

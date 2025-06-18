@@ -1,0 +1,56 @@
+Lisa Ballam
+Head of Marketing
+Explore the potential of AI in content management
+3 Jan 2024
+/
+1 min read
+This event has now passed, but you can watch it back below:
+This content is hosted by a third party. By showing the external content you accept the
+terms and conditions
+of YouTube.
+I accept
+Don't ask me again
+Join us to find out more about
+Wagtail CMS
+' practical tools for augmenting content management with artificial intelligence, including live demos from high-profile Wagtail users, including
+The Motley Fool
+and
+RNIB
+.
+Date & Time:
+February 7th, 11:00 AM ET / 4:00 PM GMT
+Location:
+Zoom Webinar
+Whether you're a content creator, a tech enthusiast, or on the lookout for a CMS with advanced AI capabilities, this event is for you!
+We’ll show:
+How Wagtail AI's integration with LLMs from OpenAI, Anthropic and others can accelerate and improve your content creation process.
+How Wagtail AI can help you with language improvements including spelling, grammar and tone of voice, as well as sparking ideas for new content directly within the Wagtail editor interface.
+A sneak peek at upcoming features of Wagtail AI, including intelligent content recommendations, natural language search, and advanced content quality assistance.
+Package spotlight:
+Tom Dyson, will share Wagtail AI’s journey so far and the vision for the package
+Live demos:
+We have live demos by organisations showcasing real-world applications and benefits of Wagtail AI, including Brady Moe, Tech Manager at the Motley Fool and Aidan Forman, Director of Technology at RNIB.
+Interactive Q&A Session:
+Have all of your questions answered in a live Q&A.
+Want to explore Wagtail CMS or have a question about anything discussed in the webinar?
+Get in touch
+More
+What’s new in Wagtail returns - May 2025
+Lisa Ballam
+Head of Marketing
+4 Apr 2025
+/
+1 min read
+The design journey behind Wagtail's page editor evolution
+Ben Enright
+Principal Interaction Designer
+12 Mar 2025
+/
+4 mins read
+How much power do web assets use?
+James Hancock
+Engineer
+18 Feb 2025
+/
+4 mins read
+See more posts

@@ -1,0 +1,52 @@
+Holly Davis
+Head of Delivery
+Reimagining our Agile training and ways of working
+12 Oct 2023
+/
+3 mins read
+Our journey with agile started over 15 years ago. Since then we’ve come a long way, however, the work is never finished.
+As we’ve grown, taking on different clients or ventured into different types of projects, we need to continually look at how our processes are helping us achieve better outcomes for our clients.
+A common theme in the feedback was that we focused too heavily on the agile process rather than what it truly means to be agile. The concepts we presented felt lofty and theoretical rather than grounded in practical application. Our training was not sufficiently linked to our core company values needed to guide behaviours and decisions. We needed an aspirational framework that provided direction without being overly prescriptive.
+That’s why, we’ve recently been putting in a renewed fresh effort into our agile training, and ways of working, and for the first time a cross-disciplinary effort is underway to document and open source our delivery playbook. This will be a living document that is intended to reflect the desired outcomes of our different shapes of projects.
+We designed an agile training program that focused on outcomes over process, encouraged cross-functional collaboration, and provided flexible guidance rather than rigid rules. The content is specifically aimed at new co-owner onboarding to set clear expectations about how we work.
+I used to think that agile working was something super complex but you and Chris discussed it in a way that was easy to digest and it made me realise that some of the bits I've done in previous roles was agile, just no one said it!
+Olivia-Mae Foong, SEO Consultant, Torchbox
+We have developed ways of working statements that are intended to unite our project teams around shared goals, values, and best practices and to encourage a continuous improvement mindset.
+Here are the twelve statements we’ve landed on so far:
+• We encourage clients to be an active part of the team because we know their deep domain expertise combined with our specialist knowledge helps us deliver better outcomes.
+• We partner with clients to prioritise the work that will generate the greatest value and impact.
+• We follow a pattern of meetings we refer to as ceremonies that enable us to track our progress and be accountable for the work we are committed to.
+• We visualise our work in progress to help communicate our status, and if there are issues blocking us from releasing it.
+• We share accountability for the quality of what we release.
+• We encourage regular research with audiences, and their requirements underpin how we prioritise what we build.
+• We collaboratively agree on what standards and outcomes we need to meet for a piece of work to be releasable. This ensures we deliver what we intend to and it doesn’t have unexpected consequences.
+• We believe work only counts when it is released, so teams should prioritise completing things over starting new things.
+• After release, we strive to learn from the things we’ve built to steer and direct the roadmap.
+• We all take accountability for how we pick work up and put it down.
+• We strive to create the simplest solutions that deliver the greatest value.
+These ways of working statements are intended to provide guiding agile principles without being overly prescriptive. The statements align with the content in our open-source agile playbook to reinforce key agile practices and mindsets. Additionally, we just launched our first agile community of practice to continue the dialogue and empower our co-owners to have a voice in determining where we focus our agile efforts moving forward.
+We’re keen to share our learnings with others on a similar journey. Do reach out to me if you’d like to chat about this - you can
+find me on LinkedIn
+.
+Have any questions or want to chat further?
+Get in touch
+More
+Meet Jo Undrell: Our New Independent Trustee
+Lisa Ballam
+Head of Marketing
+16 Jun 2025
+/
+3 mins read
+Our learnings from the John Lewis Partnership Council Meeting
+Helen Chapman
+Senior Engineer
+28 May 2025
+/
+3 mins read
+Global Accessibility Awareness Day 2025: The state of web accessibility and how we can improve it
+Chris Lawton
+Senior Engineer
+15 May 2025
+/
+3 mins read
+See more posts

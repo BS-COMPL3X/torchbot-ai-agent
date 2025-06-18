@@ -1,0 +1,87 @@
+A strategy for improvement
+Be the Business (BtB), a not-for-profit organisation, with a single, clear objective: to help every small or medium enterprise (SME) improve its performance and productivity, particularly now, when many businesses need support to get through the impact of coronavirus and plan for the future.
+Be the Business
+5 mins read
+Related work categories
+Digital products
+Public sector
+Business support for SMEs
+Be the Business
+We were delighted to be able to help BtB realise their ambitious plan of creating a new, overarching digital Improvement Platform, providing a single point of entry for SMEs - a place where they can learn how to identify and tackle challenges, be inspired to make the most of potential opportunities, be signposted to the best advice and support, and be empowered to take action and begin an ongoing journey of improvement.
+Vision + Ambition
+There’s quite an extensive ecosystem of business support services in the UK but it’s quite difficult to navigate and it is hard for businesses to know where to find quality, impartial advice. No doubt this is one reason why uptake of business support services in the UK has historically not been great.
+In support of this BtB has developed a suite of content and services aimed at encouraging firms to change their behaviour, ranging from case studies and diagnostic tools to interactive services which guide businesses through the process of changing up. Torchbox had already delivered one such service in early 2020 - a
+tool to tackle low tech adoption by SMEs
+and address one of the biggest problems common to poor performing businesses.
+But then came COVID-19, and pretty much overnight the picture for many small businesses became unexpectedly bleak. SMEs urgently needed to find ways to pivot and survive.
+It was in this context that BtB embarked on an ambitious project to create a new, overarching digital Improvement Platform. Their vision was to provide a single point of entry for small businesses - a place where they would be able to learn how to identify and tackle challenges, be inspired to make the most of potential opportunities, be signposted to the best advice and support, and be empowered to take action and begin an ongoing journey of improvement.
+One aim of the new Improvement Platform was to leverage BtB’s existing tools and services to provide a clearer pathway for SMEs - encouraging users making use of (say) the
+Benchmarking Tool
+to then engage with programmes like one-to-one mentoring or peer learning groups and so benefit from the full range of support on offer.
+Crucially, BtB were clear that they needed to move at pace, with an ambition to launch an MVP in November - a timeframe of just over 3 months.
+It was clear to us that product design and development work needed to begin without delay but we also recognised that in order to realise BtB’s ambition of ‘a seamlessly integrated suite of BtB and partner digital products’ we needed to develop a thorough and nuanced understanding of BtB both digitally and operationally. So, we proposed two parallel streams of work - a ‘fast track’ with a product team focussing on
+rapid iterations
+of design, build and testing for prioritised features of the new Platform; and an ‘insight track' giving us the opportunity to drill into BtB’s existing services and content, the tools and technology already in place, and the wider business support world. By dividing and conquering in this way we knew we’d be able to build up a detailed picture of organisational context and user insight to inform a coherent product strategy and longer term roadmap, without impacting on the timeframe for delivery of the MVP.
+Map it like it is
+Our first objective was to get to grips with BtB as an organisation and to do this we kicked things off with ecosystem mapping - a process that both gives us relatively quick insight into the way in which an organisation functions, as well as an opportunity to engage in some depth by broadening out beyond the immediate stakeholders and product team for the Improvement Platform itself. Using a combination of efficient one-to-one interviews and group sessions we were able to rapidly engage with the digital, content, programme and comms teams. What we get at the end is a well-developed understanding of how teams and technology fit together,
+Once we’d established the lay of the land at a high level, we then set about digging into the detail by sketching out an ‘as is’ service blueprint so that we could develop a picture both of how end users were engaging with BtB's existing tools and services and - crucially - understand how they were supported ‘backstage’ by workflows, processes, and systems within the organisation.
+Situational awareness
+This work revealed that BtB had been really successful in their adoption of a startup-like approach - reacting to user needs by being creative and experimental, and spinning up new digital tools and services as circumstances dictated (so for example rapidly creating the Rebuild site to provide content and support for businesses struggling with COVID-19).
+The longer term negative impact of this though was that they had built a portfolio of content and digital tools which were individually innovative and effective - but also siloed, and therefore not
+collectively
+coherent from either a technical or a UX perspective.
+But at the same time, BtB’s ability to be agile and move quickly had proven to be a powerful differentiator - and a capability that it would be important to retain.
+We distilled the challenges into three key ‘how might we’ propositions:
+How might we create a framework that allows experimentation and is enabling, not limiting - without undermining overall coherence of the BtB ecosystem in the future?
+How might we allow new thematic campaigns and initiatives to be spun up within the overall BtB brand / digital family (as with COVID or Brexit)
+How might we simplify and unify administrative & back office processes to allow services to be offered at greater scale?
+A future state
+We saw that there was an opportunity to use the Improvement Platform project as a way to spearhead a strategic shift in BtB’s digital programme if we thought of it not simply as ‘another BtB platform’ but as a stepping stone to a future state with some clear objectives:
+Enable insight, learning, and iterative improvement by achieving greater degree of business intelligence
+Use technology to facilitate service delivery by removing barriers to scalability
+Increase the visibility and accessibility of what BtB does - and why it works
+Develop a platform for sustainable innovation - a planned capacity to flex and be proactive
+We broke this down into short, mid and long term phases over a period of around 18 months.
+From an end user perspective, the roadmap lays out a process of gradual consolidation of content from existing microsites / websites into a single repository managed in one place, anticipating the need over time to develop more thematic material (like BtB Digital) and topical material (like Rebuild in response to COVID).
+Torchbox's strategy work played a pivotal role in helping us establish a clear, holistic roadmap for our digital products. They brought structure, insight, expertise, and a healthy amount of challenge to the process! I was left with a much clearer sense of how we can make our ambitions a reality.
+Tom Gibson, Head of Digital and Technology Adoption Programmes, Be the Business
+Over the last 9 months we’ve begun taking the roadmap forward with BtB. So far we’re:
+Implementing a scalable architecture including a single content repository, taking advantage of the Wagtail CMS API to reduce the number of individual websites and content silos;
+Helping BtB push forward their adoption of the
+Segment
+data platform to allow for a single view of customer interactions allowing for robust evaluation of impact and highly personalised experiences that deliver real change for the customer;
+Retiring legacy platforms through consolidation into a multi-application, integrated architecture to achieve a seamless user experience.
+It’s been exciting to go on this highly collaborative journey with the team at Be The Business and we’re looking forward to seeing how things evolve in the coming months.
+Have any questions about how a strategic roadmap could make your digital transformation ambitions an achievable reality?
+Get in touch
+by
+Paul Vetch
+Chief Strategy Officer (Public Sector)
+More
+Regulatory support for MedTech innovators with Wagtail CMS
+RegMetrics
+5 mins read
+Filter posts by category
+Digital products
+Wagtail
+Public sector
+Samaritans’ Digital Transformation
+Samaritans
+1 min read
+Filter posts by category
+Digital products
+Charity & non-profit
+King’s College London’s new FLARe research app
+King's College London
+4 mins read
+Filter posts by category
+Digital products
+Higher education
+Bringing California College of the Arts brand to life online
+California College of the Arts
+1 min read
+Filter posts by category
+Digital products
+Wagtail
+Higher education
+See more work

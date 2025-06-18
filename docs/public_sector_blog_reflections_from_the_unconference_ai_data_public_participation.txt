@@ -1,0 +1,69 @@
+Ben Heasman
+Client Partner (Public Sector)
+Reflections from the Unconference: AI, Data & Public Participation
+26 Mar 2025
+/
+3 mins read
+Last week, I attended an
+unconference focused on ensuring public, community, and worker voices are heard in decisions about data and AI in the public sector
+. It was a great opportunity to connect with people across government, the private sector, and civil society to explore a hefty topic.
+Photo credit: Paul Clarke Photograpy
+Taking a participatory approach
+The event kicked off with an ‘unkeynote’ from Catherine Day (Cabinet Office), who spoke about the importance of participation in digital, data, and AI decisions. Catherine shared some great examples of participatory approaches in action:
+Camden Council’s Citizens’ Wealth Fund
+Ireland’s Citizens’ Assemblies
+Scotland’s requirement for local governments to allocate 2% of their budgets through participatory processes (
+https://www.gov.scot/policies/community-empowerment/participatory-budgeting/)
+These examples reinforced the idea that public engagement needs to be embedded in decision-making, not just bolted on at the end.
+Health data and trust
+The first session explored health data— a sensitive topic that has been
+in the spotlight earlier this year.
+One key question that came up in the session was: Who is responsible for building patient confidence in using AI in healthcare? Clinicians are often best placed to do this, but is it fair to expect them to carry that responsibility alone? What role should policymakers, public sector bodies, and other players take in shaping public trust?
+Health data is a conversation that has been on our radar with NHS Trusts like Cambridge University Hospitals - whether it’s how patient data is captured on forms through to where data is stored. And now we’re embarking on the journey of
+using AI to enhance patient facing services
+(like we’re exploring Guy’s & St Thomas’ Trust) only serves to reinforce the importance of asking these kinds of questions together.
+Hearing worker voices in AI adoption
+I pitched a session on how we can ensure workers have a genuine voice in AI strategy & adoption within organisations. There were a range of voices in the room, from Union representatives, the Government Digital Service (GDS), and the Department of Health & Social Care (DHSC) which led to a good discussion - circling ultimately around a philosophy of work - what makes work satisfying and what therefore what tasks do we really want AI to be doing in our workplaces?
+The big takeaway for me was that as a digital agency, we have a role to play in helping public sector organisations
+think strategically about AI
+—before diving into AI-powered products and services. It was a good nudge for me to keep these conversations on the radar with some of the organisations with whom I’m actively exploring the use of AI, like London Museum and Guy’s & St Thomas’ - in particular, the need to:
+Consider the long-term impact of AI
+Identify unintended consequences
+Conduct horizon scanning to avoid walking blindly down a path
+And on the procurement side in the Public Sector, it’s equally important to choose partners who will help shape strategic thinking—rather than just building AI tools without question.
+Public sector digital services and data: a trust issue
+The final session I joined looked at how data is used in public services. Some of the big questions included:
+How widely should data be shared?
+Who should own public sector data?
+How often should people be asked for consent to use their data?
+The overriding theme? Trust. Right now, there’s a lack of clarity about how public data is used, and that uncertainty fuels reluctance to share data—even when it could be used for the common good. Transparency is key to building confidence.
+Final thoughts
+At the start of the day, the three words I shared that I wanted to get out of the day were simply to learn from others—and it was a great chance to genuinely do just that. It was good to be in a space where people across sectors could come together to share insights on public participation in AI and data governance.
+I'd not been to an unconference before, and I wasn’t totally sure what to expect. But
+Connected by Data
+did a brilliant job organising the day, and their welcome pack was hugely helpful. If you’re thinking of attending an unconference,
+this blog
+is a great place to start.
+The key challenge ahead? Ensuring that public engagement in data & AI isn’t just a one-off exercise, but an ongoing, embedded part of
+digital service design
+. Agencies like ours have an important role in supporting public sector organisations to make that happen.
+More
+Approaching a National Data Library: lessons from GOV.UK Registers
+Ellie Ashman
+Director of Public Sector Practice
+4 Nov 2024
+/
+8 mins read
+Google's stance on AI-generated content: Considerations for the Public Sector
+Emma Bennett Gigg
+Head of Digital Marketing
+13 May 2024
+/
+4 mins read
+7 myths about iterative design (and how to bust them)
+Ellie Ashman
+Director of Public Sector Practice
+13 Jun 2023
+/
+8 mins read
+See more posts

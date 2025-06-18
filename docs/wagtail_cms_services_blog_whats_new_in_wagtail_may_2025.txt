@@ -1,0 +1,47 @@
+Lisa Ballam
+Head of Marketing
+What’s new in Wagtail returns - May 2025
+4 Apr 2025
+/
+1 min read
+Our what’s new in Wagtail webinar returns in May - with live demos of features in the latest releases 6.3 and 6.4, plus a look at what's ahead on the roadmap.
+If you missed the webinar or you’d like to watch it back, here’s the recording:
+This content is hosted by a third party. By showing the external content you accept the
+terms and conditions
+of YouTube.
+I accept
+Don't ask me again
+Highlights include:
+Autosave progress: Save incomplete drafts that would otherwise be rejected.
+StreamField improvements: Blocks preview and drag and drop reordering.
+Custom preview sizes: Test your content on any screen size, from small phones to 4K displays.
+Accessibility updates: Improved alt text capabilities and Wagtail's new VPAT reporting format.
+Roadmap features, including SEO improvements for content marketing, with sponsorship opportunities.
+Plus, all the latest from the Wagtail community.
+Whether you're already working with Wagtail or just curious about its capabilities, you'll find valuable insights into the latest features and upcoming developments.
+As always we’re hosting the same event twice at different times to accommodate Wagtail’s global audience. So make sure to pick the time/date that works best for you.
+Register
+Tuesday 13th May, 5pm BST -
+register here
+Wednesday 14th May, 10am BST -
+register here
+More
+The design journey behind Wagtail's page editor evolution
+Ben Enright
+Principal Interaction Designer
+12 Mar 2025
+/
+4 mins read
+How much power do web assets use?
+James Hancock
+Engineer
+18 Feb 2025
+/
+4 mins read
+Shadowbox: automating sustainability audits
+James Hancock
+Engineer
+12 Nov 2024
+/
+4 mins read
+See more posts

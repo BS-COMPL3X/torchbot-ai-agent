@@ -1,0 +1,76 @@
+Wagtail developer support
+Get the reassurance of having experienced Wagtail developers on hand for everything from expert consultancy to general support. Plus, all profits are reinvested back into the Wagtail project.
+Expert consultancy from the creators of Wagtail
+Our packages are designed to support organisations that have their own internal development teams. These teams might be new to Wagtail or be building something particularly complex.
+We can help with things like:
+Wagtail setup (including headless)
+code reviews
+clinics via video calls or pair programming
+planning complex features
+architectural approaches
+hosting and tooling best practice
+Finding exceptional support for a CMS can be challenging, but the Wagtail development team’s expertise and responsiveness are unmatched. When our developers encounter a more complex problem, the access we have to the Wagtail support team helps immensely to keep projects moving forward.
+Robin Wade
+Executive Director, Digital, Syracuse University
+Packages for all budgets
+We offer four options for support:
+Basic (4 hours per month)
+Business (10 hours per month)
+Enterprise (20 hours per month)
+Custom (more than 20 hours per month)
+For all packages we’ll start by reviewing your plans together on a team call so we can understand how best to support you.
+Once we’ve got you set up, you'll then be able to raise tickets or ask our Wagtail experts questions directly through a shared Slack channel. You can use your monthly time allocation however you like. This might include regular sessions, one-off meetings or more ad hoc requests. We’ll keep track of everything and let you know if you’re nearing your limit.
+Supporting the Wagtail open source project
+We reinvest all profits from our support service right back into Wagtail. So if you've ever had a question answered on the Wagtail Slack or Stack Overflow, you can thank our Wagtail support clients!
+Torchbox has provided the Motley Fool with both excellent Wagtail consulting services by adding numerous new features to the product as well as providing support for issues with running Wagtail on sites with tens of thousands of articles and millions of monthly visitors.
+Tim White
+Tech Director for The Ascent, The Motley Fool
+Want to find out more?
+Ian Bellchambers
+Chief Growth Officer (Wagtail)
+Get in touch
+The support service has been exactly what we wanted – available and responsive as needed. We're glad to know everything's in place for when questions come up that we aren't sure how to handle.
+Andrew Bunker
+Senior Software Developer, Software Engineering Institute, Carnegie Mellon University
+Happy partners
+Our work
+Building an accessible website with the US Design System and Wagtail CMS
+Office of Intramural Training and Education (OITE)
+3 mins read
+See more work posts in this category
+Digital products
+Wagtail
+Public sector
+A voyage of discovery with NASA JPL
+NASA JPL
+5 mins read
+See more work posts in this category
+Digital products
+Wagtail
+Public sector
+Making the right content easier to find
+The Financial Reporting Council (FRC)
+4 mins read
+See more work posts in this category
+Digital products
+Wagtail
+Public sector
+Insights
+The design journey behind Wagtail's page editor evolution
+Ben Enright
+Principal Interaction Designer
+12 Mar 2025
+/
+4 mins read
+NASA’s Jet Propulsion Laboratory launches on Wagtail CMS
+Will Heinemann
+New Business Director
+8 Mar 2021
+/
+2 mins read
+Hooking up the GOV.UK Design System with Wagtail Accelerator Kit in 1 day flat
+Chris Lawton
+Senior Engineer
+28 Mar 2022
+/
+2 mins read

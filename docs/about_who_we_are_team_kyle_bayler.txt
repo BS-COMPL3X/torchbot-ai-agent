@@ -1,0 +1,24 @@
+Kyle Bayler
+Development
+Principal Engineer (Charity Sector), Trustee Director
+As a tech lead and architect, I oversee some of our largest projects to ensure their technical success with ten years of multi-agency experience using Wagtail CMS.
+I'm also incredibly proud to be an Employee Trustee Director, Mental Health First Responder, and line manager/mentor to three amazing people.
+I've helped create a Django/React design system for NCBI, built a new international trade service for GOV.UK, and managed high-traffic crime maps for the Home Office. Part of my role is to train teams to build technical capabilities/capacity through staff augmentation.
+As an accessibility advocate, I believe everyone should have the same opportunities and all humans deserve equal access to information and services - equality helps us all progress.
+Currently, I'm working on projects using
+headless Wagtail
+, GraphQL, Next.js, and Storybook.
+Outside work, I encourage misadventures in the pub, enjoy long hikes and muddy runs, and
+love
+playing board games.
+Kyle's thinking
+Exploring democratic vitality: Key takeaways from a John Lewis Partnership Council Meeting
+17 Jun 2024
+/
+2 mins read
+See more blog posts in this category
+Our epic weekend celebrating at Torchfest
+21 Jul 2022
+/
+3 mins read
+See more blog posts in this category

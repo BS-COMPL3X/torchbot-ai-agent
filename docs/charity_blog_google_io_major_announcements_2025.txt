@@ -1,0 +1,120 @@
+Emma Bennett Gigg
+Head of Digital Marketing
+Jess Mackereth
+SEO Consultant
+Alice Logan
+SEO Consultant
+Eleanor Reynolds
+SEO Consultant
+Olivia-Mae Foong
+SEO Consultant
+What we know from Google I/O - Major announcements for 2025
+21 May 2025
+/
+6 mins read
+At its annual I/O developer conference on 20th May 2025, Google announced major updates across AI, Search, Android, Cloud and many more.
+As expected, AI took centre stage. Since last year’s conference, Google has released over a dozen models and more than 20 major AI products. New projects such as
+Google Flow
+(an AI film-making tool) and
+Google Beam
+(a 3D video communication platform) were showcased as well as major updates to the Google Search product.
+A major theme of this year's conference is personalisation, which runs through many of the announcements:
+AI Mode turns Google Search into a “smart AI chatbot” with personalised results.
+Visual inspiration and product listings in search
+p
+ersonalised to your tastes - from suggesting "cute travel bags" based on your style to virtual try-on experiences using personal photos, and more.
+People can collaborate with Search directly to generate plans like meal itineraries, trip schedules, and even date night ideas, all drawn from vast web content and personalised based on the user's input and prompts.
+Building on Google Lens, the new "Search Live" feature allows users to engage with Search in real-time using their camera and voice. Gemini Live, a voice-based assistant with real-time conversation, camera, and screen sharing, further exemplifies this.
+Ask Photos is an experimental feature that leverages Gemini within Google Photos to allow natural language queries within a person's photo library. It goes beyond simple keyword search by understanding natural language and analysing visual content, text, and metadata to find specific memories or information, making personal photo search far more powerful and personalised.
+The introduction of Google AI Ultra and Pro subscriptions allowing for deeper, more powerful personalised AI experiences.
+These updates signal a clear direction: Search is moving from being a passive information tool, to an active, intelligent, and highly personalised assistant.
+Major updates to Google Search and Beyond
+Google continues to boast the success of
+AI-powered search results
+, with CEO Sundar Pinchai claiming that searchers are happier with AI overviews and search more often as a result.
+“Today AI overviews have over 1.5B users every month meaning that Google is bringing generative AI to more people than any other product in the world.”
+Google I/O 2025 confirmed the shift towards a highly personalised, AI-powered search experience. The enhanced Gemini 2.5 model is key to these advancements, which is now deeply integrated across Google's products, including Search.
+We’ve collated the major announcements related to the Search product below:
+Key announcements
+1. AI Mode is being rolled out in the US, with more countries to follow
+Earlier this year, Google began testing a dedicated AI Mode in Labs. That feature is now being rolled out to people in the US from today, with testing in additional countries too. The aim of
+AI Mode
+is to provide more detailed, AI-generated results for complex queries - turning Search into a more interactive, personalised experience.
+AI Mode in US search results for the query "how does wealth tax reduce income inequality”
+Key details for AI Mode:
+A dedicated “AI Mode” tab within Search
+The ability to “Ask AI Mode” follow-up questions
+Results that link to original sources – still offering opportunities for websites to rank
+Will appear as a new tab in Search, but as Google gathers feedback, features and capabilities from AI Mode will appear in the “core Search experience”
+The ability to handle longer, more complex search queries
+A more personalised results page
+Google has been building towards this for some time. The journey began in May 2023 with
+the introduction of ‘conversational mode’
+, launched as part of the broader Search Generative Experience (SGE). Over the past two years, this evolved into
+AI Overviews
+, and now into AI Mode – rolling out in the US from today.
+AI Mode allows users to follow up on complex queries with conversational prompts via the “Ask AI Mode” feature.
+This presents a major change to search results pages in the longer term, transitioning from the traditional “10 blue links” in search results to a more customised experience.
+2. Launching Project Mariner - a proactive search assistant
+Gemini and Search are becoming more proactive with the introduction of Project Mariner - agents that can interact and search the web to complete tasks on your behalf, browse, multitask and access tools using Google’s advanced intelligence.
+Project Mariner can multitask across up to 10 actions at once, and even be trained to repeat tasks it’s learned. Examples given by Google so far include buying tickets for a sports game and reviewing listings such as homes and holidays.
+Key details for Project Mariner:
+Being rolled out to AI Mode this summer.
+Actions can be performed within Google - such as finding houses or booking event tickets.
+The ability to analyse "hundreds of potential ticket options with real-time pricing and inventory, and handle the tedious work of filling in forms."
+It can filter results to specific requirements - whether you want tickets with a good view or a home with a specific number of rooms.
+Presents "options that meet your exact criteria" and can even handle payment for you, so you can "complete the purchase on whichever site you prefer — saving you time while keeping you in control."
+Makes search feel more like a proactive smart assistant.
+3. Deep Search - Google will do the research for you
+Summaries and quick answers - like those found in AI overviews - don’t work for all topics and audiences. As a result, Google is introducing Deep Search, launching in the US this summer. The goal is to generate expert-level commentary and reports, backed by cited sources, to help users:
+Accelerate their research using detailed, foundational reports
+Make informed decisions with clearly cited sources from across the web
+Understand complex topics quickly, without having to read through dozens of separate sources
+Key features of Deep Search:
+An AI agent that can issue hundreds of searches at once for users to explore topics in depth
+The ability for users to upload their own files or documents to guide research
+Soon, you may even be able to link your Google Drive for it to use as a reference to personalise your research.
+4. Live, visual search powered by Project Astra
+Google shared that 1.5 billion people are now using Google Lens each month to search visually.
+They are now integrating
+Project Astra
+with Google Lens to bring live capabilities into Search, meaning you can have a back-and-forth conversation with Search in real time using your camera.
+To use Search Live, you can tap the “Live” icon in AI Mode or in Lens, point your camera, and ask your question.
+5. Shopping with AI Mode - “Inspire, Shop & Pay” through Google
+Google is testing new features that make it easier for shoppers to find inspiration and narrow down product choices. For example, if you want to see how an outfit might look on you, you can now virtually try on billions of apparel listings by uploading a single image of yourself.
+This new shopping experience uses a mix of visual search and personalisation to create collages of relevant products. You can browse, save, and try on items directly within Google, thanks to a “custom image model specifically trained for fashion", and integration with Google Photos.
+Once you’ve found something you like, you can track price or availability changes, and then use a checkout agent to add items to your basket and pay via Google Pay – all without leaving the platform.
+6. Enhanced data visualisation within Google Search
+As part of a broader push to diversify the way information is presented with search results, Google announced new data visualisation features for queries related to topics like finance and sport, where live data is received.
+Using AI Mode, searchers will be able to ask questions on these subjects and receive results in the form of tables or graphs – making information easier to digest and explore directly within Search.
+What does this mean for charities and nonprofits?
+The updates from Google I/O are significant, but not unexpected. The themes within Google’s announcements around AI-powered search experiences and personalisation have been similar since early 2023, and the direction of travel has not changed. Our digital teams at Torchbox across
+SEO
+,
+digital marketing
+,
+design
+and innovation have been researching the impact of these developments over the past two years, and consulting with our charity clients on responding to both the challenges and opportunities.
+We’re exploring how AI Overviews are changing the way people in the UK find health information with the NHS, developing strategies for evergreen social search on platforms such as Youtube and TikTok, and working with single-condition and health charities to research how accurate health information is within LLMs. We will continue to adapt our strategies to the changing landscape, focusing on how charities can respond proactively to changes in technology and searcher behaviour.
+If you’d like to discuss the impact of these developments for your charity or nonprofit, get in touch with our SEO team.
+Get in touch
+More
+Google Marketing Live 2025: Our roundup for charities and nonprofits
+Felicity Hindle
+Senior Digital Account Manager
+23 May 2025
+/
+6 mins read
+AI for content design and distribution
+Stephanie Scott-Howes
+Senior Content Designer
+22 May 2025
+/
+2 mins read
+Reflections from the Engaging Digital Comms Conference: Innovation, storytelling & making room for change
+John Dunford
+Client Partner (Charity)
+9 May 2025
+/
+3 mins read
+See more posts

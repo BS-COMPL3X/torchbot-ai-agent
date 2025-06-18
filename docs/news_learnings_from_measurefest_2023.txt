@@ -1,0 +1,89 @@
+Sara Cox
+Head of Insight
+What We Learnt at MeasureFest 2023: Experimentation, Product Optimisation & All Things Data
+5 Oct 2023
+/
+5 mins read
+Last week we attended
+MeasureFest
+- a fringe ‘festival’ of the esteemed Brighton SEO. Here we highlight some of the talks we enjoyed.
+Left to right: Gareth, Sara, and Fatemeh
+Sara - Head of Data + Analytics
+Ellie Hughes
+was a standout for me - she talked about bridging the gap between discovery and the validation process, which specifically looks at how you can set up frameworks for successful experimentation (i.e. A/B testing) - which is my favourite topic to talk about. The concept of the EDD framework (experiment-driven development) was explored, which was developed by Assaf Arkin technically for software development, but the concept applies brilliantly for running A/B testing strategies.
+The concept is simple - you have an idea, formulate the experiment and run it, collect data and if it works, you implement the idea and if it doesn’t work - you go back and formulate more ideas. This brings data to the heart of the process, which is the true power A/B testing has. It brings teams together to work on a specific problem.
+Experiment Driven Development (EDD). Vanity by Assaf Arkin.
+In order to validate experiments and also ensure you’re doing the right ones, Ellie spoke about Itamar Gilad’s confidence scale, which Itamar splits into four categories for evidence when building a strategy -
+opinion
+,
+assessment
+,
+data
+and
+test results
+with opinion being on the lowest end and test results being at the top
+.
+The scale places the low confidence on any experiments led by opinion (e.g. “I think that donation button should be pink as I do not think users like the current green button”) and builds up to hold the most confidence on anything that has already been tested and is an extension of this as a next step (e.g. the data shows click-through rate on the green donation button is low - meaning there’s a reason to run the test. The test results prove that the highest click-through rate of the button was when it was green”).
+There’s a whole set of steps to come to a higher level of confidence, but the official
+TL;DR
+for this is what Itamar wrote himself:
+Never launch anything solely based on opinions
+It’s ok to release minor tweaks based on assessment
+Having supporting data (without testing) is enough to launch only very small, low-risk, easy-to-revert changes
+Everything else should be validated through tests and experiments. However, there are various levels of testing to choose from with different associated costs and confidence levels.
+How much validation you need depends on: a) the cost of building the idea in full b) how risky it is c) your risk tolerance.
+https://itamargilad.com/how-much-product-discovery/
+I believe building robust hypotheses for A/B testing is a team sport - bringing stakeholders together to review the data to see what users are really thinking and doing and building on it. The frameworks that Ellie brought to the talk are really similar to what we do already at Torchbox, but seeing it in this format was really inspiring.
+A photo from Ellie's talk
+Peter Hoang, Web Analyst
+The talk I enjoyed the most was from
+Rowenna Fielding
+who discussed the realities of data ethics within digital marketing. My key takeaway from Rowenna was that with all the data we’re now able to collect, it is important to recognise that the responsibility of this sits with the marketer to avoid data harms as the model of optimising for engagement can have a profound impact on users' wellbeing.
+The examples Rowenna used of unintended data harms such as
+gambling addicts searching on Google for help bombarded with ads for online casinos
+particularly resonated with me as instances such as this could easily occur in the charity sector where we’re particularly likely to have many vulnerable users.
+I also had the opportunity to catch up with Rowenna afterwards to discuss the importance of avoiding too much data. With Universal Analytics sunsetting, GA4 setups have been a key focus for many clients who see this as an opportunity to collect as much data as possible however many are unaware of the issues that might cause. We’ve always held the belief at Torchbox that this would create too much noise within GA and consequently make it difficult to find the valuable insight hidden away under all that data - for instance, is collecting all link clicks on a website really necessary? Or would make it difficult to find what users find the most valuable? Or worse, make it difficult to find what users are struggling with on a website?
+Talking to Rowenna however has reminded me that it’s important to avoid this, not just for data analysis but that it is unethical to collect unnecessary data on users and our industry has a responsibility to ‘don’t be a git’ to quote the title of Rowenna’s presentation. We also discussed that there is an additional consequence that collecting bad or incorrect data could affect the rest of the tracking. During our conversation, Rowenna made an excellent comparison of this issue with food - having too much isn’t inherently bad however some spoiled food could cause the rest to go bad as well.
+Gareth Beck, Senior Web Analyst
+Measurefest opened with a bang with an excellent talk from
+Kathryn Choi
+on “The art of data storytelling”. Kathryn talked through how people process data differently and has formulated a framework for data storytelling.
+Dr Hal R. Varian says in order to process data people need:
+“To be able to understand it, to process it, to extract value from it, to visualize it, to communicate it”
+People interpret all sorts of data differently due to their own personal biases (e.g. how they grew up, their own personal core beliefs etc). Therefore the way you visualise data is incredibly important to avoid misunderstandings - or even no-understandings. The best things to considerwhen visualising data are:
+Audience:
+Tailor your report to who's reading it. Marketers will understand marketing terms and require information without excessive tech details, while senior management want a quick, top-line, business-focused summary
+Context -
+What’s the report looking at, what was considered in the analysis - the campaign objective is the best place to start. E.g. Is the report talking about a specific campaign - show the creatives so you don’t leave your audience trying to recall what you’re referring to and show only the main takeaways that you want the audience to go away with.
+Theme -
+What do you want your story to be about? Stay focused on the theme and don’t switch halfway through the story. This could be using benchmarks / targets to prove performance or being careful with the graphs you use to tell the story.
+Kathryn also quoted Daniel Kahneman to talk about his theory of thinking fast and thinking slow where it’s proven that 98% of the brain thinks quickly - this part is effortless and automatic (e.g. tying a shoelace) it’s intuitive. The other 2% is “slow” thinking - it’s more deliberate, controlled mental process (e.g. building a strategy). You don’t want to be applying the 2% when you’re telling a story - you want the audience to understand what you’re talking about straight away.
+The key takeaway for me, and which was a theme reflected in four of the first six talks, was that soft skills are critical in communicating the data in a way that can affect change.
+If you:
+are not reflecting the right language,
+are not consistent in your storytelling,
+don't have the right relationship with the internal teams
+Then you’re not going to move an organisation forward based on what you’ve discovered and, ultimately, making better decisions is what the data is for.
+See you soon Measurefest!
+Looking for support with anything we've outlined above?
+Get in touch
+More
+Meet Jo Undrell: Our New Independent Trustee
+Lisa Ballam
+Head of Marketing
+16 Jun 2025
+/
+3 mins read
+Our learnings from the John Lewis Partnership Council Meeting
+Helen Chapman
+Senior Engineer
+28 May 2025
+/
+3 mins read
+Global Accessibility Awareness Day 2025: The state of web accessibility and how we can improve it
+Chris Lawton
+Senior Engineer
+15 May 2025
+/
+3 mins read
+See more posts

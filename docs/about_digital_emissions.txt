@@ -1,0 +1,37 @@
+Digital emissions
+How we measure the site’s carbon emissions
+For our site’s homepage, we estimate emissions at
+0.02g of CO2-equivalent per page view
+as of March 2025.
+We review the site’s emissions with the
+Sustainable Web Design (SWD)
+methodology, version 4. It’s an established way to calculate the carbon footprint of content websites, and individual web pages, based on the weight of the pages and how much traffic they receive. This is the same methodology as established tools like the
+Website Carbon Calculator
+, but
+we use the latest version.
+With SWD v3, our emissions would be closer to 0.1g of CO2/view.
+Here are the underlying factors we use to calculate emissions:
+We measure the page weight at 407 kb. This is measured with Google Lighthouse (via
+DebugBear
+) set up for Mobile emulation.
+We use a grid carbon factor of 284 gCO2e/kWh for network and user devices operational emissions. This is a weighted average based on the site’s demographics, using
+country-level carbon factor data from Ember
+.
+We use a grid carbon factor of 321 gCO2e/kWh for operational data center emissions (Ireland).
+We use those carbon factors to reflect our understanding of our site’s audience and hosting, in place of the global grid carbon factor of 481.6 g/kWh (Ember yearly data, 2023). With the global grid carbon factor our emissions would be 0.03g of CO2/view.
+Why we use this methodology
+We use a wide range of
+digital emissions methodologies
+depending on the needs of the project. For torchbox.com, we chose:
+SWD to make figures more comparable with common emissions calculators.
+Google Lighthouse, as its assessment of page weight on first page load is well established.
+Simulated Mobile testing, rather than desktop as the majority of web traffic worldwide is on mobile devices.
+The homepage, as it’s the most-viewed page of the site.
+A static “one-off” measurement, to avoid adding a badge that would necessarily use up more resources to load.
+Monitoring emissions over time
+We like the instant recognition and ease of use of ready-made badges like those provided by
+Website Carbon
+, however we had concerns about the footprint of the badge itself.
+Instead, we use DebugBear to check representative pages of the site for performance and other content health considerations on a weekly basis. There are alerts in place to make sure page weight (and emissions) stay within our target.
+Measurements are taken in dark mode
+By default we serve the site in dark mode, as this emits less carbon than the light mode. We allow users to switch to light mode and save that preference for them if they wish.

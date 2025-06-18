@@ -1,0 +1,280 @@
+Impact Report 2023
+In 2023, when we set out to re-evaluate who we are as a business, one thing stood out, the widespread commitment to being a business that makes a positive impact. I hope that this comes through in this report, from the clients we work with, to the way we invest in each other, to the seriousness with which we treat sustainability and our carbon footprint, and to our status as a B Corp.
+As this is our first year of impact reporting as a B Corp, we have reported the areas of the framework we addressed during 2023. While self-reporting should be viewed with scepticism, these improvements should increase our B Corp score from
+114.5
+to 118-120 points. In addition, we have developed environmental practices and services that will help other organisations to reduce their footprint, which could be recognised within the B Corp scoring.
+Our carbon footprint has, on the face of it, gone in the wrong direction. This isn’t profligacy, increased flying or any other unsustainable practice, it’s a result of both growing as a business during 2023 (more people equals a bigger footprint) and doing a better job of analysis and measurement. This latter part should pay dividends in the long term.
+It was a successful year for us as an independent,
+100% employee-owned
+organisation. We have played an increasing role in the employee ownership sector through the EOA and in promoting and encouraging others towards an employee-owned future. 2024 has brought more challenging times, which has taught us valuable lessons about employee ownership. But I'll save that for the 2024 report.
+Olly Willans
+Chief People & Planet Officer, Torchbox
+Empowering change
+World changing impact
+We make the world a better place through our clients
+In 2023, we continued to work overwhelmingly with mission-driven non-profits that are making positive change happen. And we recommitted ourselves to this purpose by expressing
+a new cultural framework
+, a new purpose, vision and values.
+Evolution rather than revolution saw us commit to the singular purpose of
+Empowering Positive Changemakers
+while setting out to
+Set a new standard for high-impact responsible business
+over the next three years
+.
+Our new values
+Client impact and disclosure
+Having supported
+Creative Climate Disclosure
+, we recognise the importance of being transparent about who pays the bills, and how the clients we choose to work with reflect our values. As we did last year, we are disclosing our client relationships here.
+Clients from high-carbon industries
+We’re proud to continue our record that
+0% of our turnover this year came from high-carbon clients
+, and it will remain that way in the future too.
+Potentially controversial sectors
+Amongst potentially controversial sectors
+(Alcohol / Arms / Coal, Oil or Gas / Politics / Gambling / Tobacco / Pornography / Religion)
+we only have clients in the Religion sector
+where we support the important humanitarian work of Islamic Relief, Muslim Hands, Christian Blind Mission, Open Doors and Tearfund.
+See more
+(Scrolls horizontally)
+Top clients by income
+Client
+Sector
+National Institutes of Health
+Public Health (US)
+Wharton Business School
+Higher Education (US)
+National Centre for Biotechnology Information
+Public Health (US)
+MIND
+Charity
+Financial Reporting Council
+Public Sector
+RNIB
+Charity
+Great Ormond Street Children's Charity
+Charity
+Sue Ryder
+Charity
+NHS England
+Public Health
+Mozilla Foundation
+Charity (US)
+The National Archives
+Public Sector
+Samaritans
+Charity
+Disasters Emergency Committee (DEC)
+Charity
+Islamic Relief UK
+Charity
+Youth Sports Trust
+Charity
+Children's Health Ireland
+Public Health
+Oxfam GB
+Charity
+Upshot
+Private (Community Interest Company)
+Girlguiding
+Charity
+Museum of London
+Charity
+Click the images below to read Instagram posts about selected client work from 2023.
+Ethical-fit review process
+We have always been committed to working with positive changemakers but have never previously determined the process by which we challenge cases where that fit isn't clear. Last year, to further safeguard our commitment to working with positive changemakers, we created the
+Ethical-fit review process
+. This details the principles by which we make decisions, the process of raising a concern, how we conduct an enquiry in the event of a challenge, and how we decide. Anyone interested in hearing more,
+please get in touch
+.
+Sustainability
+Becoming a sustainable business
+Measuring and reducing our emissions
+Our overall Carbon Footprint for 2023 shows an increase in emissions from 2022. However, the increase masks a more nuanced picture of our environmental performance. The key factors associated with the increase are:
+Our significant increase in employee numbers over 2022 resulted in a direct increase in our footprint.
+The experts,
+Zevero
+, auditing our carbon footprint this year used a more comprehensive methodology which increased our footprint overall and in intensity. This was primarily due to changes in the emissions calculations associated with home-working.
+Our revenue dropped in 2023 compared to 2022 which increased our carbon emissions per £ revenue.
+We have made progress in reducing our Scope 1&2 emissions from 2021 by 37.98% location-based and 47.6% market-based. This is very much in line with the default Race to Zero mid-term targets.
+See more
+(Scrolls horizontally)
+Torchbox Carbon Footprint 2023
+Footprint
+tCO2e per employee
+tCO2e per £1m revenue
+Total
+Scopes 1 & 2
+0.096
+1.72
+10.61
+Scopes 1, 2 & owned* 3
+0.72***
+12.99
+80.15
+Scopes 1, 2, & 3**
+2.86
+51.43
+317.14
+* Owned Scope 3 emissions only include Business Travel, Waste (and Water) and Employee Commute (and Homeworking)
+**This Scope 3 figure includes Purchased Goods and Services, Capital Goods, Fuel and Energy Related Activities, and Use of Sold Products in addition to our ‘owned Scope 3 emissions’. Having read the GHG Protocol
+Guidance
+, we have included emissions relating to our clients’ website hosting. While this does NOT remove them from any client’s Scope 3 emissions, it incentivises both parties to reduce them.
+*** The
+significant overall increase in per-employee emissions is due to calculating home-working emissions by location rather than using a general emission factor for the UK
+.
+Our Bristol office heating gas (Scope 1) is matched with 100% renewable certificates from UK sources via
+SSE Green Gas Plus
+. Renewable gas is created when natural waste products are broken down using organic bacteria. The biomethane released is then captured and fed into the national grid. However, this market-based approach is not permissible within the Scope 1 GHG Protocol, so no reduction has been made to acknowledge this.
+Scope 1, 2 & 'owned' Scope 3 emissions
+As mentioned above, the
+significant overall increase in 'owned' Scope 3 emissions is due to higher employee numbers in 2023 and to calculating home-working emissions by location rather than using a general emission factor for the UK
+as in previous years. The UK grid has a high proportion of renewable electricity and relatively low emissions per person. In the Philippines, where we have several team members, there is relatively high consumption (you need the AC!) and the electricity is largely from coal-fired power stations.
+Check
+out this deck
+for a detailed look at our
+2023 Carbon Footprint breakdown
+.
+Other sustainability initiatives
+Sustainable travel policy
+This year we developed a new
+Sustainable Travel Policy
+to guide Torchbox co-owners on when and how to travel for work.
+Digital emissions audit service
+In an initiative led by our Climate Voice Group, we have built on the excellent sustainable web design practices that we have developed to launch an audit service for others.
+Find out more
+.
+Greening Wagtail
+Remember our
+2023 Google Summer of Code internships
+, in partnership
+with the Green Web Foundation
+,
+2023 Google Summer of Code interns
+Aman and Paarth worked on image weight reductions, introducing AVIF support to Wagtail and revamped template tags for multi-format images. We now have data confirming this work has paid off and results in tangible emissions reductions for Wagtail websites. We’re hoping for a 1858 tCO2e/year reduction in emissions, if all existing Wagtail websites were to upgrade to the needed version and implement those improvements.
+Kudos to Torchbox's Thibaud Colas who has overseen this work and contributed to the W3C's Sustainable Web Design Community Group.
+Closing the Charlbury office
+It was difficult to justify our Charlbury office given low occupancy levels post-COVID. So, we made the difficult decision to give up the office. Torchbox employees in that area now work from home with occasional meet-ups in co-working spaces.
+Better business
+Doing business better
+Contributing to open source
+2023 was another busy year for our open source product development team, shipping four releases of Wagtail and a raft of new features and improvements to the product focused on accessibility and sustainability.
+Wagtail’s accessibility checker was developed by our Outreachy intern, Albina, who has since joined the Torchbox team. And, once again, we participated in the Google Summer of Code (GSOC) programme – this time in partnership with the Green Web Foundation and Green Coding Berlin – with our two GSOC interns working on image optimisations that have delivered significant emissions reductions for websites powered by Wagtail.
+Civic engagement
+Our Community Action Group has been set up to help us to contribute to our communities. They also highlight volunteering opportunities and encourage us all to become active members of our communities.
+Charity of the year
+This year we've had the privilege of supporting two amazing charities: FareShare and Reach Out Feed Philippines, in their vital work in fighting hunger and food waste. Through fundraising events such as taking on the Black Dragon Challenge Hike and our annual charity auction, we raised over £1000 for these incredible causes.
+Schools project
+In the City Academy in Bristol,
+we ran our second workshop for year-nine students
+as part of a nationwide competition. They had to explore a complex and real-life problem and design a digital solution to present. This was a brilliant opportunity to see how we can inspire young people in our community an give them an insight into the digital world.
+Community Action Days
+Over 2023, the team took 46.5 days of community action leave. 26 co-owners supported their local community by volunteering at local charities, supporting schools, running code camps and doing community work with their local police team.
+Broadening Outreach
+We have driven forward new initiatives to encourage greater community engagement including The Torchbox 250, where each month co-owners can nominate an organisation important to them to receive a £250 donation.
+Supporting tech
+We developed a partnership with Tech4Good South West, supporting them in their mission to grow the tech-for-good ecosystem in the South West of England.
+Academy recruitment and onboarding in September 2023
+We did a second intake for our Academy in early 2023, successfully recruiting to our digital marketing, tech and SEO teams. The initiative, launched in 2022, aims to cultivate talent and provide opportunities for individuals to develop their knowledge and skills while working collaboratively within a team.
+The inclusive selection uses a
+blind
+application process and an academy day, in which applicants come together for team-building activities and a short interview.
+Co-ownership
+Making Torchbox a more equitable and rewarding employer
+Having reached financial freedom two years ago, 2023 was a year of maturing as an independent, 100% employee-owned company. We grew significantly in 2023 and were delighted to be able to share a profit with all co-owners.
+2023 saw us:
+Elect a new Trustee
+Set up an Advisory Group that gives more co-owners the chance to engage with governance and provides a stepping stone to becoming a Trustee
+Attend the annual EOA Conference where I did a fireside talk and Lisa, now a member of the EOA Membership Council hosted a networking event
+Significantly improve our benchmark co-owner sentiment score
+Encourage and support many more organisations (mostly agencies like Torchox) to become employee-owned.
+A diverse and inclusive workplace
+Our volunteer D&I
+voice group
+and our People team are working hard to ensure Torchbox is an equitable and nurturing workplace for all our co-owners.
+Initiatives in 2023:
+Private Slack channels that foster an environment where neurodiverse and LGBTQIA+ communities can converge to exchange stories, advice and mutual support.
+Participating in Pride marches in Bristol and Manchester to visibly demonstrate our commitment
+Reviewing the accessibility of the Google Workspace tools we use, and shared guidance to assist co-owners in leveraging these resources for work collaboration and efficiency.
+To better support our remote colleagues:
+We set up a steering group to understand the specific challenges being experienced.
+Improved communication channels for remotes for example team meeting videos, notes and archive
+Provided more explicit policy guidance for remotes
+Launched a geographic map on our Intranet showing the location and time zone of all our colleagues
+DE&I Survey
+At the end of 2023, we launched our first Diversity and Inclusion Survey with one hundred and eleven respondents:
+In the survey, 75% of co-owners agreed or strongly agreed that:
+People from all demographic backgrounds have equal opportunities to provide opinions and input at Torchbox.
+Torchbox are committed to:
+Diversity within our leadership teams, the Company Board, Trust Board and our Senior Management Teams. The Company Board is the least diverse group and we are committed to addressing this in the medium term at least.
+Continuing education on diversity via Spark Talks and training. For example, in 2023, we had talks on neurodiversity,
+bystander training
+and the importance of designing gender-inclusive services by Emma Parnell and Lee Brown.
+Working with partners to address social exclusion, including
+Motherboard
+and
+The City Academy School
+in Bristol.
+Ensuring fair and equitable compensation for all of our co-owners through a pay equity analysis. We will use the findings to identify and address inequality.
+Enhancing well-being at Torchbox
+Awarded Mind's Bronze Award
+In our continued commitment to fostering a healthy work environment, we participated in MIND’s well-being Index and were awarded their Bronze award.
+Working with Motherboard
+This year we undertook a project to look at our maternity support for working mothers as part of our commitment under the Motherboard pledge. Informed by our internal steering group, we also released a
+practical guide to navigating maternity in the workplace
+.
+The feedback provided valuable guidance resulting in several improvements to our support systems:
+We expanded our network of Mental Health First Aiders to four mental health first aiders and eight mental health first responders creating an environment, where mental health is given the priority it deserves.
+We created a new, short course,
+Conscious Management
+, which equips managers with the tools and knowledge to foster a supportive and understanding environment.
+We launched activities to boost well-being including “Torchbox Treks' which encourages the team to be more active, tracking our collective achievements.
+During Mental Health Awareness Week, we hired the Zen Bus to visit our UK offices. They also ran online sessions for our remote team.
+We continue to provide other resources including the Headspace app and access to an EAP.
+During International Happiness at Work Week, we invited co-owners to recognise their colleagues who made a positive impact with small gestures. Each day, a nominee received a small prize, and at the end of the week, we celebrated everyone’s contributions.
+These initiatives represent our ongoing commitment to creating a nurturing and supportive work environment, where the well-being of every team member is a priority.
+B-Corp
+B-Corp
+We have been actively engaging with the B Corp framework over the year addressing several areas from the B Impact Assessment including those set out in the following table. We encourage using B Corp's framework to continually improve business pratices.
+See more
+(Scrolls horizontally)
+Areas of the B Impact Assessment addressed in 2023
+Task
+Status
+Impact Topic
+Assessment undertaken of the environmental impact of our organization's business activities
+Partially completed
+Environmental management
+Policy statement documenting our organization's commitment to the environment
+Completed
+Environmental management
+The company has a written policy limiting corporate travel
+Completed
+Corporate travel
+We have a policy to encourage internal promotions and hiring for advanced positions (e.g. posting job openings internally first)
+Completed
+Professional development
+We anonymously survey employees on gender identity, race/ethnicity, disability status, and other demographic factors to track the diversity of our workforce
+Completed
+D&I measurement
+We provide reimbursements or programs for intensive continuing education credentials (e.g. college degrees, professional licensures)
+Completed
+Professional development
+Written employee whistle-blowing policy with confidentiality policy
+Completed
+Anti-corruption practices
+We actively recruit through organizations or services that serve individuals from underrepresented populations
+Completed
+Inclusive hiring
+In the last year, the company has set and achieved specified targets for customer satisfaction
+Completed
+Customer satisfaction
+Environmentally preferable purchasing (EPP) policy
+Completed
+Purchasing policy
+We regularly monitor and record emissions and have set specific reduction targets relative to previous performance (e.g. a 5% reduction of GHGs from the baseline year)
+Partially completed
+Environmental management
+by
+Olly Willans
+Chief Innovation Officer

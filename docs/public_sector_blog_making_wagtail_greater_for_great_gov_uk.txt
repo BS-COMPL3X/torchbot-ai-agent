@@ -1,0 +1,53 @@
+Paul Vetch
+Chief Strategy Officer (Public Sector)
+Making Wagtail greater for great.gov.uk
+4 Jun 2019
+/
+2 mins read
+For the past couple of months, we’ve been working onsite at the Department for International Trade in London to support the team responsible for great.gov.uk, a large part of which runs on Wagtail. DIT’s CMS team are working to deliver a long-term development roadmap - but they also have to be ready to drop everything and reprioritise in response to the shifting sands of the Brexit timetable.
+We’re really pleased to have been able to bring in some of our big guns - 3 members of the
+Wagtail core team
+(Andy Babic, Thibaud Colas, and Karl Hobley) - to help identify and drive through improvements to the great.gov.uk Wagtail architecture. They’ve been working as part of a blended delivery team of 6 Torchboxers, tightly integrated with DIT’s in-house CMS team.
+Here’s an overview of what we’ve been up to.
+Flexible Localisation and Translation
+DIT want world-class support for internationalised content and translation workflow, in part because there’s a large network of overseas posts who need to be able to promote content relevant to their own countries. So, one of Karl’s first pieces of work was the development of a proof of concept based on his
+wagtail-i18n
+Internationalisation plugin, which he managed to pull together in just 3 days. Wagtail-i18n was originally built to support Google’s i18n and translation needs, and this will be the new ‘default’ approach to internationalisation in Wagtail core.
+...mais le singe est dans l'arbre.
+A fully accessible Wagtail Admin
+Another big consideration is accessibility, and Thibaud has been leading on
+planning accessibility enhancements
+for the Wagtail Admin UI that will meet the relevant compliance targets. Far from being a box-ticking exercise, this will be a really important consideration once DIT’s Wagtail is made available to many more users globally, in addition to making sure everything is compliant with both
+GDS standards
+and
+international accessibility requirements
+. The improvements we’re making will be rolled into Wagtail Core for the benefit of the whole user community, making Wagtail one of only a very few open source content management platforms that actively ensure accessibility for content editors and creators.
+1 head is better than 5
+DIT’s Wagtail setup evolved over 18 months and provides content management to 5 separate frontend services. Andy has been helping to consolidate these into a single frontend, which will really simplify things for DIT’s CMS team. Wagtail is increasingly being used as a headless CMS and this has been a useful opportunity for us to consider some of the ways in which we can provide even better support for headlessness for developers and editors (we’ve also just rebuilt torchbox.com
+headlessly on Wagtail too
+).
+Making content creation great again
+Whilst DIT plan a major new content strategy, we’re now exploring a number of potential short-term enhancements that will simplify aspects of the content creation, review and publication experience for their Content team. This should include better support for custom moderation and approval workflows, audit trail functionality, and the ability to preview / review and comment on pages in draft without the need for access to Wagtail Admin.
+More broadly, seeing how Wagtail is being used in the context of a large, distributed team of content creators and designers has been exciting - and it has got us thinking about other ways Wagtail could embrace the
+ContentOps
+philosophy. Watch this space!
+More
+AI to scale qualitative research
+Cassandra Cardiff
+Senior User Researcher
+9 Jun 2025
+/
+3 mins read
+Reflections from the Unconference: AI, Data & Public Participation
+Ben Heasman
+Client Partner (Public Sector)
+26 Mar 2025
+/
+3 mins read
+Reducing friction for busy hospital workers through human-centred design
+Jeth Ordeniza
+Interaction Designer
+4 Mar 2025
+/
+3 mins read
+See more posts

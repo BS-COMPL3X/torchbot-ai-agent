@@ -1,0 +1,66 @@
+Chris Lawton
+Senior Engineer
+Hooking up the GOV.UK Design System with Wagtail Accelerator Kit in 1 day flat
+28 Mar 2022
+/
+2 mins read
+We recently set ourselves a mission. We needed to quickly create a simple, functional prototype, to demo to a new client. We wanted them to see Wagtail in action and be able to preview content in GOV.UK’s awesome accessible components and design system.
+I did it - and finished just in time for lunch. Here’s how.
+Screenshot of the GOV.UK design sytem.
+GOV.UK on the front end
+We’ve already built our own
+pattern library
+, so all I had to do was make a template kit that could be installed to a Wagtail site and populate the pattern library with the GOV.UK components.
+I also used our pre-built
+Wagtail accelerator kit
+that’s used as the standard start point for all our Wagtail builds. It incorporates our learnings from building 30+ big, content-rich Wagtail sites and includes best practices for setting up page models, search, taxonomies, and more. It's not a finished site but it provides a solid foundation for rapid prototyping as well as bespoke feature development and design.
+Merging the GOV.UK design system into the kit was straightforward - all the CSS and JS are part of the
+GOV UK frontend package
+so all I had to do was convert the GOV.UK component templates to Django templates so they could be read by the pattern library. Easy!
+After converting the components, installing the package on my Wagtail site, and updating a few colour and font variables it was ready to demo.
+This content is hosted by a third party. By showing the external content you accept the
+terms and conditions
+of YouTube.
+I accept
+Don't ask me again
+Why did I choose this setup?
+Robust, accessible components.
+All the components in the GOV.UK Design System has been tested extensively against
+common assistive technologies
+and all meet level AA of the
+WCAG 2.0 accessibility standards
+making it a great starting point for accessible websites.
+Guidance from GOV.UK.
+All the components have clear and concise guidance on how and when to use them backed up by research.
+It’s all in Django pattern library.
+We’ve now got access to all the design system components in the pattern library, ready and waiting to be shipped out to the next project that needs them.
+It can be put live in the first sprint.
+It’s ready to go now, so much so it could be put live in the first week of development.
+A solid foundation to extend out.
+The site is in a place where bespoke features can be implemented and design can be added.
+What’s next?
+We were so pleased with what we were able to achieve and the effectiveness of our prototype as a functional demo that we’ve decided to extend the concept and build a broader GOV.UK design system theme for Wagtail.
+We’ve already started building out the rest of the page types. The form pages were our first priority, allowing us to use the excellent, well-tested GOV.UK form elements.
+We’re planning on using the kit to speed up all our projects, give clients early access to a working website to add and manage content and help grow Wagtail’s profile within and beyond the public sector. Watch this space!
+Want to chat about this blog in more detail?
+Get in touch
+More
+AI to scale qualitative research
+Cassandra Cardiff
+Senior User Researcher
+9 Jun 2025
+/
+3 mins read
+Reflections from the Unconference: AI, Data & Public Participation
+Ben Heasman
+Client Partner (Public Sector)
+26 Mar 2025
+/
+3 mins read
+Reducing friction for busy hospital workers through human-centred design
+Jeth Ordeniza
+Interaction Designer
+4 Mar 2025
+/
+3 mins read
+See more posts

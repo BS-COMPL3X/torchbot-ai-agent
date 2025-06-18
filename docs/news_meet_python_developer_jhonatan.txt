@@ -1,0 +1,61 @@
+Naomi March
+New Business Manager
+From Mechanical Engineering to Coding: Meet Jhonatan, A Python Developer at Torchbox
+15 Jun 2023
+/
+3 mins read
+We’re always looking for great Python Developers to come and join the team, so we thought it would be useful to introduce you to some of the masterminds that keep our tech running smoothly.
+Today, we shine a light on an Oxford-educated mechanical engineer turned Python Developer, Jhonatan.
+Introducing Jhonatan
+Tell me about you and how you started your career as a developer
+After finishing my PhD and leaving Oxford, where I studied mechanical engineering, I began working with prosthetic devices for kids. It was hands-on, but I found myself drawn more to the coding part of my job. So, I pivoted to a career in tech and began coding at a medical device start-up.
+That's where I first came across Torchbox. We had outsourced a project, and I got to work with Ben Dickinson and Chris Shaw. I was blown away by their skills and quickly realised they are true rock stars in coding!
+When things wound down at the start-up, I knew exactly where I wanted to go next: Torchbox. So, I applied, and here I am!
+What type of projects and clients are you currently working with?
+I'm currently working on a couple of projects with Wharton Interactive and the Mozilla Foundation.
+Over at
+Wharton Interactive
+, we're working on two cool projects: Marketplace and ARC. ARC is all about maintaining an educational gaming platform, and Marketplace is where Wharton sells these games. It’s awesome seeing it all come together.
+My work with
+Mozilla Foundation
+is totally different. This project is about staff augmentation and I work closely on their team sprints for three days a week.
+Each project has its unique set of challenges and learning experiences which I’ve loved getting stuck into over these last six months.
+As a remote worker, how do you find the company culture?
+The culture at Torchbox is baked into everything we do right from the get-go. During my interview, I noticed there was a stark contrast from other tech spaces I'd previously experienced. My interviewers weren’t trying to dismiss my skills or get me to a ‘gotcha’ moment. Instead, they were genuinely interested in a two-way conversation.
+Another thing that I love about Torchbox is the emphasis on knowledge-sharing and open sourcing. I've always been a huge advocate of that. So, finding a company that shares these
+values
+is fantastic and makes my role so fulfilling.
+Tell me about your team and how you stay connected as a remote employee.
+Each project at Torchbox brings together a unique team from our tech squad, which is a great way to connect and collaborate with various team members. The first team I joined was for Wharton Interactive and I worked with Chris, Jacob, Ismir, Steve and Anna. Those guys are awesome - I really love working with them. We felt like a close-knit team, united by a common objective.
+Our interactions go beyond just work too. As well as knowledge sharing, we’re always sharing memes and taking the time to get to know each other on a personal level.
+What I really love about my particular team is the absence of competitive ego; it's not about outdoing each other. We're a team, and we're all here to help each other out.
+What do you enjoy most about working at Torchbox?
+I love that Torchbox is employee-owned because we get amazing employee-ownership bonuses that add a sense of reward and value to our work.
+Working for a UK-based company while living in Brazil also comes with its
+perks
+. I love the flexibility to use my holiday allowance when it suits me best, something that's not so common here in Brazil. So many events and initiatives are geared towards the remote team members too.
+I really recommend Torchbox to other developers looking for their next role. You have a great opportunity to not only join an incredible company but to become a co-owner of that company too.
+If you’re a Python or Django Developer looking for your next role, we’d love to hear from you! Send your CV and any questions to
+[email protected]
+and be sure to
+check out our careers page.
+More
+Meet Jo Undrell: Our New Independent Trustee
+Lisa Ballam
+Head of Marketing
+16 Jun 2025
+/
+3 mins read
+Our learnings from the John Lewis Partnership Council Meeting
+Helen Chapman
+Senior Engineer
+28 May 2025
+/
+3 mins read
+Global Accessibility Awareness Day 2025: The state of web accessibility and how we can improve it
+Chris Lawton
+Senior Engineer
+15 May 2025
+/
+3 mins read
+See more posts

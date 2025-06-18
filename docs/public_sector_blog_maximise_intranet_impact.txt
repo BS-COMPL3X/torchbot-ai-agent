@@ -1,0 +1,75 @@
+Ben Heasman
+Client Partner (Public Sector)
+Maximise the impact of your intranet: 8 things to consider
+14 Nov 2024
+/
+5 mins read
+Intranets tend to fall into two camps. They’re either the heart of an organisation, forming a key part of people’s day-to-day work lives. Or they become a dumping ground - a place where people throw content that no one will find (ever).
+Clearly, if you’re reading this post - you want it to be the former. Intranets, done well, can have a genuine impact on an organisation - helping people to do their jobs better, creating human connections and enabling change to take place.
+Having launched several new intranets successfully recently, we’ve had some time to take a step back and reflect on what makes for an intranet that enables real organisational change. Based on my recent experience with Cambridge University Hospitals and Children’s Health Ireland, here are my top 8 - and where relevant, I’ve included some practical steps that you can take today that will help you move forward - even if you’re not in a position to overhaul your current intranet:
+1. Make sure you know what your staff want to find
+It sounds obvious - but making assumptions about what your team needs from an intranet is a sure way to create something they'll want to avoid.
+Intranets, at heart, are all about helping people to find information that will enable them to do their jobs better and find work more fulfilling. So knowing what they need to find is crucial.
+Practical step:
+create a list of key tasks that users in your company might try and ‘do’ on the intranet based on search & analytics data and ideally, interviews with a range of users. Once you’ve got that list, run a
+top task
+survey with staff asking them to choose the top 5 tasks on that list that they go to the intranet to complete.
+Having this data to hand is like gold dust. Even if you aren’t in the market for an intranet overhaul or replatform - it’ll enable you to start structuring content and navigation in a way that helps people to find what they need, quickly.
+2. Make your content RUN
+In our experience, content
+ROT
+(Redundant, Outdated & Trivial) is consistently one of the top challenges organisations have with their intranets. And the underlying issue is - when users don’t trust content, they won’t use your intranet. This has a knock-on impact on any efforts for it to be the place your staff go to daily - and therefore as an effective means of knowledge sharing and collaboration.
+Practical step:
+Spend time reviewing your
+content strategy
+- how could you change who can create content and how they create it in a way that will keep content fresh? In our experience, adopting a
+hybrid content management
+strategy is often a good approach for intranets - allowing the central comms team to still have control over content quality, but with much of its creation decentralised to other teams.
+Getting this right will help you to avoid content ROT - and help your content RUN, to coin a phrase - stay
+Relevant, Up to date & Necessary
+. And in turn, staff will trust your content and come back. Again and again.
+3. How you organise content is as important as the content itself
+Information Architecture (IA) - how content is grouped, structured and connected - is vital for any website but given the findability of content is so critical for intranets, it’s even more crucial.
+The gold standard is to structure your intranet in a way that doesn’t make users think - it doesn’t add to their cognitive load. In other words - they can find what they need almost subconsciously. This will often involve creating an IA that accommodates both organisational structure (for users who think based on who does what in an organisation) as well as task-based (for users who don’t necessarily know how the organisation hangs together but still need to find what they need).
+Practical step:
+Test your current navigation using a
+tree test
+. Does how you’ve structured your navigation fit with how people are expecting to find information? Learn, iterate & re-test.
+4. Don’t skimp on search
+Users either find content through navigation, or they revert to a global search. So a strong search experience is critical to users finding what they need, quickly.
+Practical step:
+Issue a survey to your users to establish whether your current intranet enables them to find the information they need. Based on the results, review your search experience - do the results show how a given page relates to other content on the site so that users know what is ‘behind the door’ when they click on a page? Is the right content weighted appropriately so that people find information pages over say, news pages?
+5. User-centred language
+In any organisation, it’s easy to revert to language that is familiar for people who have been around for a while - but for new staff (for whom the intranet is an especially vital resource), it’s just jargon. Using brand names or internal jargon can obscure what you want to communicate. Thinking most simply about how to describe things in plain English is the best way to communicate what you need so that people can digest and understand content as quickly as possible.
+Practical step:
+spend time with new members of the team observing how they interact with the intranet. Ask them to share where they have questions or if something doesn’t make sense. Where do they get stuck? What doesn’t make sense to them or isn’t clear?
+6. Ensure people can access it anywhere, anytime
+When thinking about digital inclusion - access to your intranet is key. It’s easy to forget that in big organisations, often many individuals don’t have access to company devices which means they can access the network via a VPN. For someone wanting to review the maternity policy on their phone with their partner on a Friday night at home - being able to access the intranet anywhere, on any device, is so important. Considering how you can open up access to your intranet securely using Single Sign-on and Multi-factor authentication can go a big way to ensuring you’re considering all staff, all the time.
+7. Don’t take shortcuts with accessibility
+Another big factor in considering all of your staff is accessibility - and it is inevitably closely coupled with the goals of your intranet. Some
+recent research from gov.uk
+showed that 14% of people have assistive tech needs. How many people would that represent in your organisation? How can you learn about those individuals and what assistive tech they’re using? Can you establish how your intranet is currently working for them and any barriers they face? Without consideration for those individuals’ needs, there’s a danger of missing out on the aim of helping people find the information they need on your intranet.
+8. Look to the future
+Finally - as with all digital products, it’s critical not to stand still. An unloved intranet will quickly become irrelevant. Keep looking up to scan the horizon - where might you want to take your intranet in the future? How will it keep growing with you as an organisation? What broader organisation goals do you have and how might your intranet support those? Is your current platform the right one to enable that?
+Looking for support with anything we've outlined above?
+Get in touch
+More
+AI to scale qualitative research
+Cassandra Cardiff
+Senior User Researcher
+9 Jun 2025
+/
+3 mins read
+Reflections from the Unconference: AI, Data & Public Participation
+Ben Heasman
+Client Partner (Public Sector)
+26 Mar 2025
+/
+3 mins read
+Reducing friction for busy hospital workers through human-centred design
+Jeth Ordeniza
+Interaction Designer
+4 Mar 2025
+/
+3 mins read
+See more posts

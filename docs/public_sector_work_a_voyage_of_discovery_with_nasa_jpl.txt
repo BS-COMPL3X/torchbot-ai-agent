@@ -1,0 +1,89 @@
+A voyage of discovery with NASA JPL
+We partnered with NASA's Jet Propulsion Laboratory (JPL) to transform their education website and provide a user-friendly experience that sparks curiosity and drives learning.
+NASA JPL
+5 mins read
+Related work categories
+Digital products
+Wagtail
+Public sector
+NASA's MSI Space Accelerator at JPL
+The results
+Increased engagement
+Showing the effectiveness of the redesign and content strategy
+Improved accessibility
+Ensuring a broader audience can easily access and benefit from the content
+The challenge
+NASA JPL's Education site has amazing learning resources and lesson packs that ignite curiosity in the wonder of science and space exploration. Used by tens of thousands of teachers, educators, parents, students and space enthusiasts, the content serves NASA JPL Education’s vision to
+increase STEM (Science, Technology, Engineering and Mathematics) literacy for everyone
+.
+In 2023, the JPL Education team identified an opportunity to achieve this vision and maximise the impact of their content through improving key user journeys and simplifying back-office processes. The education team knew their user journeys were fragmented, educators couldn’t find their most valuable content, and the site needed a structural overhaul.
+Our approach
+Mission planning
+Our collaboration began with an in-depth discovery phase. A good Discovery starts by putting yourself in the shoes (or spaceboots) of the user. We started by downloading everything the education team knew about their users, to give us a starting point to understand the current pain points and issues for their key audience of formal educators.
+With the education team, we unearthed two critical issues:
+Awareness gap; some educators were unaware that JPL Education resources even existed
+Discoverability; of those who knew about the resources and the quality, many struggled to find what they were looking for
+This gave us a couple of initial assumptions; Jet Propulsion Lab Education resources are valued by those who know about it, but hidden in the site structure, and educators need to instinctively trust the content. The next step was to validate (or invalidate) these assumptions….
+Passion and resourcefulness; what we learned by speaking to educators
+A series of interviews with educators across the US highlighted:
+The shared passion for science and inspiring students
+Educators are resourceful - they just make it work for students
+Those more tenured educators don’t need much hand-holding
+Novice educators need to build out their lesson plans, and want to rely on trusted places for this
+I desire to inspire students in STEM.
+Classroom teacher, USA
+The JPL Education team weren’t surprised by what we heard, but had not had it evidenced so clearly. The JPL team needed their hunches evidenced; to fully understand the opportunities and problems, to demonstrate the scale of the opportunity they were missing, and to have a user-centred narrative of the problems their users are facing to share with colleagues, so that JPL Education team can be more user informed and better positioned to meet their users’ needs.
+Busting assumptions
+We put early versions of designs in front of users - showing a new homepage, options for landing pages, searches and filter variants and different navigation routes. By putting our early designs in front of users we were able to keep what we heard worked to users, and throw away designs that didn’t work. We knew the current journey designed around ‘Learn’ and ‘Teach’ wasn’t working. Educators knew what they needed, but didn’t know the breadth of JPL’s education offer - going directly to useful resources they’ve used before. Self-educators wanted to browse more and find the right resource for their learning and level. Our designs tested our assumptions, with users, to learn the different ways we could serve them what they needed, and help them find what they were looking for.
+Producing designs early in discovery is an efficient, cheap and iterative process that shouldn’t stop at the end of Discovery or Design, but gives you clarity on what you do need to build, and in what order - the priorities that matter.
+As a discovery team, we’d assumed that teachers would filter by the grade and subject they teach. So, we’d designed pages that could be filtered and sorted by grade, subject and standards, and we put these in front of users. Each user that we tested with ignored the ‘Grade’ and ‘Subject’ filters entirely. We saw that teachers looked for resources based on things like; how long it takes to do in a classroom. And what materials do I need? We redesigned our page templates so that Time and Materials were visible and a high priority on the resource page, so that teachers could see quickly if it was possible to complete in their 45-minute lesson this Thursday, and if they had the materials to do it, or if it required a trip to the local hardware store.
+I go to [the Edu site], I grab the tools that I need - the images, the video, the interviews - and stitch those into a PowerPoint presentation that I can use.
+Classroom teacher, USA
+So, we iterated again, got more feedback, and iterated again. These designs were built upon over time, utilising the
+NASA Jet Propulsion Lab Design System
+to create really efficient, lightweight, branded designs - with a Jet Propulsion Lab Education site flavour.
+The Design System, we co-created for the main
+JPL site launch
+, gave us the building blocks for the education site’s designs enabling us to spin up prototypes quickly, within a framework that met JPL’s brand guidelines and standards.
+Exploratory design of the Education site landing page
+An example resource page tested with educators
+Impact through influence and confidence
+We wanted to make sure everyone at JPL was learning with us. We distilled user insights into meaningful recommendations for the JPL Education team to make decisions. We shared our recommendations weekly, through synthesis - documented and accessible to anyone at JPL. Our insight-driven recommendations influenced where the Education team needed to focus their effort; to re-organise the priority features for a first-release Minimum Viable Product website build, to shine a light on where more insights are needed, and provide a framework of best practice for how to continue to engage with key user groups during development and beyond. We kept talking and engaging with users to continue building on what we learned and sharing this with the JPL Education team, who in turn were becoming more user-informed.
+We felt the impact of our shared user-centred approach as we moved further into Discovery and Design. When we needed to make a decision about a design or to prioritise x over y, the JPL Education team referred back to what the users told us in our user research, usability testing or site-wide survey. Decision-making became rooted in evidence and guided by users, and gave the whole team greater confidence in the decisions we made.
+Preparing for take-off
+Parallel to our design iterations, we wanted to understand exactly how the JPL Education team’s content management system and processes were holding them back. We observed the content creation process and mapped this process to find opportunities for improvement.
+With the main JPL site also being built in
+Wagtail CMS
+, the education team could gain efficiencies by reusing components, building on the design system, and have Wagtail expertise in-house.
+We needed to explore and understand the specific requirements for an Education site Wagtail instance. Different content workflows, landing page layouts, and use of images. We demoed Wagtail with our development kit site, showcasing features that would deliver value for the education team, based on what we heard from users, out-of-the-box.
+The technical discovery gave us total clarity on what the next steps for a site build would be. Side-by-side with iterative and user-led designs, we are looking forward to building the new education website and achieving the JPL Education’s team's vision of increasing STEM literacy for everyone.
+Mission launch is expected in 2024.
+https://www.jpl.nasa.gov/edu/
+by
+Andrew Wilding-Smith
+Product Director
+More
+A fresh look for the NIH Office of Intramural Training & Education (OITE)
+NIH Office of Intramural Training & Education (OITE)
+3 mins read
+Filter posts by category
+Digital products
+Research & design
+Public sector
+Unifying staff engagement and collaboration across four children's hospitals
+Children's Health Ireland
+5 mins read
+Filter posts by category
+Digital products
+Wagtail
+Public sector
+London Museum's radical digital transformation
+London Museum
+5 mins read
+Filter posts by category
+Innovation
+AI
+Digital products
+Wagtail
+Public sector
+See more work

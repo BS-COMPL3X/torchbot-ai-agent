@@ -1,0 +1,62 @@
+Accessibility testing
+Poor accessibility excludes millions and risks legal compliance. Our specialists identify critical barriers and provide clear, actionable advice to make your website work for everyone. We've helped RNIB, Internet Society, and other major charities achieve WCAG compliance and boost user engagement.
+Automated testing
+Using automated tools to quickly test for a wide range of likely accessibility issues. We can then separate site-wide template problems, and one-off content issues.
+Manual testing
+Our accessibility experts will test a selection of pages with a range of assistive technologies adapted to your site’s audience, and report WCAG compliance issues as well as accessibility or UX improvements.
+Design review
+Our UX and design teams provide actionable recommendations for any user experience or visual design deliverable.: brand guidelines, UI mockups, user journey maps, etc.
+Code review
+We can leverage our technology expertise to provide accessibility recommendations tailored to your site’s platform and team workflow.
+The first step in transforming RNIB's digital presence
+RNIB
+5 mins read
+Our website is our ‘shop window’ for people seeking advice, information and support so it’s absolutely vital that it’s accessible, intuitive and user-friendly. From the start of our work with Torchbox, inclusive design and accessibility have been the driving force. From feedback on the designs to user testing the site to ensure it is accessible and intuitive, blind and partially sighted people have played an invaluable role in developing the website.
+Jim Sanders
+Director of Innovation and Transformation, RNIB
+Benefits
+Evaluate the quality of your design or code with Accessibility QA testing, and ensure your service works for all users.
+Deliver an inclusive digital service
+Follow the WCAG standard and accessibility best practices
+Get timely feedback from accessibility experts
+Improve the accessibility of your digital product or service
+Every digital platform or service is unique, so we’ll review your site against your objectives and provide bespoke recommendations suitable for your organisation. There is no ‘one size fits all’ when it comes to accessibility testing.
+If you’d like to know how to improve the accessibility of your digital product or service, drop us your details with a link to the site(s) to test (if possible) and we’ll get back to you with our recommended approach.
+Request an accessibility test
+Leave us your details
+The Audit was very comprehensive and resourceful, including recommendations to fix issues, references on tools used and related WCAG criteria, readability and usability scores for content pieces. Based on the audit, we mapped out the plan for implementing the fixes and we are actively working toward ensuring that more pages on our site are fully accessible.
+Ivana Strineka-Trbovic
+Senior Web Manager
+Our work
+The first step in transforming RNIB's digital presence
+RNIB
+5 mins read
+See more work posts in this category
+Digital products
+Wagtail
+Charity & non-profit
+Improving accessibility for the Internet Society
+Internet Society
+4 mins read
+See more work posts in this category
+Digital products
+Charity & non-profit
+Insights
+Common accessibility issues and how to solve them
+Michael Wilkinson
+Head of Engagement, United States
+16 Sep 2024
+/
+3 mins read
+Six Accessibility Lessons from the RNIB Site Build - By the Lead Front-End Dev
+Jane Hughes
+Senior Developer and Accessibility Expert
+11 May 2023
+/
+5 mins read
+Onwards! Accessibility auditing with WCAG 2.2 and beyond
+Albina Starykova
+Junior Engineer
+10 Nov 2023
+/
+3 mins read

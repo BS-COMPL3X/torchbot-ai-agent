@@ -1,0 +1,70 @@
+Helen Chapman
+Senior Engineer
+Building a more sustainable and accessible Torchbox website
+24 Feb 2025
+/
+4 mins read
+Last year I had the pleasure of tech-leading a rebrand and rebuild of our own website. It was a great opportunity to make our site a beacon of best practices for both
+accessibility
+and
+sustainability
+. Having spent many years advising clients in these areas, it felt important to show how thoughtful technical choices can create a site that's both visually engaging and environmentally responsible. This project gave us the chance to demonstrate these principles in action and measure their real-world impact.
+Sustainability
+Our initial
+sustainability audit
+highlighted several areas where we could make improvements, particularly around image handling and file sizes. After attending an eye-opening talk about digital sustainability a couple of years ago, I learned that the digital industry's carbon emissions are now higher than those of the aviation sector – something that really drives home the need for more sustainable web development practices.
+We implemented several technical improvements to make the site more sustainable:
+Serving the website in dark mode by default - research has shown that bright, white websites consume significantly more energy on user devices
+Converting images to WebP format, which creates much smaller files than traditional PNGs and JPEGs
+Using responsive images with srcset and sizes attributes - meaning a mobile user won't need to download the same huge image file as someone viewing on a 4K monitor
+Adding lazy loading for images below the fold, so they only load when needed rather than automatically
+Avoiding images that fill the full width of the viewport, which require large file sizes
+Only loading YouTube videos when users choose to play them, rather than loading them automatically
+Paginating our team page to only load 20 images per page
+After launching the new site, we ran an audit of it
+through Shadowbox, our sustainability testing tool
+. With the new design and WebP image format, the average amount of image data loaded per page was reduced by 78%. By asking users before loading YouTube videos, initial page load emissions were cut by over 50% for pages with videos. Overall, the audit found that the median page size of the site decreased by 38%. With less data transferred over the network, the new website pages are loading faster and have a smaller environmental impact.
+Accessibility
+It’s always good to remember that by following accessibility standards, we improve the user experience for everyone, not just users with particular needs. A new mum with only one hand free will appreciate good keyboard navigation, or a middle-aged person like me will appreciate being able to quickly zoom to read text when they’ve left their glasses in another room.
+With this project, we made sure to consider accessibility from the very beginning, rather than treating it as a final check or scrambling to fix issues near to launch. This meant baking
+accessibility testing
+into our design and development processes from day one. For every component we built, we ran through a comprehensive set of checks including:
+Designing with accessibility in mind, and ensuring all designs were reviewed for accessibility before they were built
+Automated testing with the Axe developer plugin
+Keyboard navigation tests
+Ensuring that all focus states for links and buttons are visible
+Testing with different font sizes from the browser settings
+Testing with different zoom levels
+Testing with a screen reader
+High contrast mode testing
+Ensuring all animations are turned off for users who prefer reduced motion
+Challenges
+Image processing turned out to be one of our biggest technical hurdles. One tricky area was getting WebP conversion working smoothly in Wagtail CMS, particularly when generating different image sizes for various screen resolutions. The server would often crash when trying to process certain files, which taught us an important lesson about handling animated GIFs - we solved this by switching to more efficient video formats.
+We also tested automatically reducing image saturation to decrease file sizes, but quickly found this didn't work well with our people-focused imagery which features a lot in our blogs and case studies.
+Looking ahead
+To ensure these improvements keep working as intended, we've set up monitoring with DebugBear to track performance and page load times. We also run weekly accessibility checks through Browserstack, which helps us catch any issues quickly – whether they're in the content or the code.
+We've now got a solid set of best practices in place for all future development on the site which is currently underway as part of our latest iteration - more info on that soon!
+Final thoughts
+Through this project, I've seen first-hand how small optimisations can add up to make a real difference. Every kilobyte we shave off an image file size adds up when you consider it is saved every single time it is requested. Small changes have a massive impact over time. But perhaps most importantly, I've reflected on how making websites more sustainable and accessible isn't about dramatic overhauls - it's about thoughtful choices at every step of the build process. Making the internet more accessible and sustainable is something we should all be striving for because better practices mean a better experience for everyone.
+Identify opportunities for improvement with a sustainability or accessibility audit.
+Get in touch
+More
+Meet Jo Undrell: Our New Independent Trustee
+Lisa Ballam
+Head of Marketing
+16 Jun 2025
+/
+3 mins read
+Our learnings from the John Lewis Partnership Council Meeting
+Helen Chapman
+Senior Engineer
+28 May 2025
+/
+3 mins read
+Global Accessibility Awareness Day 2025: The state of web accessibility and how we can improve it
+Chris Lawton
+Senior Engineer
+15 May 2025
+/
+3 mins read
+See more posts

@@ -1,0 +1,44 @@
+Wagtail sponsorship
+Organisations like Mozilla, Google, The Motley Fool, and YouGov sponsor Wagtail enhancements to benefit both their own operations and the global community.
+By funding new features and packages, sponsors collaborate with Wagtail's creators, reduce maintenance complexity, and receive official support while gaining recognition for their open-source contributions.
+If you're interested in sponsoring roadmap features or proposing new ideas with broader appeal, let us know!
+If you commission open source, you directly support making it better. And once it's better for you, then not only is it better for everyone else, but you also don't have to keep paying to keep making it better. You also get your organization's name out there, which can help you find great employees, and build your brand awareness and reputation in the tech community.
+Tim White
+Tech Director of The Ascent, The Motley Fool
+Sponsorship roll of honour
+Next generation page editor
+A raft of new features to improve collaboration and workflow as well as tools to help editors create more effective, findable, and accessible content. Funded by Google.
+Enterprise workflow
+A flexible approach to content workflow, ready for busy newsrooms and government websites. Funded by Motley Fool.
+Translation and localisation
+The best open source support for multilingual sites we've seen. Sponsored by Google, DIT and Mozilla Foundation.
+Built-in A/B testing
+Support to run variants of the same page to improve user experiences and conversions, funded by Mozilla Foundation.
+Telepath – the next generation of Streamfield
+The evolution of StreamField and a foundation for auto-saving and collaborative editing. Part-funded by YouGov.
+Import content from 3rd party sources
+Automatically import page content into Wagtail from third-party sources like Google Docs and MS Word. Funded by Torchbox.
+Google is a firm believer in open source software and over the years has benefited greatly from Wagtail. We look forward to seeing how our contribution is going to accelerate the next generation of Wagtail.
+Paul Bakaus
+Senior Staff Creator Advocate, Google
+Previous Wagtail sponsors include
+The ultimate selling point for Wagtail is the strength and creativity of the team at Torchbox. While we have been able to see many cost savings in using open source software, leveraging the teams and knowledge at Torchbox has enabled the team to work at a much quicker pace and has built confidence within the gruop that we have support when and if we need it.
+Kate Stratton Harman
+Senior Product Manager, Core Platforms & Experiences, New York Public Radio
+Interested in sponsoring a new feature or package for Wagtail?
+Ian Bellchambers
+Chief Growth Officer (Wagtail)
+Get in touch
+Our thinking
+What’s new in Wagtail returns - May 2025
+Lisa Ballam
+Head of Marketing
+4 Apr 2025
+/
+1 min read
+The design journey behind Wagtail's page editor evolution
+Ben Enright
+Principal Interaction Designer
+12 Mar 2025
+/
+4 mins read

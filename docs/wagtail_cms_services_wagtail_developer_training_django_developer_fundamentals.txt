@@ -1,0 +1,33 @@
+Django Developer Fundamentals
+4 sessions | £699 / $899 per person
+Expand your skills and deepen your understanding of this high-level Python web framework that encourages rapid development and clean, pragmatic design. Hosted by Senior Wagtail Developers, Django Developer Fundamentals provides insights and practical skills that extend way beyond typical tutorials and documentation.
+This course is suitable for anyone who has some Django experience and is now looking to take it to the next level. As a minimum we would expect you to have completed the
+Django tutorial
+before undertaking this course.
+What you'll learn
+Master Django Object Relational Mapping (ORM)
+Understand models and migrations
+Efficient data querying and manipulation
+Explore advanced data handling techniques
+Views and templates
+Uncover the request-response cycle
+Discover patterns for creating dynamic, responsive web applications
+Learn how to efficiently reuse your code across views and templates
+The course
+1. Django Object Relational Mapping (ORM): Models and Migrations
+Understand the nuances of Django’s ORM and take a closer look at models and migrations. You’ll gain a comprehensive understanding of how models serve as the cornerstone for structuring database schema and managing data.
+2. Django ORM - Querying
+This is a dynamic session focused on querying, where you’ll master the art of retrieving and manipulating data efficiently. Hands-on coding exercises are used to offer real-time experience in crafting queries.
+3. Django ORM - Advanced
+Building on your growing understanding of models and querying patterns developed in the previous sessions, we address the intersection of model definitions, migrations and querying. We cover making your complex queries easily reusable, how to decide between Django's different forms of model inheritance, and how to make complex schema changes without data loss by writing your own data migrations.
+4. Django Views and Templates
+In this session we'll cover the basics of Django's request-response cycle, focusing on the role of Views and Templates. We'll cover function and class-based views, the use of mixins and decorators as we as common templating patterns. By the end of this session you'll be ready to embark on Course 2: Wagtail CMS Fundamentals.
+Time commitments and cost
+This course unfolds over four sessions of varying length (up to 2 hours) and interactivity, each building on the last to shape your understanding and skills. The sessions will be conducted via Zoom calls with a maximum of 10 participants, to allow plenty of time to discuss questions with your trainer.
+To complete the course all four sessions should be attended. The price for this course, excluding any applicable VAT or sales tax, is £699 GBP / $899 USD per person.
+Find out about private training for your development team
+Ian Bellchambers
+Chief Growth Officer (Wagtail)
+Get in touch
+Related course
+Wagtail CMS Fundamentals

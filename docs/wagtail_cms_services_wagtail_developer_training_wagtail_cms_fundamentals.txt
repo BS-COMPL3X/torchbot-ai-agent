@@ -1,0 +1,27 @@
+Wagtail CMS Fundamentals
+3 sessions | £699 / $899 per person
+Rated 5 stars by the Mozilla Customer Experience team, this course will help turn beginners into proficient Wagtail CMS developers, and is suitable for anyone who has completed the Django Developer Fundamentals course or is already at an intermediate level with Django. Before undertaking this course, you should ideally have completed the
+Wagtail tutorial
+.
+Three sessions will lead you through everything you need to know about the core elements of Wagtail CMS, including pages, snippets and Wagtail field types, so that you can take your own Wagtail sites to a new level.
+What you'll learn
+The fundamentals of Wagtail models and fields
+Learn how Wagtail pages and snippets build on Django models, and how to choose between page, snippet, and base model in your projects.
+How Wagtail serves pages, including customisation of outputs and techniques that build on Django Views and Templates.
+Get to grips with Wagtail’s fields - RichTextField, StreamField, and ParentalKey - and how best to use them.
+The course
+1. Wagtail models, pages and snippets [2.5 hours]
+Uncover the foundational structures that empower Wagtail's uniqueness and efficiency, and understand how to make architectural decisions between Wagtail’s different model options.
+2. Explore pages as views [2 hours]
+Understand how Wagtail seamlessly extends Django Views and Templates. Learn to serve pages, customise outputs, and employ advanced dynamic path techniques hands-on.
+3. Master Wagtail fields with practical insights [2 hours]
+Engage in an immersive journey to understand Wagtail Fields’ intricacies, and learn how to select appropriate field types with confidence.
+Time commitments and cost
+The course is structured across three sessions of varying lengths and interactivity that build on each other. The sessions will be conducted via Zoom calls with a maximum of 10 participants, to allow plenty of time to discuss questions with your trainer.
+To complete the course all three sessions should be attended. The price for this course, excluding any applicable VAT or sales tax, is £699 GBP / $899 USD per person.
+Find out about private training for your development team
+Ian Bellchambers
+Chief Growth Officer (Wagtail)
+Get in touch
+Related course
+Django Developer Fundamentals

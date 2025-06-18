@@ -1,0 +1,70 @@
+Wagtail staff augmentation
+For challenging projects our Wagtail specialists are here to add capacity and capability to your development team. Whether you're looking to accelerate your project, implement Wagtail at scale, or tackle a complex migration, we can help.
+Add Wagtail experts to your team
+Technical architects
+Our technical architects have deep experience of complex Wagtail implementations, and lead on architectural planning, data modeling, migrations, integrations, code review, testing, and continuous integration.
+Wagtail developers
+Our Wagtail developers are experts in delivering large scale websites. They also deliver web services and API integrations with third-party services and platforms, and maintain and enhance Wagtail.
+Front-end developers
+Our front-end developers create accessible and sustainable front-end code. All of our team are experienced in using and extending both the GOV.UK design system and the US Web Design System (USWDS).
+Other roles
+We can also onboard specialist skills from the wider Torchbox team, including UX, design and research from our Human Centred Design team, delivery management support, and digital marketing expertise in data, analytics and SEO.
+Having Torchbox's expertise as an extension of our team has let us take on projects that we wouldn't have otherwise been able to complete.
+Jessica Ingari
+Web Product Manager, Oxfam America
+How staff augmentation works
+Every project is different. We’ll start by discussing your needs so we can understand how best to dovetail around the skills and expertise of your team. We'll then agree on the likely number of days of support needed, the size and shape of the team, and the start date and duration of the project.
+You’ll get to meet our developers before any work begins to make sure they’re a good fit for your team. During this session we’ll discuss project goals, delivery processes and ways of working so that everyone is on the same page.
+Once you’re happy with the plan, you just need to provide our team with access to your tools and systems and they’ll get started. They’ll work closely alongside the rest of your team and report directly to your product and delivery managers.
+Want to find out more?
+Will Heinemann
+New Business Director
+Get in touch
+Having Torchbox's expertise as an extension of our team has let us take on projects that we wouldn't have otherwise been able to complete.
+Jessica Ingari
+Web Product Manager, Oxfam America
+Torchbox has provided the Motley Fool with both excellent Wagtail consulting services by adding numerous new features to the product as well as providing support for issues with running Wagtail on sites with tens of thousands of articles and millions of monthly visitors.
+Tim White
+Tech Director for The Ascent, The Motley Fool
+Happy partners
+Our work
+Building an accessible website with the US Design System and Wagtail CMS
+Office of Intramural Training and Education (OITE)
+3 mins read
+See more work posts in this category
+Digital products
+Wagtail
+Public sector
+A voyage of discovery with NASA JPL
+NASA JPL
+5 mins read
+See more work posts in this category
+Digital products
+Wagtail
+Public sector
+Making the right content easier to find
+The Financial Reporting Council (FRC)
+4 mins read
+See more work posts in this category
+Digital products
+Wagtail
+Public sector
+Insights
+The design journey behind Wagtail's page editor evolution
+Ben Enright
+Principal Interaction Designer
+12 Mar 2025
+/
+4 mins read
+Wagtail accessibility statistics
+Thibaud Colas
+Senior Engineer & Wagtail Product Lead
+7 Jun 2023
+/
+3 mins read
+The Zen of (Wagtail) Website Migration
+Paul Vetch
+Chief Strategy Officer (Public Sector)
+11 Apr 2022
+/
+7 mins read

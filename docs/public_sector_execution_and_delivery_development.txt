@@ -1,0 +1,95 @@
+Development
+Beautiful Wagtail-powered websites, custom Django applications and low-code platforms. We’ll help you find the right technical approach, so you can achieve your goals and confidently meet the needs of your users.
+Turning five hospital websites into one
+Fewer accessibility issues
+40%
+Improved performance
+28%
+Children's Health Ireland
+6 mins read
+Accessible, user-friendly websites and applications
+Whether you're looking to bring a new product to market, digitise your services or modernise legacy platforms, our team of experts can help you solve even the most complex challenges.
+Custom builds and new product development
+CMS replatforms
+Legacy platform upgrades
+Low-code projects
+Accessibility testing
+Bespoke websites and products tailored to your organisation’s unique needs.
+We can help simplify your back-office processes including seamless integration with CRMs, payment gateways, ticketing platforms and email systems.
+Move your website to Wagtail, the leading open-source Python CMS.
+It’s fast, simple to use and powerful enough to handle even the biggest enterprise-scale websites. With Wagtail’s multisite capability, we can combine your whole digital portfolio including websites, intranets and events platforms into one easy to maintain structure with Single Sign On (SSO) authentication.
+Improve efficiency and usability by migrating to a new open-source platform.
+We’ll seamlessly transfer all of your data and ensure a smooth transition, minimising downtime and disruption to your operations. So you can enjoy using all of the back-office tools you rely on, but in a faster, easier to use and more secure environment.
+Custom builds aren’t always the answer.
+We can help you fast track development and make rapid progress with scalable, low-code solutions. By taking advantage of pre-built components and powerful development tools, we can streamline the development process without compromising on quality.
+Accessibility testing allows us to identify barriers users may come up against, and suggest updates to improve the usability of the site for everyone.
+Our comprehensive accessibility audits will give you a clear view of current accessibility levels, areas for improvement and a backlog of improvements to achieve the highest possible levels of accessibility.
+Learn more about our accessibility services
+Custom builds and new product development
+Bespoke websites and products tailored to your organisation’s unique needs.
+We can help simplify your back-office processes including seamless integration with CRMs, payment gateways, ticketing platforms and email systems.
+CMS replatforms
+Move your website to Wagtail, the leading open-source Python CMS.
+It’s fast, simple to use and powerful enough to handle even the biggest enterprise-scale websites. With Wagtail’s multisite capability, we can combine your whole digital portfolio including websites, intranets and events platforms into one easy to maintain structure with Single Sign On (SSO) authentication.
+Legacy platform upgrades
+Improve efficiency and usability by migrating to a new open-source platform.
+We’ll seamlessly transfer all of your data and ensure a smooth transition, minimising downtime and disruption to your operations. So you can enjoy using all of the back-office tools you rely on, but in a faster, easier to use and more secure environment.
+Low-code projects
+Custom builds aren’t always the answer.
+We can help you fast track development and make rapid progress with scalable, low-code solutions. By taking advantage of pre-built components and powerful development tools, we can streamline the development process without compromising on quality.
+Accessibility testing
+Accessibility testing allows us to identify barriers users may come up against, and suggest updates to improve the usability of the site for everyone.
+Our comprehensive accessibility audits will give you a clear view of current accessibility levels, areas for improvement and a backlog of improvements to achieve the highest possible levels of accessibility.
+Learn more about our accessibility services
+Want to find out more?
+Will Heinemann
+New Business Director
+Get in touch
+Happy partners
+Torchbox is a top notch content agency that has developed the best CMS (Wagtail) I've worked with in my career, and I've been using content management systems for over 15 years. Being able to use the same firm for both our content wrangling and implementation needs has made the process incredibly smooth. I can not recommend them highly enough.
+Tim Allen
+IT Director at Wharton Business School
+Wagtail accelerator kit
+Streamline your onboarding to Wagtail, and accelerate your project timeline by as much as eight weeks.
+Find out more
+Our work
+Making the right content easier to find
+The Financial Reporting Council (FRC)
+4 mins read
+See more work posts in this category
+Digital products
+Wagtail
+Public sector
+A voyage of discovery with NASA JPL
+NASA JPL
+5 mins read
+See more work posts in this category
+Digital products
+Wagtail
+Public sector
+The first step in transforming RNIB's digital presence
+RNIB
+5 mins read
+See more work posts in this category
+Digital products
+Wagtail
+Charity & non-profit
+Insights
+Building a more sustainable and accessible Torchbox website
+Helen Chapman
+Senior Engineer
+24 Feb 2025
+/
+4 mins read
+To Finetune or not to Finetune, Part 2 of 2
+Victor Miti
+Engineer
+16 Oct 2024
+/
+5 mins read
+Onwards! Accessibility auditing with WCAG 2.2 and beyond
+Albina Starykova
+Junior Engineer
+10 Nov 2023
+/
+3 mins read

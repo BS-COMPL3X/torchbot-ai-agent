@@ -1,0 +1,32 @@
+Wagtail implementation audit
+Get the lowdown on the health, security and performance of your Wagtail implementation, with a comprehensive audit conducted by Wagtail experts.
+Why get a Wagtail implementation audit?
+While Wagtail is intentionally designed to be a low-maintenance CMS, without careful management many different factors can combine over time to degrade the performance, usability and maintainability of your Wagtail implementation. Our implementation audit service produces a detailed report, including prioritised recommendations to help you get your implementation back towards best practices.
+Improve code health and team productivity
+ContentOps
+An audit helps spot opportunities for more efficiency in your content workflows. We’ll work closely with your editors to tailor suggested enhancements to your content production and long-term maangement.
+Code health
+Technical debt can slow down your website and increase maintenance costs. With a code and Wagtail/Django architecture review, we provide guidance to build a more robust platform. We suggest tools and practices to keep the project in shape long-term.
+Hidden gems of Wagtail
+A CMS implementation review identifies overlooked features that can streamline your workflows and improve performance. As the creators of Wagtail, we have unparalleled expertise in spotting these opportunities and providing actionable insights.
+Developer experience
+Our audit ensures your development team has a streamlined and efficient setup. From cleaner Django code to better tooling, we’ll identify opportunities to improve workflows and reduce friction, empowering your developers to deliver more effectively.
+Future-proof
+With full awareness of the CMS roadmap and the contents of current and upcoming releases, we guide your team towards patterns that will stay supported long-term. And can point opportunities to plan the project with upcoming features in mind.
+Grow Wagtail
+If appropriate, we can also gather your team’s insights and challenges to provide valuable feedback to the Wagtail open source project. Your input helps shape future updates, benefiting your organization and the wider community.
+Find out more about a Wagtail implementation audit for your site
+Ian Bellchambers
+Chief Growth Officer (Wagtail)
+Get in touch
+Audit methodology
+Still wondering what’s involved? Our Wagtail audit is a comprehensive process designed to uncover opportunities, address inefficiencies, and provide actionable recommendations. Here are the core components of our methodology:
+Product backlog review
+: We analyze your project backlog and pain points to understand your priorities and uncover quick wins. This involves engaging with key stakeholders and reviewing your project management tracker.
+Content management experience review
+: By examining your CMS setup and workflows, we identify ways to improve editor usability and efficiency. This includes reviewing help text, tagging systems, reusable blocks, and interviewing editors to gather direct feedback.
+Technical architecture review
+: Our team conducts a detailed analysis of your codebase to identify technical debt and recommend solutions. This ensures a robust, maintainable foundation for your website.
+Audit workshops
+: Where necessary, we facilitate workshops to delve deeper into topics like site architecture, performance, accessibility, or multilingual support. These sessions help align your goals with actionable strategies.
+The outcome is a detailed report with prioritized recommendations, categorized by impact and effort, enabling you to focus on quick wins while planning for strategic improvements.

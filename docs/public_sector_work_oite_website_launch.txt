@@ -1,0 +1,72 @@
+Building an accessible website with the US Design System and Wagtail CMS
+With a focus on enhancing usability and accessibility, our redesign significantly reduced direct inquiries by streamlining information architecture, making the site more intuitive for users.
+Office of Intramural Training and Education (OITE)
+3 mins read
+Related work categories
+Digital products
+Wagtail
+Public sector
+The brief
+The National Institutes of Health (NIH) is a medical research agency, working to improve human health and save lives. Within the NIH is the
+Office of Intramural Training and Education (OITE)
+, which is responsible for the recruitment, welfare, and development of 5,000 trainees for the NIH at any given time.
+OITE’s old website was built in 2010 on a content management system that had become difficult to use and costly to maintain. This, together with a lack of content governance, had led to the site becoming overloaded, difficult to navigate, and inconsistent in tone and style. This was forcing users to get in contact to find the information they needed, resulting in further costs for the organisation.
+The approach
+A vision for the new site
+The new website had to be easy for OITE staff to manage and maintain, comply with the Section 508 accessibility guidelines, and be structured in a way that made it easy for users to navigate to relevant information.
+We conducted user research interviews to identify the site’s target audience groups and understand their needs, allowing us to plan the content, design, and functionality of the new site around them.
+The new site had to:
+allow potential applicants and NIH trainees and staff members to self-serve information to reduce the cost of enquiries
+explain the programmes on offer to applicants and support their applications
+provide wellness support and mental health resources for trainee scientists and healthcare professionals
+Using – and enhancing – the US Web Design System
+The new website also had to visually connect OITE with the NIH brand and comply with the US Web Design System (USWDS), which brings consistency to US government websites.
+Using our experience of building accessible websites for the UK government in Wagtail - a configurable and open source content management system (CMS) - we were able to quickly build and launch a ‘minimum viable product’ that matched the old site's functionality.
+We used patterns from the UK government’s GOV.UK design system that we knew had worked in similar situations, alongside patterns from the US system, tapping into research and accessibility best practices on both sides of the Atlantic.
+Once the site was live, we collected user feedback and analytics to help us make evidence based decisions on new features which we introduced in phased stages.
+Big challenges mean big opportunities
+It was difficult to get meaningful analytics from the old site. By adding Microsoft Clarity and Google Analytics 4 to the new site we can see how users are engaging with the new design and content, identify pain points early, and use these insights to inform the backlog for future work.
+Taking advantage of Wagtail’s adaptability, we could custom-build functionality where needed. For example, career counsellors needed trainees to be able to book appointments with them.
+We introduced tone of voice guidelines that reflected the NIH brand to bring consistency to the site and help users feel they were in the right place.
+We trained OITE staff in the new tone of voice and
+Wagtail CMS
+, so they could get the most out of the new system, manage their content effectively, and make the site feel like a coherent whole.
+Doing this delivered additional value at every opportunity.
+The results
+An accessible site that works for everyone
+The new site now works for users and staff.
+It’s accessible to a range of different needs and assistive technology, responsive to different screen sizes, and has an updated design that reflects the organisation's rebranding.
+The improved information architecture, reduction in content, and the new tone of voice mean information is more understandable and easier to find. User satisfaction with the site has increased, and in-person contact has reduced dramatically.
+The OITE team feels empowered and confident in making content decisions and using the
+Wagtail CMS.
+Read more about the design approach and brand development for this project.
+Want to explore Wagtail CMS or have any questions about our approach?
+Get in touch
+by
+Mark Boyle
+Client Partner (Public Sector)
+More
+A fresh look for the NIH Office of Intramural Training & Education (OITE)
+NIH Office of Intramural Training & Education (OITE)
+3 mins read
+Filter posts by category
+Digital products
+Research & design
+Public sector
+Unifying staff engagement and collaboration across four children's hospitals
+Children's Health Ireland
+5 mins read
+Filter posts by category
+Digital products
+Wagtail
+Public sector
+London Museum's radical digital transformation
+London Museum
+5 mins read
+Filter posts by category
+Innovation
+AI
+Digital products
+Wagtail
+Public sector
+See more work

@@ -1,0 +1,48 @@
+Olly Willans
+Chief Innovation Officer
+The Torchbox choir
+27 Feb 2012
+/
+2 mins read
+Right, it's the end of November 2011 and we've been so busy on client work that we haven't got around to the agency Christmas card. And, no, we can't just quietly forget about it either.
+Thanks to the great Christmas cards that we've produced over the last couple of years ('
+Snowtime
+' and '
+Starry night
+' to name two), expectations were high, and our friends were letting us know it. Cue the brainstorm.
+The challenge
+it must stand out, even amongst all the other agency Christmas cards
+it can't take too long (we didn't have long)
+it must involve the whole team
+The idea
+A few hours later, the Torchbox Choir was born. Each member of the crew was recorded singing a single note and we combined them into musical arrangements of various popular Christmas carols. It shows off our technical virtuosity, makes us look a bit silly (hopefully in an endearing way), and has some shareability.
+Torchbox Christmas Choir
+And, that was the basic idea, before the 'builds' started. Actually, that remained the basic idea, we just added a few jingle bells and whistles, and ended up with a pretty sophisticated web-based keyboard on which anyone can compose and record tunes performed by the Torchbox choir (have a go, if you think you are musical enough). You can even arrange a tune offline and import it into the Choir.
+The result
+The result was something a bit special (especially if you know some of our team and appreciate their vocal contributions!). The carols, are great, but the standout number (for me, at least) is the choir's rendition of the Nightrider theme tune. If you haven't heard it,
+listen to it now
+. Happily, this one found it's way onto the playlist of the Hoff himself, who tweeted his appreciation:
+David Hasselhoff's tweet about the Torchbox Christmas Choir
+The project won third place in the
+IAB's Creative Showcase
+for December.
+More
+Meet Jo Undrell: Our New Independent Trustee
+Lisa Ballam
+Head of Marketing
+16 Jun 2025
+/
+3 mins read
+Our learnings from the John Lewis Partnership Council Meeting
+Helen Chapman
+Senior Engineer
+28 May 2025
+/
+3 mins read
+Global Accessibility Awareness Day 2025: The state of web accessibility and how we can improve it
+Chris Lawton
+Senior Engineer
+15 May 2025
+/
+3 mins read
+See more posts

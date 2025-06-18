@@ -1,0 +1,90 @@
+Paul Vetch
+Chief Strategy Officer (Public Sector)
+The Zen of (Wagtail) Website Migration
+11 Apr 2022
+/
+7 mins read
+If you’ve ever worked on a large website migration or re-platforming you’d be forgiven for thinking that the concept of Zen is entirely the wrong metaphor for migrations - and that Sun Tzu’s
+The Art of War
+might be more appropriate. Bear with me :)
+Migrating birds
+Many of our projects involve data migration from other content management platforms into Wagtail, and over time we’ve developed a robust process that works. Over the last year we’ve used it to re-platform sites from Sitecore, Drupal and proprietary CMSs for clients including
+NASA
+,
+Great Ormond Street Hospital
+, and
+Tate
+. We’d like to share what we’ve learned so far. So, feel free to assume the lotus position, and prepare yourself to contemplate Torchbox’s Zen of website migration.
+Mindfulness
+One of the biggest drivers for a site re-platform tends to be the age of the existing solution and the tendency for content management systems to grow belly fat in the form of dozens of content types, orphaned pages, unused media, and outdated content (all those vital press releases from 2004!). So we kick off with a content audit, which explores some key questions:
+What are our key performance indicators and what’s the baseline performance?
+What’s the scale of the challenge: the number of content types, the volume of media and documents, the site’s information architecture (menus, taxonomy, etc)?
+What do we need to keep and what can we bin (using data to justify decisions)?
+How clean is the content? We’re looking out for things like inline images, crufty inline HTML markup, ‘special case’ pages with unusual functionality or embedded features.
+What’s the optimal way of extracting content from the current site? Is there an effective content API?
+Where is automated migration likely to deliver the most value and where is it impractical? If there are hundreds of events pages to migrate then automation probably makes sense, but if there are 10 pages of corporate content then reach for the old CTRL-C / CTRL-V!
+Contemplation
+Next up, we begin the process of analysing the content we need to migrate. This involves a detailed audit of existing content types, field by field, to identify what needs to be retained (whether as content or for administrative purposes).
+To do this we use a
+content modelling approach
+, mapping fields to new content types, and identifying where content may need to be transformed. Wagtail makes this process straightforward because it’s possible to quickly configure a highly customised target content model that can either accurately replicate the model on your existing site or (better) help you evolve your content and improve its quality and benefit from Wagtail’s editor-friendly features. So, for example, it’s common for us to split content from a completely unstructured single Rich Text body field in CMS like WordPress into a series of multiple
+StreamField blocks
+- preserving editorial flexibility whilst adding structure.
+Order
+One critical element to achieving an efficient content migration is tackling things in the right sequence.
+All content is not equal
+Website content can usually be categorised either as regular page content, reusable, or reference-able objects - data such as user accounts, media (images, documents, and so on), and taxonomy / controlled vocabulary (but also other types of structured content like news, events, jobs, and so on) - in other words, the components of a website that might be linked to or used in more than one context.
+Generally speaking, you want to approach reference-able objects first rather than page content. This ensures that references to - say - the author of a piece of content, or images/documents referenced in multiple places will all be neatly taken care of when it’s time to migrate actual content over.
+Change is good
+Of course, for best results you might want to consider some technical architecture changes rather than a like-for-like transition: a re-platform is a great opportunity to assess the possibilities for using third-party solutions to make your overall application ecosystem more performant and robust, and that might look like switching over to using (say) Single Sign-On for user account management or making use of a Content Delivery Network for managing video content. So, for NASA’s Jet Propulsion Lab, we recommended switching to an external service for audio and visual content so that the client would benefit from lower latency and automated closed captioning - and the content migration process provided the perfect opportunity to affect that change.
+Page structure/hierarchy is another important consideration - because wholesale migration of entire information architecture (IA) from an existing site isn’t necessarily the right choice, even if the IA isn’t set to change too radically. For one thing, your content audit will already have helped you identify content that isn’t well-used or valuable - so, your migration scripts will need to have blacklists to exclude irrelevant material, which can be a fair amount of work. More importantly, taking the opportunity to rethink your IA ensures you get the full benefit of the insights from the content audit, enabling you to establish a better structure that will work for your organisation and your users' long term. For these reasons we tend to find that a manual mapping of pages from the original page structure, to a new, optimised one, is the way to go.
+Take a deep breath
+So, if you’ve made it this far you’ve gathered data to help you identify the content that works best for your users; you’ve sniffed out the crufty old stuff that you can afford to lose; figured out where the content you do want to keep should live on the new site; designed your new content model; and brought over the image, document, and structured data assets you need to retain from the original site.
+Now you’re ready to plan and implement a phased approach to importing content - first bringing over the pages we want, and then re-establishing connections to other pages, authors, media, and so on.
+Cleanliness
+Most migration projects are going to involve dealing with bad markup - the sort of stuff you get from old-skool rich text fields which might contain a putrid mix of presentational inline and block-level HTML with a light seasoning of Office XML, other pasted-in horrors, and plugin-specific field codes.
+The specific process to follow here will depend upon the scale of the problem but the best general approach is to try and deal with common and predictable issues (like stripping out those pesky <o:p> elements from Word documents) in the migration script.
+Make sure you log/flag anything unexpected (such as content that the migration scripts weren’t expecting and don’t have a way to handle yet) in a report so that anomalies can be checked and if necessary dealt with editorially. For example, in our recent Great Ormond Street Hospital re-platform if unexpected content or formatting was encountered (such as content embedded in iframes or inline SVGs) then it would be placed into a raw HTML StreamField block within the page concerned and a log entry was generated which fed into their content team’s QA workflow, ensuring that a manual check (and any necessary mitigating action) would take place.
+Technically speaking, we use the awesome
+Beautiful Soup
+library for parsing incoming content during the migration process, which allows us to sanitise content and also map block-level structures such as tables or figures into equivalent StreamFields in Wagtail.
+Confucius
+As a wise man is alleged once to have said, “do not use a cannon to kill a mosquito”. Before we begin planning a migration script we’ll also evaluate the options already available for extracting sanitised content from the existing CMS. WordPress can be configured to expose structured data in XML format for example; a good approach with Drupal can be to design a custom View using the
+Views Data Export
+module to create a sanitised data export. Great Ormond Street’s website made extensive use of Drupal’s Paragraphs feature so in that case, it was simplest to export content into static JSON files and then write a script to import them. We’ve built a Drupal Import kit for Wagtail which helps us accelerate this process.
+Inner peace
+Migration scripts are often long, complicated, computationally expensive, and can take a long time to process. As such you want to make sure you learn as much from each run as possible - and have plenty of checks and balances in place to ensure that everything is going to plan, nothing has been missed, and that anything unexpected is logged.
+This is particularly important when it comes to planning for cutover and the ‘content freeze’ process because on a busy site you may have to accept that the content you’re migrating may continue to change right up to the last moment. One effective check we perform is to migrate key metadata from the existing CMS (and create new counterpart metadata) for cross-checking purposes. For example, when we migrate content from Drupal, we’ll typically bring over key fields including the node_id and last_modified fields so that we can check that our migrated content is perfectly in sync with the existing website.
+At a higher level, it’s also often a good idea to create a non-public static mirror of the current site for editors to reference throughout the process and also after the new site goes live, in case something was overlooked or needs to be double checked.
+The path to enlightenment
+You may as well accept that - for a website of any decent size - the migration process is always going to take longer than you may initially think because of all the unforeseen gnarly issues (like mapping complications, edge cases, nasty content, bad karma, etc) that can’t really be known until you’re up to your proverbial chakras in migration scripts. So, in acceptance of this, be sure and build in a healthy contingency of both time and budget when you’re planning your migration project or writing your business case.
+Keeping a tight rein on the time that’s being spent and a laser focus on striking the right balance between automation and return on investment is key (
+don’t go following the rabbit hole of perfection!
+) since there will always be times where it’s wise not to underestimate the awesome power - not to mention the compelling value for money proposition - of good old copy and paste.
+But it’s also really important to remember that content migration isn’t just about writing scripts. It’s a process that’s best when it’s interactive and built around a candid, ongoing dialogue with the client involving not only technical but also product, UX, and SEO expertise. In this way you’ll not only arrive at a pragmatic sense of ‘where to draw the line’ - you’ll also maximise the opportunities a migration process can offer to bring about really impactful improvements to a site’s structure, performance, and manageability.
+Oh and by the way - you might enjoy our new
+WordPress to Wagtail migration script
+.
+"Ting!"
+Want to explore Wagtail CMS or have a question for our team?
+Get in touch
+More
+What’s new in Wagtail returns - May 2025
+Lisa Ballam
+Head of Marketing
+4 Apr 2025
+/
+1 min read
+The design journey behind Wagtail's page editor evolution
+Ben Enright
+Principal Interaction Designer
+12 Mar 2025
+/
+4 mins read
+How much power do web assets use?
+James Hancock
+Engineer
+18 Feb 2025
+/
+4 mins read
+See more posts

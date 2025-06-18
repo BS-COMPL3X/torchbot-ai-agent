@@ -1,0 +1,191 @@
+Victor Miti
+Engineer
+To Finetune or not to Finetune, Part 2 of 2
+16 Oct 2024
+/
+5 mins read
+Recap
+In the
+previous post
+, we sought to explore finetuning to enrich an LLM’s foundational knowledge, and determine to what extent this differed from our existing RAG approach. Our experiments with
+Unsloth
+and
+OpenPipe
+yielded some interesting, albeit unexpected, results:
+Both finetuning approaches (Unsloth and OpenPipe) faced challenges in producing accurate responses, particularly for factual queries.
+We observed unexpected hallucinations and inaccuracies in the finetuned models, especially when asked about specific details like contact information.
+While neither approach met our expectations fully, the Unsloth method seemed to perform slightly better than OpenPipe in our limited test set.
+A better understanding of the limitations of finetuning
+In trying to understand why the results were not what we expected, I came across a presentation by OpenAI, entitled
+A Survey of Techniques for Maximizing LLM Performance
+This content is hosted by a third party. By showing the external content you accept the
+terms and conditions
+of YouTube.
+I accept
+Don't ask me again
+This was very insightful. It helped clarify some important concepts that are crucial for understanding the challenges and potential solutions in LLM optimisation.
+According to the presentation, finetuning is not always the best approach, and it's essential to understand when to use it. The presenters proposed a framework for thinking about LLM optimisation, which involves two axes: context optimisation and LLM optimisation, as illustrated below.
+Context optimisation
+refers to
+what the model needs to know
+to solve a problem. This is where prompt engineering or retrieval-augmented generation (RAG) would be more suitable.
+LLM optimisation
+refers to
+how the model needs to act
+to solve a problem. Finetuning is more suitable for LLM optimisation, where the goal is to modify the model's behaviour or output structure. For example:
+Emphasising knowledge that already exists in the base model.
+Modifying or customising the structure or tone of a model's output.
+Teaching a model complex instructions.
+The presentation highlighted that finetuning is useful for adapting a model to specific tasks but is less suited for quickly experimenting with new tasks or adding new knowledge to the model. In such cases, techniques like prompt engineering or RAG might be more effective, as they allow for faster iteration without the need for retraining.
+This explains why we got the results that we obtained -- we were attempting to use finetuning to add new knowledge to the model, and it didn't work! In providing a dataset of 15,300 items consisting of an instruction, input and output, we were, in essence, teaching the model
+how to respond
+(output) based on a given input. That is why we always got an answer, even when it was not the answer we were expecting!
+Well, that's interesting! We shouldn't therefore expect the finetuned model to perform any better if we used it for inference on the existing RAG pipeline. We were able to verify this, as follows.
+Using the finetuned model with RAG
+wagtail-vector-index
+is a powerful Wagtail package that provides a way to turn Django models, Wagtail pages, and anything else into embeddings which are stored in one of multiple vector database backends. This allows incorporating features such as RAG, natural language search, similarity search, and content recommendations into your Wagtail projects, which is particularly useful for enhancing content discovery and creating more "intelligent", context-aware applications.
+You can see wagtail-vector-index in action in the video below:
+This content is hosted by a third party. By showing the external content you accept the
+terms and conditions
+of YouTube.
+I accept
+Don't ask me again
+Now, let's look at how we can configure
+wagtail-vector-index
+to use our finetuned model for RAG. A typical configuration for
+wagtail-vector-index
+, using
+gpt-3.5-turbo
+for inference, looks like this
+OPENAI_API_KEY = env("OPENAI_API_KEY")
+WAGTAIL_VECTOR_INDEX = {
+    "CHAT_BACKENDS": {
+        "default": {
+            "CLASS": "wagtail_vector_index.ai_utils.backends.llm.LLMChatBackend",
+            "CONFIG": {
+                "MODEL_ID": "gpt-3.5-turbo",
+                "INIT_KWARGS": {"key": OPENAI_API_KEY},
+            },
+        },
+    },
+    "EMBEDDING_BACKENDS": {
+        # ...
+    },
+}
+CHAT_BACKENDS
+needs to be updated to use our finetuned model. You could run the model on your computer using
+Ollama
+, as described in the previous post. However, you could also deploy and run it so that it is accessible from anywhere. We'll talk about that in a minute.
+Here's the updated configuration:
+MODEL_NAME = env("MODEL_NAME")
+OLLAMA_API_BASE = env("OLLAMA_API_BASE") # e.g. http://localhost:11434
+WAGTAIL_VECTOR_INDEX = {
+    "CHAT_BACKENDS": {
+        "default": {
+            "CLASS": "wagtail_vector_index.ai_utils.backends.litellm.LiteLLMChatBackend",
+            "CONFIG": {
+                "MODEL_ID": f"ollama_chat/{MODEL_NAME}",
+                "TOKEN_LIMIT": 32768,
+                "DEFAULT_PARAMETERS": {"api_base": OLLAMA_API_BASE},
+            },
+        },
+    },
+    "EMBEDDING_BACKENDS": {
+        # ...
+    },
+}
+With the above change in the
+wagtail-vector-index
+configuration, you can use a custom model running on an Ollama instance.
+We tested the different models with the same 10 questions as before. Here are the results:
+See more
+(Scrolls horizontally)
+Model
+Totally correct
+Response: "I don't know"
+Partially correct
+Wrong
+gpt-3.5-turbo
+3
+6
+0
+1
+gpt-4o-mini
+5
+5
+0
+0
+finetuned model
+0
+0
+4
+6
+Well, as expected, the finetuned model didn't perform well here. It is interesting to note that
+gpt-4o-mini
+performed better than gpt-3.5-turbo, as indicated by OpenAI on
+their website
+:
+As of July 2024, gpt-4o-mini should be used in place of gpt-3.5-turbo, as it is cheaper, more capable, multimodal, and just as fast. gpt-3.5-turbo is still available for use in the API.
+A cost-effective way to deploy the finetuned model "in the cloud"
+In trying to work out how to run the finetuned model beyond the developer's computer, we considered various options for cloud GPU providers, based on price, reliability, flexibility, complexity and location, with price being the major factor. The table below shows a comparison of the cost (in US$/hr) of select GPUs across 4 popular platforms (as of July 31, 2024):
+See more
+(Scrolls horizontally)
+GPU
+runpod.io
+paperspace.com
+fly.io
+vast.ai
+A100 (80GB)
+2.72
+3.18
+3.50
+0.544 - 1.761
+A6000 (48GB)
+1.22
+1.89
+-
+0.571 - 0.688
+L40s (48GB)
+1.19
+-
+2.50
+0.610 - 0.878 (45GB)
+vast.ai
+looks like the obvious choice here, so we gave it a shot. The reason why the price isn't fixed is that Vast.ai is a marketplace that connects users with affordable GPU computing resources. Therefore, for the same GPU, you'll find different prices from different providers, and it is also dependent on other factors like location, performance prediction metrics and so on.
+Vast.ai has a nice
+CLI
+, which makes it easy to script the whole process of setting up a GPU instance, deploying our custom model, and even destroying it when we no longer need it.
+Here
+is a GitHub Gist containing a sample script which was used to set up Ollama on vast.ai, deploy a custom model and update the project's
+OLLAMA_API_BASE
+environment variables which is used by
+wagtail-vector-index
+.
+Key takeaways and lessons learned
+In this two-part series, we explored the concept of finetuning LLMs as a means to enriching an LLM’s foundational knowledge. We experimented with Unsloth and OpenPipe, and evaluated their performance on a set of questions. Although the results were not what we expected, we gained valuable insights into the applications and limitations of finetuning.
+We learned that finetuning is valuable for customising a model for specific tasks but is less suitable for adding new knowledge or rapidly testing different use cases. In those scenarios, prompt engineering or RAG offer more flexibility and quicker results. We also discovered that finetuning is more suitable for LLM optimisation, where the goal is to
+modify the model's behaviour or output structure
+.
+As we wrap up, we acknowledge that the field of LLMs is constantly evolving, with new techniques and models emerging regularly. To stay ahead, we must continue to explore, experiment, and adapt to the latest developments. By doing so, we can unlock the full potential of LLMs, drive innovation in our projects and deliver the best value for our clients and stakeholders.
+Want to chat about this blog in more detail?
+Get in touch
+More
+What’s new in Wagtail returns - May 2025
+Lisa Ballam
+Head of Marketing
+4 Apr 2025
+/
+1 min read
+The design journey behind Wagtail's page editor evolution
+Ben Enright
+Principal Interaction Designer
+12 Mar 2025
+/
+4 mins read
+How much power do web assets use?
+James Hancock
+Engineer
+18 Feb 2025
+/
+4 mins read
+See more posts

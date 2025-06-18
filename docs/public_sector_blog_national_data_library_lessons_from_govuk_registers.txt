@@ -1,0 +1,107 @@
+Ellie Ashman
+Director of Public Sector Practice
+Approaching a National Data Library: lessons from GOV.UK Registers
+4 Nov 2024
+/
+8 mins read
+For a couple of years, I got to do the best gig in government - doing Product for
+Registers
+,
+authoritative lists you could trust
+. This isn’t going to be one of those ‘where it all went wrong’ posts, not least because Registers started long before I got there and carried on after I left the Government Digital Service (GDS), but also because mine is just one perspective of many.
+I did, however, learn a few things that I think might be useful considerations for anyone working on Labour’s promised (and as yet undefined)
+National Data Library
+.
+On mindsets
+I was new to government when I started working on Registers, and it took me a while to get my head around the
+Service Standard
+, and then to understand that what we were building wasn’t exactly a service in the linear, transactional sense mostly talked about at the time.
+Richard Pope
+has set out a really useful model for this in
+Platformland
+, but at the time it was increasingly clear that the language of journeys and user needs wasn’t sufficient to capture the value of a shared, trusted data platform for government. There wasn’t language in the Service Manual to help us describe the role of a data owner or custodian, and how their expertise and authority added to the value of the work we were doing.
+Over time I’ve landed at a few different mental models, or mindsets, that I think shaped the work we did and the reception it got.
+Data quality mindset
+The thing that wore me down most frequently was the recurring realisation that somewhere along the line, most of us working to build better public services are resigned to the fact that most data is mostly poor, most of the time.
+We’ve learned that things rarely match up all the way through a journey, that edge cases often fall between the cracks, and accepted (however begrudgingly) that two different parts of government rarely have a single shared view of even one slice of the world.
+As designers, builders and maintainers, we’ve got too many things to do in too little time. Our research found so many teams relying on a single spreadsheet provided by a single person (who they’d often never met) that we named the problem after the first faceless spreadsheet owner we heard about for some easier shorthand. I started using
+Follow the Spreadsheets
+as a mantra and rallying call for finding the most pressing data transformation needs, the points where a whole service stack rests perilously on a spreadsheet or four.
+Government teams - including some I’ve worked on - have had to become so good at collectively ignoring data quality problems just to make progress with the larger problem at hand, that many of those teams hadn’t even considered what they might do if that spreadsheet owner changed jobs, went on a long holiday, or had a long sickness absence.
+Poor data quality had become so normal that it proved difficult for users, stakeholders and budget-holders to imagine what better might be like - the possibilities that come with a solid, reliable and well-maintained data infrastructure feel just too far away from our reality to be an achievable goal.
+This was a problem for Registers because it made the cost and disruption of change huge in proportion to the perceived benefit. We were solving a problem that had been collectively ignored and exiled to the ‘unsolvable’ pile, and we weren’t providing enough stability to make the risk worthwhile.
+Lesson learned:
+when you’re really focused on a problem, it feels big and obvious. This might seem obvious too - your users have different problems, and weigh them differently to you. Don’t assume that someone recognising the problem you’re addressing is the same as them prioritising it. Take the time to find out what’s driving the current situation, and be ready to adapt and explore to find the right intervention.
+Change mindset
+Cost of change was a frequent barrier to our users. They could see the value in what we were doing, and were often glad we were doing it. We had a lot of support from the community, but that support was often more theoretical than practical (and vanished very conspicuously if we did something the community disliked).
+When it came to it, shifting from an imperfect but established model to a shiny new one with promises of great wonder was high risk for unknown reward. It was time spent refactoring an existing bit of whatever they were building, instead of extending what it could do or addressing painful debt.
+Lesson learned:
+don’t build a new thing unless you definitely, absolutely, must. This work needs sustained momentum, and that is easier to build and maintain when you meet folks where they are, use what exists and look for ways to evolve that, to increase interoperability, to embed open standards, and amplify good practice. In data terms, start with access rather than sharing, and accept good-enough existing standards over perfect new ones.
+Infrastructure mindset
+For me, this has been the lasting legacy of Registers on my work. Getting down into the depths of the infrastructure that connects the pieces gave me a window into the interconnectedness of things (perhaps I should thank William Blake & my English degree for that too) and how those things are impacted by the nature and origin of that connection. I’ve been drawn to
+complexity-aware approaches
+and systems change since, for the same reasons.
+There are lots of ways we might define infrastructure, but my working definition includes considerations like whether the thing:
+Responds to a collective need or enables a common good
+Acts as an enabler to many things, rather than being a standalone thing itself
+Dealing with infrastructure requires clarity and robust decision making about today’s needs and tomorrow’s challenges.
+Platforms like Registers - or perhaps a National Data Library - can function like marketplaces: data consumers will go where the data is, and data publishers will put their data where the consumers are. Growing both sides in parallel enables that marketplace to converge, but means you have to be able to reason about whether your focus or objective is about the consumer market, the publisher market, or the glue that brings them together.
+For Registers, that meant we needed to do some work to demonstrate how this infrastructure might bubble up to the surface through user-facing services, whilst also building the infrastructure and stewarding the data. It became much easier to balance these when we started calling out the trade-offs explicitly and including a rough scale of users today/infrastructure tomorrow on our epics.
+10 handwritten epics with a big title, a goal, and some ‘why’ context. At the top there is a crude scale for users today/infrastructure tomorrow and some colour coding that mapped to our Objectives & Key Results.
+Lesson learned:
+don’t be afraid to talk about infrastructure. It might not fit neatly in a spending period, but calling things what they really are is important for clarity, alignment, and reducing conceptual barriers.
+Lesson learned:
+data infrastructure has the potential to be the connective tissue for functional, adaptive and complex systems that can take us far beyond the current dysfunction. For that to happen, we need to spend more time understanding and enabling connection and interoperability than we spend on moving the data from this old box to this newer, shinier box.
+Timeframes
+Sometimes, I noticed that collaborators, users and stakeholders could conceptually and creatively reckon with future possibilities, but found it hard to maintain some connection to these unknowns when it came to planning the details.
+Much of our collective working relationship to data is highly tactical - there are immediate needs to address (‘I just need to know the correct value for a thing”), visible problems to solve (“we’re asking users to pick from an out of date, unusable list”), and limited time and budget to do so. That can make it incredibly hard to keep the future in the room, and think beyond those immediate pains clamouring for our energy to address more systemic needs and opportunities, or to consider broader, longer term and collective needs.
+Lesson learned:
+when we’re talking about infrastructure, we have to be talking about beginnings, endings, and legacies. Where has the data come from? Where is it going? When is it useful, and when does that end? As well as being a timeline, that’s a narrative arc for a story that’s all about connections.
+A note on storytelling
+The glue I mentioned earlier? It’s storytelling. Infrastructure on its own doesn’t tell very compelling stories, and it can be hard to envision how a boring-looking thing at the bottom of the stack can enable the most wonderful things to happen near the top.
+In my onboarding to the team, stories were essential - Paul had created
+brilliant drawings, diagrams and pithy principles
+that helped me understand what we were trying to achieve, and how it fit into the wider system of government service development. Phil put those in context,
+using examples like Food Hygiene Ratings
+to help me understand the potential value of things like
+Merkle trees
+, and the thinking behind technical design decisions like append-only lists and start and end dates. We had a great archive of blog posts that told me most of what I needed to know, and the most fun workshop I’ve ever designed for onboarding new people and unpacking the structure of a Register.
+So, we were pretty good at telling stories, but as our audience for Registers expanded it became harder to identify the right stories to tell, and the right people to share them with. We also realised that Registers had become a community, and there were important stories for us to hear, if we could create and hold the space.
+Lesson learned:
+storytelling is not an add on. It is the glue that holds things together, and the substrate that your vision grows in. Invest in storytelling.
+Mindsets matter
+These mindsets together meant that we couldn’t provide the level of stability and reassurance potential consumers were looking for, partly because we could only be confident in our existence up to the next spending review. A static CSV might not be the strongest foundation, but it’s better than one with a 5 year lifespan.
+Whether it’s a catalogue or the presentation layer for 1000 APIs, a(nother) new platform or something entirely different, for any piece of national data infrastructure to be a success, it needs to be:
+funded like a permanent fixture, whilst also being funded as the complex space it is - with a skilled team and adaptive practices at the centre
+designed as a permanent fixture, with consideration to how well the moving parts will age, how easily it can evolve as needs and norms shift, and how lightly it can tread on the planet
+understood and evaluated meaningfully as infrastructure, and
+designed to meaningfully address the most pressing (and very much collective) challenges and obstacles for data use, reuse, access, literacy and confidence.
+For that to happen, it also needs a strong vision and a clear purpose.
+It isn’t covered elsewhere because sustainability wasn’t a huge part of our focus during my time on Registers (except for the many, many times we had to explain why it wasn’t “on the blockchain”) but for data infrastructure today, the escalating climate crisis and the growing awareness of environmental impacts of technologies like AI in data analytics, means that our planet (and living systems) should be a key stakeholder in responsible data infrastructure innovation and decision making.
+We need to talk
+We need to talk more expansively, more imaginatively about the possibilities and futures a different data culture could bring. Without this work, we’re diligently gathering all the source data, exhaust data and analytics we can manage, and leaving most of its value on the table.
+Infrastructure doesn’t play well with 5 year spending cycles, and project-based teams. Infrastructure is an investment in a future state that doesn’t exist yet - it takes vision and commitment at the highest levels.
+It’s essential that we understand the public sector data landscape as a common and critical resource for almost every government function, and raise our expectations to meet it.
+We must bring together our understanding of individual and collective needs, of technical constraints and possibilities, of legal and regulatory boundaries, and the behaviours that wrap all of this up into a currently dysfunctional data ecosystem.
+Want to chat further about this topic?
+Get in touch
+More
+AI to scale qualitative research
+Cassandra Cardiff
+Senior User Researcher
+9 Jun 2025
+/
+3 mins read
+Reflections from the Unconference: AI, Data & Public Participation
+Ben Heasman
+Client Partner (Public Sector)
+26 Mar 2025
+/
+3 mins read
+Reducing friction for busy hospital workers through human-centred design
+Jeth Ordeniza
+Interaction Designer
+4 Mar 2025
+/
+3 mins read
+See more posts

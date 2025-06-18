@@ -1,0 +1,81 @@
+James Hancock
+Engineer
+How much power do web assets use?
+18 Feb 2025
+/
+4 mins read
+Creative assets for websites can cause highly varying levels of power draw for the device that displays them. This blog covers the difference in energy usage figures for CSS animations, video streaming services and WebGL effects, as monitored on an M1 Macbook.
+Method
+I've tested the power consumption of a variety of isolated web assets on Chrome, Safari and Firefox browsers using
+powermetrics
+, a CLI tool for macOS. I took readings of the average power draw of CPU and GPU usage over 10 seconds, running the tests three times, then using the median value in the following charts.
+To run the same tests on your local machine, all the files and setup guidance are available
+in this GitHub repository
+. You will likely get slightly different results running the tests yourself, especially as browser and operating system updates add energy optimisations or regressions.
+Findings
+For context, my computer typically draws the following power when completing simple tasks:
+a browser idling on an empty webpage uses roughly 25mW
+a Zoom call uses about 750mW
+running an 8 billion parameter large language model (LLM) uses roughly 6500mW 😬
+This report starts with the assets causing the least power draw, then continues to the most intensive.
+Video: 50mW to 150mW
+Power consumption measured in milliwatts
+Video playback typically uses very little power, with energy usage increasing proportional to resolution and frame rate of the footage played. Including a smaller size of video embed in your website not only saves playback energy, but causes a lower resolution video to play by default, saving network transfer costs.
+Watching video on Safari provides some good energy savings, perhaps due to Apple’s integrations with the M1 series chip. So far this applies for the video element & YouTube embed, not yet Vimeo.
+While video playback uses little processing power in comparison to other creative effects, the storage and transfer of video data has much greater energy usage and impact on carbon emissions, which is an important tradeoff to remember. A video embed can easily cause the size of a website to double or triple, and should be loaded on demand if possible.
+CSS and SVG animations: 100mW to 500mW
+Power consumption measured in milliwatts
+Firefox uses a lot of resources painting semi-transparent gradients on top of one another (
+see live demo of this page
+), causing the large spike for its layered CSS gradient animation result. Typically browsers optimise `transform` and `opacity` CSS animations very well, but in this case it doesn’t seem to, meaning low energy efficiency.
+Otherwise there’s not a large difference between results in this category. I did also test a more obscure SVG animation feature, which is the ability to animate filter effects.
+Power consumption measured in milliwatts
+A large spike in energy draw on Safari and Firefox occurred when animating an SVG turbulence filter to create a water animation effect (
+see live demo page
+). Chrome has implemented GPU optimisations for these filters, requiring much less power as a result. In many cases it’s best to avoid SVG filter effects in general as they often render inconsistently across browsers.
+WebGL: 200mW - 2000mW
+Power consumption measured in milliwatts
+The power consumption of a shader entirely depends on its computational complexity and the size of the canvas being rendered. You can scale the canvas using CSS while only painting a fraction of the pixels to save energy, at the cost of a slightly blurry or pixelated result.
+The complex shader (
+see live demo page
+) is I think near the minimum energy draw you’d see in a stylised shader background used in a live site, with more complicated effects taking up potentially several Watts more GPU power.
+Chrome in general is the most energy efficient at rendering, followed by Safari and then Firefox. It’s interesting to see Firefox rendering 3D animated models better than just performing shader calculations. A lot of energy performance here likely depends on how well browsers have implemented different WebGL features and lower level functions.
+Chrome's Prompt API: 10000mW
+Google has recently added a new exploratory
+Prompt API
+to Chrome, allowing users to send AI queries to a Gemini Nano LLM run in their browser. This is accessible behind a feature flag and is not confirmed to be added in an official capacity to Chrome yet, pending user testing and feedback.
+Letting the model generate responses and taking the median of power readings, I found that this used about 4900mW of CPU power, and 5800mW of GPU power, totalling over 10 watts 🤯. On my laptop it’s more energy efficient to run an 8 billion parameter model locally (6.5 watts for Llama 3.1 8b, ran using Ollama) so hopefully if this API is added to the browser, further efficiency gains are found.
+Comparing Firefox’s power profiler to powermetrics
+Power consumption measured in milliwatts
+The
+Firefox power profiler
+gives readings for energy consumption that closely match that of the CPU power usage values found by using
+powermetrics
+, unfortunately it seems to ignore the GPU power consumption for these creative assets. From my testing, it’s better to use powermetrics to get accurate readings on power usage, even though powermetrics will also be monitoring the power consumption of other background processes on your device.
+In summary
+From testing on a Macbook, Chrome was the most energy efficient browser when rendering pages overall. A notable exception is Safari using half as much power when playing high definition YouTube content, which adds up meaningfully over a longer watch session.
+As everyone's device and software version is different, it's worth trying out some of these tests for yourself, especially on MacOS and linux devices which support the powermetrics command line tool.
+The GitHub repository for this project
+contains links to live instances of the test pages used, which you can experiment with.
+Get in touch to request a sustainability audit to identify opportunities for improvement.
+Get in touch
+More
+What’s new in Wagtail returns - May 2025
+Lisa Ballam
+Head of Marketing
+4 Apr 2025
+/
+1 min read
+The design journey behind Wagtail's page editor evolution
+Ben Enright
+Principal Interaction Designer
+12 Mar 2025
+/
+4 mins read
+Shadowbox: automating sustainability audits
+James Hancock
+Engineer
+12 Nov 2024
+/
+4 mins read
+See more posts

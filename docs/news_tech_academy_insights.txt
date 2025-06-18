@@ -1,0 +1,65 @@
+Lily Veale
+Senior Marketing Executive
+Insights from our Tech Academy with Lauren and Rachel
+18 Sep 2023
+/
+4 mins read
+Today marks the start of National Coding Week, a celebratory week that aims to help adults and young people share and learn digital skills. A celebration that feels particularly pertinent as we spend the week gearing up to welcome our next Tech Academy cohort next week! We also have four others joining our paid media and SEO academy programmes.
+I recently caught up with Lauren and Rachel, who joined us last year as part of our Tech Academy programme, to find out more about their experiences, as well as their advice to anyone looking to progress a career in tech.
+-
+Can you start by telling me about your experience as part of the Torchbox Tech Academy?
+Lauren:
+The academy programme has been amazing. I've gained so much knowledge over the past year, particularly in coding. It’s been great to be involved in client projects, especially given that our clients are such fantastic charities and nonprofit organisations, which makes it so rewarding. Every few weeks, we have a wider tech meeting and use breakout sessions as an opportunity to chat and share ideas. I’ve gained a lot of confidence over the past year and love to participate in these meetings now too. I also help organise and compère at Oxford Geek Nights. I feel really privileged to have had such wonderful opportunities whilst following the academy programme.
+Rachel:
+I echo a lot of Lauren’s sentiment about how wonderful the opportunity is. The highlight for me has been the mentoring. Our mentors, being the tech leads on client projects, provide hands-on, tailored support. This mentoring style is unlike anything I've seen elsewhere and has been a brilliant way to learn hands-on skills. As part of our learning, we each build a demo ‘Picnic’ app, which is similar to Eventbrite. The idea is that we come across all of the challenges that we would on a real client project to learn from and overcome them. It also allows us to compare how we approach various challenges differently.
+What has been your standout client project so far and what did you learn from it?
+Lauren:
+My involvement working with RNIB has sparked a real interest in accessibility. Over the past year, I’ve learned about how we make accessibility a priority in everything from user research to the development side of things. I also gave a presentation at DjangoCon about accessibility in the project.
+Rachel:
+I’ve been working with NCBI since the beginning. It’s a huge, complex project with several different projects interwoven into one. It’s been a great way to gain an understanding of best practices when it comes to things like security, useability and accessibility.
+The theme for this year’s National Coding Week is AI. Can you share any ways you’re using AI within your role?
+Lauren:
+Sometimes we’re given tasks as part of our Picnic apps that include new topics we’re learning about for the first time. This often includes resources or documents that we need to read, some of which are quite lengthy. As I’m dyslexic, sometimes I find this quite difficult. I’ve been asking ChatGPT to summarise the main points. Then, I ask it to test my understanding of the resource with questions.
+Rachel:
+I’m currently using ChatGPT as a learning resource too. I use it to provide plainspoken English about dense, techy subjects. I’ve also been involved in a workshop with the brilliant innovation team. We discussed various ways that we can use AI and how different departments are using it at Torchbox.
+What is your advice to anyone looking to progress a career in tech?
+Lauren:
+Make the most of free online resources. When I first began coding, I used YouTube a lot, as well as a website called
+freecodecamp.org
+. It’s a nice way to start because you can write code and immediately see its effects, without needing to set anything up on your computer, which for me, was the scary bit! When I was learning to code, one of the first things that I made was a workout app which was a good way to practise. So, my other tip is to start by making something that genuinely interests you.
+Rachel:
+The course I always recommend is
+CS50
+which is a Harvard University Course. It’s completely open and you get access to all of the lectures, problem sheets and tutorials. There’s also a community of people who are doing the course at the same time as you, so you can access forum spaces to chat with others. Another piece of advice is to look for local tech meetups like our
+Django Socials
+and
+Oxford Geek Nights
+. You can use Meetup to look for more in your local area.
+It’s going to be great welcoming the next academy cohort. My advice to those joining next week is to provide as much feedback as possible. The programme is flexible and Torchbox is so receptive whenever we provide feedback; it’s a great way to develop.
+We look forward to introducing you to our next Academy cohort next week! Follow us on
+LinkedIn
+,
+Twitter
+and
+Instagram
+for updates.
+More
+Meet Jo Undrell: Our New Independent Trustee
+Lisa Ballam
+Head of Marketing
+16 Jun 2025
+/
+3 mins read
+Our learnings from the John Lewis Partnership Council Meeting
+Helen Chapman
+Senior Engineer
+28 May 2025
+/
+3 mins read
+Global Accessibility Awareness Day 2025: The state of web accessibility and how we can improve it
+Chris Lawton
+Senior Engineer
+15 May 2025
+/
+3 mins read
+See more posts

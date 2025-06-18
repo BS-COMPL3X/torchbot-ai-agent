@@ -1,0 +1,57 @@
+Olly Willans
+Chief Innovation Officer
+Announcing our Digital Emissions Methodologies
+14 Sep 2023
+/
+2 mins read
+The digital world has a massive environmental footprint with emissions
+roughly on par with aviation
+. We are part of this: we build websites, apps and digital assets for our clients and host them with cloud hosting partners. As we measure our
+Scope 3 emissions
+, and in particular our
+Purchased Goods and Services
+, we've had to work out the carbon footprint of the websites we build and look after. That's easier said than done, so we’re sharing the methodologies that we've adopted because we want to contribute to the conversation and open these methodologies up to scrutiny. We hope they'll be useful to others.
+We’ve built on some important projects including Thoughtworks’
+Cloud Carbon Footprint
+,
+Sustainable Web Design
+, the Green Software Foundation’s
+Software Carbon Intensity
+specification, and
+Greenframe
+to come up with our approach, which is in fact a number of methodologies that serve different purposes.
+The two most important are our
+Hosting Infrastructure Methodology
+, with which we can precisely measure the emissions from hosting websites with our hosting partners, and our
+Sustainable Web Design Methodology
+, which gives a fuller but less precise estimate of the emissions associated with website usage; including hosting, network usage, a website user’s electricity consumption and the embodied emissions in their device.
+Exploring digital emissions while deep diving into our Scope 3 has led to some interesting debate about what we need to include within our Scope 3 when it comes to the hosting of our Clients' websites with our hosting partners. Ultimately, we've read the GHG guidance and decided to
+count these emissions using the Hosting Infrastructure methodology as part of our Scope 3
+, even though they will be Scope 3 emissions belonging to those clients themselves. The GHG Protocol encourages this double counting so that more parties are focused on driving reductions.
+Measurement models will evolve and standards will emerge but, for now, this approach gives us what we need to start a reduction programme. And, we can also now report an accurate picture of hosting emissions to our clients for their own carbon footprints.
+Thanks go to our Digital Sustainability Group, Thibaud Colas and Tom Usher in particular.
+Discover more by downloading our
+Digital Emissions Methodologies
+.
+Want to chat about this blog in more detail?
+Get in touch
+More
+Meet Jo Undrell: Our New Independent Trustee
+Lisa Ballam
+Head of Marketing
+16 Jun 2025
+/
+3 mins read
+Our learnings from the John Lewis Partnership Council Meeting
+Helen Chapman
+Senior Engineer
+28 May 2025
+/
+3 mins read
+Global Accessibility Awareness Day 2025: The state of web accessibility and how we can improve it
+Chris Lawton
+Senior Engineer
+15 May 2025
+/
+3 mins read
+See more posts

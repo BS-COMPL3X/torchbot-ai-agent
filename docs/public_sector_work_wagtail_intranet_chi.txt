@@ -1,0 +1,93 @@
+Unifying staff engagement and collaboration across four children's hospitals
+Building on
+our successful partnership with Children's Health Ireland (CHI)
+- where we previously unified their five hospital websites into one platform - we tackled their next digital challenge: four separate intranets that were creating barriers to effective internal communication across their hospital sites.
+Children's Health Ireland
+5 mins read
+Related work categories
+Digital products
+Wagtail
+Public sector
+The results
+100%
+of staff can access the intranet, any time, any place, from any device
+19%
+increase in usability (measured using the System Usability Scale)
+80K
+monthly sessions from 5,000 members of staff
+The client
+Children's Health Ireland (CHI)
+As Ireland's leading provider of paediatric healthcare, CHI (Children’s Health Ireland) operates across multiple hospital sites in Dublin, serving over 25% of Ireland's population. With a transformational move to a new children's hospital on the horizon, they needed an internal communications infrastructure that could better inform, connect, and empower their staff to deliver exceptional care for young patients.
+Working with CHI, we’ve created a foundation for unified internal communications through a new
+Wagtail-powered intranet
+. The platform brings together critical information for healthcare staff across multiple hospital sites, improving usability by 19% while supporting their transition to a new children's hospital. By focusing on staff needs and future scalability, we've laid the groundwork for a more connected organisation.
+The development of our new staff intranet has been a major advancement for Children's Health Ireland (CHI), giving us one unified platform to keep our staff informed about important clinical updates, latest news from around the hospitals and educating them about the New Children's Hospital (NCH) project. Since its launch it has streamlined internal communication for CHI, enabling us to reach more staff effectively.
+Will Fegan
+Communications Manager, CHI
+The challenge
+The challenges CHI faced went several layers deep:
+First was the fragmentation of information across four separate intranets. This created a maze of digital spaces where critical resources were scattered across multiple locations. Core content was not only hard to find but also difficult to update. Central teams like HR didn't have access to all four intranets, so information was often inconsistent or outdated.
+Staff would often end up contacting multiple people to find the right answer to a simple question about a process or access an HR form.
+If it's a form they've never used before, they have to contact HR to ask for it, so we can send them the link. It's dreadful.
+HR team member
+The current intranets were only accessed via CHI-approved devices which impacted a lot of staff. For example, an Emergency Room Junior Doctor needing immediate access to clinical guidelines would need to go to a nursing station to find what they needed. Nurses who didn’t have the time to access the intranet during the day couldn’t complete mandatory training or courses towards promotion from home. And many staff, like porters and cleaners, had little to no access to the intranet at all.
+Budget constraints added another layer of complexity, with a significant budget cut just before kick-off that forced us to think creatively about delivering maximum value through a focused Minimum Viable Product (MVP) approach.
+Perhaps the most significant challenge was timing. This project wasn't happening in isolation - it was part of a broader organisational transformation as CHI prepared for their new children's hospital. They were in the midst of rolling out a new directory and not all staff had access to CHI email addresses. Each hospital still had its own set of processes and systems, and our work sat within the wider initiative of consolidating and aligning these across every site. For example, multiple document management systems were in play, and strategic decisions about their long-term home were still pending. We needed to create a solution that could adapt to these evolving needs.
+Our approach
+Learning from the front line
+Rather than making assumptions from afar, we conducted in-person research in the Dublin hospitals, which proved invaluable. Speaking with staff in their own environment revealed insights we might have missed over video calls. We discovered how different hospital sites used their existing intranets and what really mattered to staff - from critical clinical updates to practical information like canteen menus. We learned that their main challenges were feeling overwhelmed by multiple updates from multiple sources and struggles with a lack of a single source of truth for documents and guidelines.
+This helped us to shape how pages were structured, how the information architecture (IA) would hang together, and what content users needed access to. Where possible, we brought together libraries of documents under one roof (like HR policies and forms) and signposted to others where that wasn’t yet possible. We tested and refined the designs through click testing with over 60 staff members and the IA with a further 40. Iterating on the IA was important (for example, adjusting where items were found in the navigation menus to line up better with users’ mental models) as
+research has shown
+that many people prefer to use navigation as opposed to searching to find what they are looking for. We’ve seen the learnings from this process validated through usage - for example, the canteen menu and HR forms/policies (both prioritised in the IA) are in the top 5 most accessed pages since launch.
+Cost-effective approach
+Working within budget constraints, we focused on creating a strong foundation that could grow with CHI. We leveraged Wagtail CMS -
+already powering their public website
+- to create a cost-effective solution while maintaining distinct visual identities for the intranet compared to the public-facing website. This approach allowed us to reuse components and templates, saving around four weeks of development time while ensuring a familiar but distinct experience for staff.
+We focused on building features for the intranet that would move the needle most significantly towards meeting the objectives that we identified together during discovery.
+Building for the future
+We designed the platform with scalability in mind. While we couldn't implement SSO immediately, we built the infrastructure to support it, which has since been enabled. This has now opened the door for new functionality like personalisation of the homepage and a CHI noticeboard - both are planned for rollout early in 2025. We also created centralised hubs for critical information, including a dedicated space for New Children's Hospital updates. The platform was designed to support future personalisation and adapt as CHI's needs evolve as they move closer to the opening of the new hospital.
+Wagtail is very user friendly and has made it much easier for web editors to manage content. With this platform, we also have a strong foundation for future growth—adding personalised content and integrating with other tools to support our staff's evolving needs.
+Will Fegan
+Communications Manager, CHI
+The outcomes
+Together with the team and CHI, we’ve created an intranet that has become a crucial tool in CHI's digital transformation
+Staff can now access information from anywhere, on any device - a significant improvement from the previous system's limitations.
+19% improvement in System Usability Scale scores, which we’ll continue to monitor as more content and functionality is added
+Centralised access to HR resources, making forms and policies easily accessible
+All staff can access the intranet from any device, anywhere
+80,000 monthly sessions from 5,000 staff
+A unified platform ready to replace four separate intranets as content migration progresses
+Looking ahead
+The new intranet platform represents more than just a technical upgrade - it's a fundamental shift in how CHI's staff connect, communicate, and collaborate. As content migration continues and new features are rolled out, the platform will continue to evolve with CHI's needs, supporting their journey toward unified healthcare delivery in their new children's hospital.
+The successful adoption and positive impact metrics demonstrate that CHI now has the digital foundation needed to support their transformation journey, enabling staff to focus on what matters most - delivering exceptional care for Ireland's children.
+Want to explore Wagtail CMS or have a question about our approach?
+Get in touch
+by
+Ben Heasman
+Client Partner (Public Sector)
+More
+A fresh look for the NIH Office of Intramural Training & Education (OITE)
+NIH Office of Intramural Training & Education (OITE)
+3 mins read
+Filter posts by category
+Digital products
+Research & design
+Public sector
+London Museum's radical digital transformation
+London Museum
+5 mins read
+Filter posts by category
+Innovation
+AI
+Digital products
+Wagtail
+Public sector
+Building a learning assessment platform
+Wharton School at the University of Pennsylvania
+3 mins read
+Filter posts by category
+Digital products
+Tech
+Wagtail
+Higher education
+See more work

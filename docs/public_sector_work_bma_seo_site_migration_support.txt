@@ -1,0 +1,86 @@
+SEO support for the British Medical Association’s complex site migration
+Here's how we supported the
+British Medical Association
+with their complex content and CMS migration—from Sitecore to Umbraco—via a beta subdomain.
+British Medical Association
+4 mins read
+Related work categories
+Digital marketing
+SEO
+Charity & non-profit
+The results
+18%
+Organic traffic growth
+In the first six months after launch.
+270K
+Additional organic sessions
+In the first six months after launch.
+Project background
+From Sitecore to Umbraco
+The British Medical Association (BMA) is the trade union and professional body for doctors in the UK. They provide guidance on everything from pay scales to wellbeing and they fight for the best terms, conditions and contracts for medical professionals. Over the last 18 months, we have been overseeing the migration of the BMA website from one content management system (Sitecore) to another (Umbraco).
+There were a number of unique SEO challenges inherent in this CMS and content migration.
+By successfully tackling these, we saw organic traffic increase by 18% year-on-year, with organic sessions up by 270,000.
+The challenge
+Handling the beta. subdomain
+This migration was made more complicated by the existence of a beta subdomain that the BMA were using. While the new website would eventually retain a www. domain, internal stakeholders wanted to migrate content via a public beta.bma.org.uk over the course of several months. A longer migration period would enable them to monitor the effectiveness of new content and page templates before going live on the central www. subdomain.
+We identified a number of issues with two sites existing concurrently in organic search:
+Two versions of the same content would potentially rank when users searched on Google. From a user’s perspective, this could be confusing—which content is “right”?
+Google might view some of this content as duplicate content—at best, Google would de-index one of the two pages. At worst, this runs the small risk of a “manual action” (an SEO penalty) being taken against the website.
+The beta site would cannibalise some of the Domain Authority built up by www—Google treat subdomains as separate websites.
+Our advice in tackling these concerns was to use a
+noindex
+directive for content on the beta site to ensure it didn’t appear when a user searched for something. To make doubly sure the beta content didn’t impact on the existing BMA website, we recommended
+rel=canonical
+tags on beta content telling Google that the www. equivalent was the principal content.
+Users could opt-in to view the new content by clicking on a banner on every page of the existing website, which allowed the new pages to be tested, without impacting the SEO health of the domain.
+When the new site launched on www., we worked with multiple redirect maps to make sure legacy content on www., and content on beta.bma.org (and a third archive.bma.org subdomain) was all correctly redirected.
+Content migration
+The legacy website had significant issues with excess content proliferation. Much of this was due to “archive” content—years of advice and blogs about legislation changes and contracts—that made it difficult to find up-to-date advice. This problem was multiplied by personalisation settings on their site, which created a different version of pages by location (Scotland, England, Wales, Northern Ireland and International users), as well allowing users to filter information by 10 different job types (e.g. Medical student, Retired doctor, Practice manager, etc.).
+Our initial crawl of the site took 12 hours, at which point only 14% of the site— circa 45,000 pages—had been crawled. Screaming Frog, our tool of choice for site crawls, was tired and emotional after an exhausting overnight crawl attempt, and is still recuperating.
+Having addressed some of the technical issues behind this content proliferation, we then moved onto reviewing their content audit and migration plan. Our audit revealed additional content with SEO value that was not in the original migration plan—more than 2,000 pages that had not yet been reviewed, and 250 pages with value that had been scheduled to be archived or deleted.
+We made recommendations to migrate and keep content where suitable, and provided guidance on what could go. With so much content being removed from the legacy site, getting “value” right was critical for retaining SEO authority.
+Covid-19
+The relaunch of www.bma.org.uk was brought forward by three months, in part due to the expected traffic surge to the site during the coronavirus pandemic. As a result, the new BMA website was launched before all the content had been migrated over to the new CMS.
+Content that hadn’t yet been migrated across was to remain live on a new subdomain—archive.bma.org.uk. This presented new SEO challenges, including the introduction of an increasingly complex redirect plan. We recommended implementing temporary “302” redirects from the legacy pages to the archive site, so the legacy page’s meta information would display in search results, and the page retained its equity. After the content had been migrated to its final destination on the www.bma.org.uk site, the 302 redirects were updated to “301 Permanent Redirects”.
+The results
+A successful site migration
+The success of web migrations like this are often judged on a website not losing organic traffic. Ensuring this is extremely difficult when, as is the case in most migrations, the process involves more than a simple “lift and shift” approach to content.
+SEO teams don’t (for obvious reasons) have overall control of the process: we are but one voice in the choir of stakeholders inputting into the migration song. But, in this case, close collaboration and the BMA’s willingness to implement the majority of our recommendations meant that this was one of our most successful migrations to date.
+In the first six months after launch, the new site saw
+organic traffic up by 18% year-on-year, with more than 270,000 additional organic sessions.
+Despite a small drop in visibility post-launch (due to content moving to the archive.bma.org.uk subdomain),
+the new site completely regained its existing visibility in the SERPS in just over two months.
+The site benefitted from a significant Google algorithm update on 22 June centred around the authority and expertise of websites during the pandemic. Health sites, including NHS.UK, saw significant changes in their rankings. This boost confirms
+the new BMA site is seen by Google as authoritative, trustworthy and expert
+.
+We were absolutely thrilled to have been entrusted with the SEO behind such an important site migration, and we’re even happier to have delivered such strong results for such a prestigious organisation. If you’re at any stage in your own site migration, and looking to protect and improve your rankings through a programme of user-led SEO, get in touch.
+Have any questions, want to chat about our approach, or discuss an upcoming project?
+Get in touch
+by
+Jenny Hearn
+SEO Consultant
+More
+A fresh look for the NIH Office of Intramural Training & Education (OITE)
+NIH Office of Intramural Training & Education (OITE)
+3 mins read
+Filter posts by category
+Digital products
+Research & design
+Public sector
+Unifying staff engagement and collaboration across four children's hospitals
+Children's Health Ireland
+5 mins read
+Filter posts by category
+Digital products
+Wagtail
+Public sector
+London Museum's radical digital transformation
+London Museum
+5 mins read
+Filter posts by category
+Innovation
+AI
+Digital products
+Wagtail
+Public sector
+See more work

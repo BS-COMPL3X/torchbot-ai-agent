@@ -1,0 +1,88 @@
+James Hancock
+Engineer
+Shadowbox: automating sustainability audits
+12 Nov 2024
+/
+4 mins read
+I've recently been exploring how to automate our digital emissions auditing of websites, so we can provide this service on more of our projects. The result is Shadowbox: an experimental auditing tool for website sustainability.
+It provides performance-focused metrics that are relevant for web sustainability, inspired by the
+Web Sustainability Guidelines
+. It's formed of two parts, a web crawler for collecting data and a report website to visualise the findings. It’s all open source – you can give it a go on your own website.
+To get a feel for it - take a look at a sample report:
+see this analysis of 250+ pages hosted on torchbox.com
+.
+Purpose
+This project's aims were to learn more about website sustainability analysis and improve on existing audit tools. Key improvements include
+Offering complete analysis of a web domain instead of a handful of pages, surfacing the worst offending pages that require review.
+Providing more information than just summary scores, with separate reports on the impact of iframes, fonts and images.
+It's free and open source; as it runs on your computer it can also analyse websites run locally or within a private intranet.
+Report features
+The report is a Next.js website that shows sustainability findings using a series of infographics, with support for both light & dark themes.
+The homepage of the report provides statistics on the entire sites performance, as well as general recommendations for site improvements.
+If the site has been audited multiple times, each report appears in dropdowns at the top of the page. You can then select multiple reports for comparison, seeing how well a new deployment fares against an older one.
+On the homepage, the report highlights problematic pages in a 'Largest webpages by resource size' chart. You can peek information about what resources are taking up the most space by hovering over segments of each bar, then click on the bar to view a detailed breakdown of the page itself.
+Individual page reports include sustainability recommendations similar to the homepage, as well as a full list of all network requests and a breakdown of requests loaded by iFrames within the page. A single iFrame could easily duplicate the emissions of a webpage regarding network transmissions, so we've taken care to highlight their impact.
+The comparison feature persists when navigating across the site, including in the individual page reports. Here's an example of how the use of images on the `team` page has changed between two reviews.
+Technical implementation
+Crawling
+Given a single root URL, the app uses
+Crawlee
+'s automatic link detection and crawl queue system to audit all the pages of the site. Crawlee collects data from webpages using
+Puppeteer
+, an automated Chrome browser that visits each webpage.
+Network requests are noted, with any extra lazy-loaded content fetched as the crawler scrolls to the bottom of the page. When the crawler detects an iFrame, it gets added to a queue of sites to crawl after the main run, so that the iFrame is then factored into the total resource usage for that page.
+The data collected while crawling is processed and stored in JSON files. These files are stored in the crawlers repository, and will be later read and displayed by the report site.
+Data processing
+This project had some difficulty gathering realistic network request transfer sizes. The Web API that returns these values (
+window.performance.getEntries()
+) frequently gave an incorrect or missing file size.
+To resolve this problem, a script runs after the main site crawl to redownload every network request. This creates a dictionary of request sizes that can be referred to when calculating total page weights or listing all the requests for an individual page.
+An advantage of this method is that it means we don't have to disable the browser cache when running the initial crawl, saving on data transmission.
+After the crawling has been completed all of the data for the run is assigned to a report ID and stored under that ID in the local file system. Additional JavaScript is run to perform statistical analysis over the data and store those results to additional files, so that the report site doesn't have to do that calculation when it renders pages.
+Report
+The report website has been built with Next.js v14 using the app router architecture, with all pages rendered on the server side. The site setup and the use of CSS color variables when adding dark mode was inspired by
+Josh W. Comeau
+. All charts, components and styles used throughout the site are custom made.
+The report comparison feature has had a large impact on how components for this site have been built. All charts and data visualization elements can accept two data inputs for two separate reports, and can safely render one or both reports at the same time.
+A cookie is set and removed with the compared report id when the report comparison dropdown is toggled. The server reads this cookie before rendering the page so it knows what compared report data to show. Otherwise, the server knows what baseline report and page to render by referring to the parameters in the current URL.
+Limitations and improvements
+The crawler has bugs still to be patched, including the inability to detect WebP images that have been sent with a .png filename, and no delay setup to avoid rate limiting issues from sending too many requests.
+All webpages linked to on the site are crawled, including those with query parameters but identical paths to previous pages. The same applies for webpages with id hashes, e.g. /#main-content, which may be a waste of resources to audit.
+Beyond the specifics of the current implementation, we also need to tie it better with our
+Digital Emissions Methodologies
+, to provide results that directly work with project KPIs.
+Try out the project!
+As the project is open source, you can
+pull the code from GitHub
+and try running it on your own website. Let us know if this tool helps you improve the sustainability of your site, issues on the repository are also open for feedback or suggested improvements.
+And if you want to learn more about how Torchbox does digital sustainability audits, check out our dedicated service:
+Digital emissions audit and strategy
+.
+Reduce your digital carbon footprint
+View our audit service
+Acknowledgments
+Millie Bowie
+helped with the design of this site and provided advice regarding data visualization techniques and colors. Millie also suggested the name of this project, Shadowbox.
+Thanks also to
+Thibaud Colas
+for the discussion of sustainability issues and feedback throughout development.
+More
+What’s new in Wagtail returns - May 2025
+Lisa Ballam
+Head of Marketing
+4 Apr 2025
+/
+1 min read
+The design journey behind Wagtail's page editor evolution
+Ben Enright
+Principal Interaction Designer
+12 Mar 2025
+/
+4 mins read
+How much power do web assets use?
+James Hancock
+Engineer
+18 Feb 2025
+/
+4 mins read
+See more posts

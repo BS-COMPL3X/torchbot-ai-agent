@@ -1,0 +1,90 @@
+King’s College London’s new FLARe research app
+We recently teamed up with the brilliant people in the (wait for it)
+Institute of Psychiatry, Psychology & Neuroscience
+(IoPPN) at King’s College London (KCL). The aim? Rebuild an app and admin portal delivering the same (but better) functionality as an app and portal that they already had -
+FLARe
+.
+King's College London
+4 mins read
+Related work categories
+Digital products
+Higher education
+Why, you ask. Well, the existing build was limited in terms of documentation, was developed & maintained by invisible developers and had restricted ability for IoPPN researchers to configure the application themselves. Our goal was to work together to rebuild an MVP which will form a sound base from which the app could grow and adapt in the coming months & years.
+What is FLARe?
+The ‘
+Fear Learning & Anxiety Response
+’ study looks to model the processes that lie behind the development & ongoing presence of anxiety disorders in humans. It’s all about learning
+how
+people become anxious of things - however pleasant or unpleasant those things may be in reality, and how they recover from that anxiety. The experiment the IoPPN team are planning following the final launch of the app involves a series of circles (Conditional Stimuli) & subsequent blood-curdling screams (Unconditional Stimuli), which, as you can imagine, made our testing journey somewhat more exhilarating than most other projects.
+FLARe app dashboard
+The approach
+As this was predominantly a replatform & rebuild, our usual Discovery phase was more about understanding the technical requirements & documenting the approach we were planning to take. The app would be built using
+React Native
+to allow us to develop for iOS & Android simultaneously whilst maintaining a common codebase (no
+PWA
+? Following an evaluation we had to park this approach given some of the functionality required within the build).
+The portal (for researchers to configure experiments & view data) would be built with a Django-based solution and would be crafted in such a way as to give the researchers as much flexibility as possible when creating experiments. This was key - one of the goals of the project is for the app to benefit the wider academic community, being used by researchers across the world to run similar
+experiments
+with parameter variations.
+Entering into a collaboration to create a digital product can be quite a daunting prospect especially when, like us, you haven’t had great experiences in the past. Right from the start, Torchbox were incredibly engaged and organised and that effort has not let up throughout our time working with them.
+Tom McGregor, Product Owner
+Open Source
+As a result, Open Source was the only way to go. The team at KCL and their funders (the
+Wellcome Trust
+) are firm believers that research should have the aim of broadening knowledge for the collective community. In addition, in an academic sphere where funding can be limited, pooling resources in one shared venture can mean that more time can be spent conducting research rather than simply building tools with which research can be conducted.
+As a result, one of the outputs of the project will be to sync our Github repo’s to
+Zenodo
+- an open-access repository where code will be archived in order to produce a
+DOI
+(Digital Object Identifier) which can be cited in academic research papers. We’ve developed a
+CI/CD pipeline
+which means that anyone can further develop the product with permission from KCL. All this has enabled a paper to be submitted to
+JOSS
+(The Journal of Open Source Software) which in turn will help to increase the visibility of the software.
+Plain Sailing?
+As with any compelling project, we’ve had our fair share of challenges along the way. These have included the standard bugbears of app development, with a number of device-specific quirks and several interactions with Apple & Google when deploying to their respective stores (including discussion over ethics board approvals).
+Technically, the team had the task of building functionality that had no reliable predecessors in React Native libraries (for example, monitoring for device earphone presence & volume level - as an aside, this was the primary reason a PWA was not an option). As a result, these elements were built in their native languages.
+A final hurdle to face was one of language. Yes, the app is in English - however, working with a team of PHD students & their Professors on a Psychiatry experiment introduced a whole new vocabulary to us at Torchbox. We’ve now added to our vocabulary a range of acronyms we never knew existed (CS; US; ITI; GLAD; IOPPN to name but a few) - aided by frequent reference to the glossary KCL produced for us at the project outset.
+It’s been really interesting working with Torchbox on the FLARe app. Without a doubt, the project has become better than we imagined through collaborative and creative input from all parties.
+Dr Kirstin Purves, Postdoctoral Research Associate
+The outcome
+We’re now at the point where we have versions of the app in the
+Play Store
+&
+App Store
+for download (search ‘FLARe Research’) and have completed all of the MVP functionality. The team at Torchbox have hugely enjoyed working with the experts at KCL and have learned a great deal from the process. Together, we’re now looking forward to seeing the first trial get underway in the Spring!
+We’re now able to run experiments with more people, more cheaply, which enables us to do better experiments that are able to answer more complex research questions.
+Dr Kirstin Purves, Postdoctoral Research Associate
+Have any questions about our approach?
+Get in touch
+by
+Ben Heasman
+Client Partner (Public Sector)
+More
+Regulatory support for MedTech innovators with Wagtail CMS
+RegMetrics
+5 mins read
+Filter posts by category
+Digital products
+Wagtail
+Public sector
+Samaritans’ Digital Transformation
+Samaritans
+1 min read
+Filter posts by category
+Digital products
+Charity & non-profit
+A strategy for improvement
+Be the Business
+5 mins read
+Filter posts by category
+Digital products
+Public sector
+Bringing California College of the Arts brand to life online
+California College of the Arts
+1 min read
+Filter posts by category
+Digital products
+Wagtail
+Higher education
+See more work

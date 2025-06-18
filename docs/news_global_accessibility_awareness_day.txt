@@ -1,0 +1,96 @@
+Chris Lawton
+Senior Engineer
+Global Accessibility Awareness Day 2025: The state of web accessibility and how we can improve it
+15 May 2025
+/
+3 mins read
+Thursday 15th May 2025 marks
+Global Accessibility Awareness Day
+(GAAD) - a perfect opportunity to pause and reflect on how accessible digital spaces are. Thanks to the
+WebAIM Million 2025 report
+, we’ve got some fresh insights to guide that reflection.
+For the report, WebAIM analysed the home pages of the top 1 million websites for automatically detectable accessibility issues. The good news? There’s been a 10.3% reduction in the average number of errors per page compared to 2024. The bad news? Most of the web is still inaccessible for people who rely on accessible sites.
+Here’s what the data shows:
+94.8% of home pages had detected WCAG 2 failures.
+Low contrast text was found on 79.1% of home pages - the most common failure.
+Missing alt text was present on over 55.5% of home pages.
+ARIA was used on 79.4% of pages, but it often caused more harm than good — Home pages with ARIA present had over twice as many errors (57 on average) than pages without ARIA (27 on average).
+So, what can you actually do about it?
+Let’s run through the top five errors found and how to fix them:
+1. Low contrast text
+Found on 79.1% of home pages
+The problem:
+Text that doesn’t have enough contrast against its background is hard to read.
+The guideline:
+WCAG AA requires a contrast ratio of at least 4.5:1 for normal text and 3:1 for large text.
+How to fix it:
+Use a contrast checker to test your text and background colours, such as
+https://webaim.org/resources/contrastchecker/
+Choose sufficiently contrasting colours for the text and background
+Increase the size of text to be larger than 18pt (or 14pt bold) - this is considered large text
+Read more about legal requirements in the UK and the US here.
+2. Missing alternative text for images
+Found on 55.5% of pages (note: images with empty alt tags were ignored)
+The problem:
+Screen readers rely on image alt text to describe visuals. Without it, users may miss key information.
+How to fix it:
+For informative images - images that add to the context of the page - use alt text that describes the image as concisely as possible
+Don’t include ‘picture of’ or ‘image of’ - screen readers already announce that it’s an image
+Bonus tip:
+For decorative images - images that serve no specific purpose - use empty alt text alt=”” - this tells screen readers to ignore them.
+3.
+Missing form input labels
+Found on 48.2% of pages
+The problem:
+Labels help screen readers and other assistive technology understand what each field is for - without them the fields and form itself become unusable.
+How to fix it:
+Use the `<label>` element with a `for` attribute that matches the input’s `id`.
+Don’t rely on placeholder text - it disappears when the user starts typing and should not be treated as a replacement for a label.
+<label for="email">Email address</label>
+<input id="email" />
+4. Empty links and buttons
+Empty links found on 45.4% of pages and empty buttons on 29.6% of pages
+The problem:
+A link or a button without text (or with only an icon and no accessible name) is meaningless to screen readers and keyboard users.
+How to fix it:
+Make sure all links contain descriptive text — not just “click here” or “read more”
+If you're using an icon-only link (like a magnifying glass for search), add an accessible label:
+​​<a href="/search" aria-label="Search the site">
+<svg><!-- icon --></svg>
+</a>
+So what should you do next?
+Accessibility isn't just about compliance - it's about real people trying to use your site. The WebAIM report is a reminder that we still have a long way to go, but also that small, practical actions can lead to big improvements.
+If you're a digital team leader, product owner or content editor here are some steps to consider:
+Start with an
+accessibility audit
+: Regular accessibility reviews (manual and automated) help to catch issues early.
+Provide team training: Accessibility should be baked into your design and development workflows - not tacked on at the end.
+Use meaningful patterns: Prioritise semantic HTML, good contrast, keyboard accessibility and robust forms.
+Fix the small stuff: Improvements like better links, labels and alt text are low-effort but high-impact.
+At Torchbox we integrate accessibility into every project, like
+our work with RNIB
+, and strive to meet conformance with WCAG 2.2 Level AA as our baseline. We also apply the same standards to our own site,
+which Helen explains in more detail here.
+So, for Global Accessibility Awareness Day 2025, why not take a moment to check your site for one (or more!) of these top five issues? Every fix makes the web a little more inclusive for someone who counts on it.
+Need help making your website accessible to everyone?
+Get in touch
+More
+Building a more sustainable and accessible Torchbox website
+Helen Chapman
+Senior Engineer
+24 Feb 2025
+/
+4 mins read
+A complete guide to website accessibility for charities
+Michael Wilkinson
+Head of Engagement, United States
+16 Sep 2024
+/
+5 mins read
+Common accessibility issues and how to solve them
+Michael Wilkinson
+Head of Engagement, United States
+16 Sep 2024
+/
+3 mins read
+See more posts

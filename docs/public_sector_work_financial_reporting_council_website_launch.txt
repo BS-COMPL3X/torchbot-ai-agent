@@ -1,0 +1,109 @@
+Making the right content easier to find
+We transformed FRC's website into a more navigable and trustworthy resource, significantly enhancing the user's ability to locate and verify the accuracy of vital financial documents and standards.
+The Financial Reporting Council (FRC)
+4 mins read
+Related work categories
+Digital products
+Wagtail
+Public sector
+The results
+12%
+increase in site speed
+advanced caching techniques for faster performance
+61.5%
+less accessibility issues
+ensuring equal access and enhancing overall user satisfaction
+47.5%
+decrease in carbon
+reduced carbon intensity of high-traffic pages
+The brief
+The
+Financial Reporting Council (FRC)
+is the UK’s regulatory body for auditors, accountants and actuaries and promotes transparency and integrity in business.
+Its website contains more than 8,000 documents (mostly PDFs) which outline the financial standards and guidelines that organisations must follow. These are regularly updated or replaced, meaning people who use the information must come back to the website to get the latest changes.
+The FRC wanted to move its content to
+Wagtail CMS
+, so it would be easier for staff to upload and tag information. The migration was also a good time to look at solving issues around helping users find content and trust that it’s the correct (latest) version.
+The challenge
+Users struggled to find what they needed
+We started the project with a research phase (Discovery) to learn what we could about problems that the FRC and its users had with the way content was organised on the existing site.
+A few important findings helped us understand the problem:
+The documents on the site are vital to the day-to-day roles of financial professionals
+The majority of users don’t browse the site but arrive with a specific purpose, download what they need, and then leave
+Users struggled to find what they needed on the site as the navigation was unwieldy, confusing and difficult to understand
+Users lacked sufficient reassurance that they’d found the correct and current versions of codes and guidance
+Users tend to use Google as their starting point (73% of users come to the site via organic search) and lots of this traffic leads directly to specific PDF documents. The problem is that Google was not always returning the most recent version of a document, or making any reference to any associated amendments.
+Coupled with the fact that trust in the FRC is high (79% of our survey respondents saying they ‘definitely’ trust the content), users typically assume they have found the correct version of a document when they arrive on the site, and the FRC was keen to remove any potential for ambiguity or doubt from the user experience.
+This led us to set an objective for the project: to improve findability and increase the ease of access to important publications.
+Our approach
+Making trustworthy content easier to find
+The first recommendation we made to improve the ease of finding content was for the PDF documents to not be found by search engines. This immediately prevented the possibility of users being sent to an outdated or incorrect version of a document.
+This could have been risky because many of the existing PDFs had a good reputation with search engines. So as not to disturb this, we created landing pages for the really important documents and put in redirects so that older content pointed to the newer versions.
+There was also work to do on improving the information architecture so that once users were on the site, they could navigate to what they were looking for.
+Our research findings told us that the new information architecture and content needed to:
+Help users better understand the content
+Allow for quick and accurate search, so users can filter and narrow down content
+Remove content silos and improve opportunities for crosslinking
+Function as a place that users could easily dip in and out of
+Help users know which document is the one they need
+The FRC team who edit and create documents gave insight and input to help us propose a taxonomy that both made sense now and would be flexible enough for future additions.
+We simplified the main navigation and turned the site into a searchable and filterable publications library.
+This means the users are in control of how they find the content, using search and filter options to get to the content in a way that makes the most sense to them.
+At the content level, we designed new landing page templates for documents. A clear structure now defines the different versions of the document, shows which one is the current version, plus shows associated amendments.
+Content improvements that work for everybody
+Because the FRC is a non-departmental public body, it needs to make sure its content is accessible (and complies with the law).
+There are two main parts to ensuring
+accessibility
+:
+• The technical build of the site
+• The content itself
+For the build we used our
+GOV.UK starter kit
+, giving us a solid, best-practice and accessible foundation. To keep everything on brand, we incorporated FRC brand guidelines to customise the look and feel of the new site.
+In further design work we used the
+GOV.UK design system
+and the
+Ministry of Justice pattern library
+, giving us thoroughly researched and user-tested components that are well suited to FRC’s content.
+The outcomes
+Designing in this way has resulted in...
+A page speed increase of 12%
+A decrease of 61.5% in accessibility issues
+Carbon intensity for high traffic pages decreasing by 47.5%
+The multidisciplinary team collaborated throughout the project resulting in a well thought through, evidence-based design and technical implementation.
+For the content, we are now looking at the next phase of this project, which includes looking at publishing content as HTML rather than PDF, which will be more accessible.
+Six months later
+We've now rerun a survey that was originally conducted with FRC's previous CMS, and the results show a significant increase in editor satisfaction since switching.
+• Satisfaction has increased across all measured areas.
+• Overall satisfaction has jumped by a remarkable 31%, from 56.7% to 74.3%.
+These results underscore the effectiveness of the Wagtail platform and highlight our commitment to continuously improving user experience.
+Want to explore Wagtail CMS or have any questions about our approach?
+Get in touch
+by
+Maya Gibbs
+Client Partner
+More
+A fresh look for the NIH Office of Intramural Training & Education (OITE)
+NIH Office of Intramural Training & Education (OITE)
+3 mins read
+Filter posts by category
+Digital products
+Research & design
+Public sector
+Unifying staff engagement and collaboration across four children's hospitals
+Children's Health Ireland
+5 mins read
+Filter posts by category
+Digital products
+Wagtail
+Public sector
+London Museum's radical digital transformation
+London Museum
+5 mins read
+Filter posts by category
+Innovation
+AI
+Digital products
+Wagtail
+Public sector
+See more work

@@ -1,0 +1,52 @@
+Lisa Ballam
+Head of Marketing
+What’s new in Wagtail returns - Oct 2024
+28 Aug 2024
+/
+1 min read
+We're back with live demos of the latest updates in Wagtail 6.2, plus a look at new packages and future features!
+If you missed the webinar or you’d like to watch it back, here’s the recording:
+This content is hosted by a third party. By showing the external content you accept the
+terms and conditions
+of YouTube.
+I accept
+Don't ask me again
+Highlights include:
+Content metrics
+: New insights like word count and estimated reading time.
+Concurrent editing
+: Stay in sync with notifications for other users’ edits.
+Alt text quality checks
+: Improve accessibility with better alt text.
+Universal listings
+: Easier sorting through reports.
+Snippet permissions
+: Tighter control over who can edit snippets.
+Migration file optimization
+: Faster, more efficient projects for developers.
+We’ll also showcase new packages like the Newsletter package, Wagtail Starter Kit, and give you a sneak peek at what’s coming in release 6.3.
+As always we’re hosting it at two different times, so select which is best for you:
+Tuesday 15th Oct, 10am BST / 5am EDT -
+register here
+Wednesday 16th Oct, 4pm BST / 12pm EDT -
+register here
+More
+What’s new in Wagtail returns - May 2025
+Lisa Ballam
+Head of Marketing
+4 Apr 2025
+/
+1 min read
+The design journey behind Wagtail's page editor evolution
+Ben Enright
+Principal Interaction Designer
+12 Mar 2025
+/
+4 mins read
+How much power do web assets use?
+James Hancock
+Engineer
+18 Feb 2025
+/
+4 mins read
+See more posts

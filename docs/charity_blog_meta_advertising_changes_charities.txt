@@ -1,0 +1,96 @@
+Jemma Notley
+Digital Marketing Consultant
+Sam Levene
+Digital Account Manager
+Changes to Meta Advertising will impact charity campaigns in 2025
+6 Mar 2025
+/
+6 mins read
+Meta has implemented major changes to its advertising policies in January 2025, which will affect how charities can use Meta's business tools. The situation is evolving and there may be further changes. We've created this blog to share what we know so far about these changes and their potential impact.
+This blog was last updated on 6th March 2025 - please scroll to the 'Latest news' section for the most recent information.
+At the end of this post, you'll find a form where you can share how these changes might affect your charity's operations, helping us build a collective response to Meta.
+What is happening?
+Sharing prohibited data has been a long-standing policy at Meta, but as of January 2025, there have been significant extensions to this policy that impact many charities in particular. This update is expected to have a significant impact on
+campaign performance
+, audience targeting, and reporting accuracy for many charities. We expect to see the following impact:
+Restricted domains: websites classified under restricted categories will be unable to share information with Meta via the pixel. This includes actions such as page views, donations, form completions or any other conversions that occur on your website with the affected pixel.
+Conversion-based events: these events will no longer be permitted for optimisation and tracking on restricted domains.
+Audience limitations: audiences based on website visitors will no longer be available for retargeting and lookalike audiences.
+Which categories will be impacted?
+At the moment, we’re only seeing alerts for websites categorised as “health & wellness” which includes data sources associated with one or more medical conditions or health statuses. However, the full list of categories that could be impacted includes:
+Health and wellness: Associated with medical conditions, specific health statuses, or provider/patient relationships (for example, a patient portal or wellness tracker for depression)
+Financial service: Provides financial tools, consultation and/or services, consumer credit reports
+Unsuitable content: Contains topics related to unsuitable content, including content that violates our Community and Advertising Standards (examples include hate speech, violence and illegal activities)
+Politics: Is associated with members of a specific political party, political position or contains topics related to a political issue
+Race: Is associated with individuals of a specific race
+Religion: Is associated with individuals with specific religious or spiritual beliefs and practices
+Sexuality: Contains topics related to sexuality or sexual orientation
+Gender identity: Is associated with individuals of a specific gender identity
+Nationality: Is associated with individuals of a specific citizenship status, immigration status or refugee status
+Trade union: Is associated with members of a trade union
+Personal hardship: Is associated with individuals likely facing personal hardship
+Source:
+Facebook Business
+Why is Meta making these changes?
+This change is part of Meta’s effort to prevent advertisers from sharing prohibited information under their terms of use. It aims to protect users of the Meta platforms and prevent sensitive information from being shared through the Meta pixel.
+“At Meta, we have
+restrictions
+around the kinds of information businesses can share with us through our
+Meta Business Tools
+. We don’t want or permit advertisers to use the Meta Business Tools to share information about people that is not allowed under our
+Meta Business Tool Terms
+. This includes information that may be considered sensitive (including any information defined as sensitive under applicable laws, regulations and applicable industry guidelines), or information that is otherwise not allowed under our terms.”
+What should we do next?
+1. Check the categorisation of your domains
+The categorisation of your domains can be viewed in the Events Manager section of Business Manager. There may also be an alert informing you about the upcoming restrictions with the option to review and appeal the categorisation.
+Events Manager Overview Alert: Review and address the most important issues that may be affecting your business' performance. Restrictions on data sharing starting January 2025: One or more websites or apps are in categories with restrictions that may start in January 2025. If you think the categories haven't been applied appropriately, you can request a review now before any restrictions start. If you haven’t been flagged for restrictions as of January 2025, our understanding is that there is no guarantee that you will not be flagged. Meta’s policy team continuously reviews content. It’s also possible that if you add or change content to your website, if the content you input is prohibited, your Meta advertising account may be flagged. We suggest being vigilant of this when making changes - particularly large amendments to your site.
+2. Appeal the category if appropriate
+If you feel that the category has been incorrectly applied, you can submit an appeal.
+Sub-domains used for fundraising purposes, such as lottery, raffle, donations and event sign-ups can also be appealed if they do not contain information directly related to the restricted category.
+In our experience so far, the likelihood of an appeal being successful and lifting the restrictions entirely is unlikely. Where an account has been flagged, there will be rationale behind it. If you have contacts at Meta, you can reach out to your rep to help explain if there is anything specific that has caused it, but what detail they share will vary on a case-by-case basis.
+3. Review campaign set-up
+For impacted accounts, the set-up of campaigns will need to be reviewed. As you will no longer be able to use off-platform events that are typically tracked by your pixel, you will need to optimise your campaigns for on-platform events after these restrictions come into force. This includes reach, clicks on ads, video views and lead generation form submissions.
+Audiences used within campaigns will also need to be reviewed as retargeting and lookalike audiences based on website visitors or website conversion events will no longer be updated.
+News added 9th January 2025
+Over the last two days, Meta has begun sending emails to notify advertisers about the updates that will impact them. These emails will be sent until 13th January, so not all accounts may have received a notification yet.
+This notification gives advertisers 7-days notice that the restrictions will be applied to their accounts and provides two options:
+Appeal categorisation -
+This will not be an option for most domains as they will be correctly categorised. Subdomains used for donations, events, lottery etc may potentially be an exception, so it’s worth trying to appeal these.
+Request more time -
+Meta is offering affected advertisers a 30-day extension before restrictions are applied. We strongly recommend requesting this extension to give your organisation more time to plan and reduce the immediate impact on campaigns.
+You can check for the alert and request more time within the Data Sources section of Ads Manager.
+Latest news added 6th March 2025
+We have learned that the impact of this policy varies, depending on your chosen advertising location. For example, restrictions are different outside of the EU and UK. Within the EU, pixels flagged as violating the Health and Wellbeing policy will see that events are fully restricted as discussed above. However, if you are advertising outside of the EU, even with a data source that has been restricted, you may still be able to receive conversion and optimise for conversion events. It appears that the restrictions predominantly impact advertisers within the EU.
+After further calls with Meta, we’ve learned that if your pixel is restricted, there may be a potential workaround—though it is not guaranteed to work for every charity. The approach involves creating a new domain or subdomain and associating it with a new Business Tool and new Meta pixel.
+To minimise the chance of your new domain and pixel being restricted, the new domain or subdomain must not contain any prohibited content under Meta’s Health and Wellness policy. For this reason, we would advise that you consciously limit the number of pages your new pixel is added to. If it does contain prohibited content, it is also likely to be restricted and you’ll be back to square one - this time with two restricted pixels that can’t share conversion data with Meta.
+For example, you could create donate.yourcharity.org, ensuring that the content is strictly focused on compliant donation-related messaging. By having your pixel on a limited number of pages, you can control the content more easily.
+However, it’s important to note that even with a clean domain and pixel, there is still no guarantee that the new setup won’t also be restricted, as the policies are evolving and content being consistently reviewed.
+Share your concerns
+We anticipate that this update will significantly affect charities that rely on Meta as a primary channel for
+fundraising
+. We are actively working with our clients to minimise the impact by exploring alternative solutions.
+We also encourage charities to share their concerns regarding how these changes may impact their marketing and wider organisational objectives. To contribute to our collective response to Meta, please
+complete this short form and let us know how you believe this will affect your operations.
+As this situation evolves, we will continue to provide updates and guidance to help you adapt your Meta advertising strategies effectively.
+Looking for support with anything we've outlined above?
+Get in touch
+More
+Charity email marketing: What you need to know about new 'soft opt-in' changes
+Sam Levene
+Digital Account Manager
+3 Apr 2025
+/
+4 mins read
+Learnings from Breast Cancer Now’s Afternoon Tea campaign
+Lisa Ballam
+Head of Marketing
+11 Feb 2025
+/
+3 mins read
+How to build donor loyalty
+Bonny Colville-Hyde
+Product Director
+12 Aug 2024
+/
+9 mins read
+See more posts

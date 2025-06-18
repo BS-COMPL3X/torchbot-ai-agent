@@ -1,0 +1,46 @@
+Emily Topp-Mugglestone
+Senior Engineer
+The evolution of our developer training programme
+29 Jan 2024
+/
+2 mins read
+Here’s a little background on our path from planning to launching our Django and Wagtail Developer training courses, with spaces now available to book in March.
+This journey began as a staff augmentation for The National Archives (TNA), where I initially focused on training their developers. Through code reviews and discussions, we identified areas for improvement, especially in skills and decision-making processes typically honed through practice rather than traditional learning methods.
+So, we developed two workshops focused on these areas: the first on Django’s Object–relational mapping (ORM), and the second on Wagtail, which were well received. These sessions, tailored to the specific needs of TNA, were the seeds that blossomed into our current training offerings.
+Parallel to this, we were developing our internal
+Academy program
+to train junior developers and students, and it became apparent that these sessions could benefit other new developers, particularly in building familiarity with Wagtail.
+Recognising the potential to serve multiple purposes, I proposed the idea of a set of reusable sessions to offer external clients and to use for our internal training. So, we got to work on planning an in-depth, two-part developer training programme to build understanding and skills in essential Django and Wagtail CMS practices.
+Of course, the original sessions needed quite a bit of refinement. Though successful, they were a bit too long and syntax-heavy. We wanted to emphasise decision-making and best practices more, and infuse the sessions with interactivity, as well as expanding what we covered.
+It's been a collaborative effort, and I'm grateful for the invaluable contributions of my colleagues: Helen Warren, Sage Abdullah, Dan Braghis, Josh Munn, Emma Delescolle, Lauren Parsons, Andy Babic, and Rachel Smith. Their expertise and insights have been instrumental in shaping these courses.
+At a top level the courses cover:
+Django Developer Fundamentals:
+Beyond what you'd find in standard tutorials, this course, hosted by Senior Wagtail Developers, is a deep dive into Django as a Model, View, Template framework. It's perfect for those with some Django experience, aiming to elevate their skills to a higher level.
+Wagtail CMS Fundamentals:
+This course is a gateway to becoming proficient in
+Wagtail CMS
+. Ideal for those finishing the Django Developer Fundamentals or already having intermediate Django skills, it covers the core elements of Wagtail CMS. You'll explore pages, snippets, and Wagtail field types.
+We're limiting each course to 10 participants to ensure the sessions are focused and interactive.
+We're looking forward to seeing our work come to life and meet all the future attendees of these courses.
+For more details and to secure your spot, find all the details on our training pages.
+Learn more
+More
+What’s new in Wagtail returns - May 2025
+Lisa Ballam
+Head of Marketing
+4 Apr 2025
+/
+1 min read
+The design journey behind Wagtail's page editor evolution
+Ben Enright
+Principal Interaction Designer
+12 Mar 2025
+/
+4 mins read
+How much power do web assets use?
+James Hancock
+Engineer
+18 Feb 2025
+/
+4 mins read
+See more posts

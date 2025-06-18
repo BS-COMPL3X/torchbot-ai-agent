@@ -1,0 +1,69 @@
+Emma Bennett Gigg
+Head of Digital Marketing
+Google's stance on AI-generated content: Considerations for the Public Sector
+13 May 2024
+/
+4 mins read
+With the rapid evolution of AI tools, questions about Google's position on AI-generated content have become increasingly common. Will using AI writing tools affect your search rankings? Is there a penalty—or perhaps an advantage—when publishing AI-assisted content? How can you tell if your content strategy aligns with Google's guidelines?
+These are important considerations for any organisation with a digital presence, and we'll explore the specific implications for the public sector throughout this article.
+Google's official position on AI-generated content
+Google has established a clear stance regarding AI-generated or AI-assisted content: appropriate use is not against their guidelines. Last year, Google updated its documentation on helpful content, changing "content written by people" to "content created for people" – a notable shift that acknowledges the evolving content creation landscape.
+"Appropriate use of AI or automation is not against our guidelines."
+- Google
+Google's documentation explicitly states that AI-generated content isn't prohibited, and not all automated content is classified as spam. The critical phrase here is "appropriate use of AI" – content must still adhere to spam policies and provide genuine value to users. Google neither favours nor penalises content simply because it was created with AI assistance, provided the content is high-quality and serves a clear purpose for your audience.
+"We've long had a policy against using automation to generate low-quality or unoriginal content at scale with the goal of manipulating search rankings."
+- Google
+Responsible use of AI assistance
+Google has continuously adapted its systems to address various tactics used to manipulate search results. "Article spinning" – rewriting the same content multiple times with minor changes – was once a common tactic that resulted in low-quality, valueless content at scale. The Google Panda update in 2011 was specifically designed to tackle this type of content manipulation.
+Google's systems have been addressing automated content issues for years, and the company views poor-quality AI-generated content as simply a new variation of a familiar challenge:
+"We've been tackling poor quality content created both by humans and automation for years."
+- Google
+For public-sector organisations with limited content resources but significant information dissemination responsibilities, the responsible use of AI tools presents an opportunity to efficiently create high-quality content that effectively serves citizens.
+The risk: scaled content abuse
+While responsible AI use is permitted, you should be aware of "scaled content abuse" – the mass creation of pages designed to manipulate search rankings rather than help citizens. Using AI tools to generate pages purely for SEO, rather than to address needs violates Google's guidelines.
+Google's March 2024 core update specifically targeted this issue. As of April 26, 2024, Google reported that this update has reduced low-quality, unoriginal content in search results by 45%. The company is also taking targeted action against sites that violate spam policies, increasing manual penalties.
+For public sector organisations with significant public trust responsibilities, don’t use AI tools to mass-generate content for your website, especially if this content is exclusively designed to improve rankings in search engines - it is not a good idea, and it won't work out for your organisation in the long term.
+Google's focus on helpful content
+The March 2024 core update represents a significant evolution in how Google identifies helpful content. For public sector organisations looking to use AI responsibly, understanding Google's position on helpful content is essential.
+Since 2022, "helpful content" has been a central concept for success in Google search. The focus is on people-first content: create for citizens and service users, not for search engines.
+This aligns perfectly with public sector values of service, transparency, and accessibility. When using AI to assist in content creation, public sector organisations should prioritise accuracy, reliability, and trustworthiness – values that are already central to public service.
+Best practices for AI-assisted content
+We recommend ensuring content is properly reviewed, consistently updated, and includes clear authorship information. Public sector organisations possess unique subject matter expertise that should be prominently featured in web content. Expert authorship or review processes should be documented on pages where applicable.
+For transparency, consider including an AI-assisted authorship statement where appropriate. Google's helpful content guidelines suggest that when automation has been used substantially in content creation, making this evident to visitors can enhance trustworthiness. Consider explaining how and why AI tools were utilised to support your content creation process.
+At Torchbox, we believe SEO should be integrated with your overall people-first content design, not treated as a separate consideration. For public sector organisations, this means focusing on the needs of citizens and service users rather than search engines. By taking this responsible approach when adopting new technologies and creating unique content, your organisation will be well-positioned to maintain and improve search performance while fulfilling your public service mission.
+Considerations
+When creating AI-assisted content for public sector audiences, consider these additional factors:
+Accessibility requirements
+: Public sector websites have strict accessibility standards. Ensure AI-assisted content meets WCAG guidelines and is tested for accessibility.
+Plain language obligations
+: Many government organisations have plain language requirements. Review AI-generated content to ensure it meets readability standards appropriate for public sector audiences.
+Factual accuracy and authority
+: Public sector information must be authoritative. Always have subject matter experts review AI-generated content for accuracy.
+Transparency in process
+: Consider developing a departmental policy on AI content use that balances efficiency with public trust concerns.
+Compliance with information regulations
+: Ensure your AI content creation processes comply with relevant information governance frameworks.
+Have any questions about AI-generated content or SEO in general? We'd love to hear from you.
+Emma Bennett Gigg
+Head of Digital Marketing
+Get in touch
+More
+AI to scale qualitative research
+Cassandra Cardiff
+Senior User Researcher
+9 Jun 2025
+/
+3 mins read
+Reflections from the Unconference: AI, Data & Public Participation
+Ben Heasman
+Client Partner (Public Sector)
+26 Mar 2025
+/
+3 mins read
+Reducing friction for busy hospital workers through human-centred design
+Jeth Ordeniza
+Interaction Designer
+4 Mar 2025
+/
+3 mins read
+See more posts

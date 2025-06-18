@@ -1,0 +1,34 @@
+Cookies
+Use of cookies by Torchbox
+We use a first-party cookie to check whether you have opted in or opted out of cookie consent for non-essential cookies. If you choose to opt in, we will set Google Analytics cookies to help us analyse website traffic and user behaviour. This information is used to improve our website and to understand how you interact with our content.
+Google Analytics is widely used across the web to understand things such as which pages you arrive at, how you navigate around the site, and which kind of device you are using. To do this, Google collects data that does not directly identify anyone. This can include information about your device and location, the pages you view, and the actions you take on the website (such as playing a video).
+This data ultimately helps us make improvements to your experience.
+The cookies we set
+Consent cookie
+We set a cookie named
+torchbox-cookie
+to record whether you have chosen to opt in or opt out of our non-essential cookies. By storing this cookie you avoid having to see the prompt on every page.
+Google Analytics cookies
+The following cookies are associated with Google Analytics:
+_ga, _gid, _ga_G87VZZVTT2, _dc_gtm_UA-112981-1, _dc_gtm_UA-112981-56
+torchbox-mode
+We set a cookie named
+torchbox-mode
+to remember your preference for light or dark mode on the site. This is a functional cookie that cannot be opted out from, although if you do not set a preference it won't be set, and the site will load by default in dark mode (because this emits less carbon).
+Lite YouTube
+We embed videos from YouTube on our site, and we make use of the
+lite youtube embed
+package so they don't set cookies. However, as YouTube carries out other tracking activity, we ask users to accept the YouTube terms and conditions before viewing a video.
+Changing your cookie settings
+To find out more about cookies and how you can manage them, visit
+https://www.aboutcookies.org.uk/
+You can also find out how to manage cookies on popular browsers:
+Cookie settings in Chrome
+Cookies settings in Safari web
+and
+iOS
+Cookie settings in Firefox
+Cookie settings in Internet Explorer
+Cookie settings in Microsoft Edge
+Cookie settings in Opera
+You can delete any cookies we have set, including any that may have been set when opt-in/opt-out controls for this site were not available and/or are no longer used but have not yet expired.

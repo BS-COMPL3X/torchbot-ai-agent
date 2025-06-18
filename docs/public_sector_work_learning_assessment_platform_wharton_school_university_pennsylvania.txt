@@ -1,0 +1,106 @@
+Building a learning assessment platform
+Welcome to People Lab - a platform and program that aims to be the gold standard for scientifically grounded self-assessments to support personal and professional development.
+Our project together: A ground-up rebuild of the People Lab custom learning platform, ready to scale and support thousands of current learners at the Wharton School and hundreds of thousands of future audiences beyond.
+Wharton School at the University of Pennsylvania
+3 mins read
+Related work categories
+Digital products
+Tech
+Wagtail
+Higher education
+The client
+People Lab
+The People Lab
+was born out of
+The Wharton School
+at the
+University of Pennsylvania
+as a collaboration between the
+McNulty Leadership Program
+and
+Wharton People Analytics
+, as a software solution for personal and professional growth.
+Learners can access a suite of self-assessments and 360 evaluations to get personalised feedback, visualisations and a repository of educational resources to manage their personal and professional development.
+And, the platform's anonymised aggregate data is shared with researchers to support a range of academic research projects within the school.
+This content is hosted by a third party. By showing the external content you accept the
+terms and conditions
+of YouTube.
+I accept
+Don't ask me again
+The opportunity
+New technology, new opportunities
+The legacy platform was holding the incredible People Lab team back - they wanted to:
+Make use of technology that’s widely understood at the Wharton School (
+Python
+,
+Django
+, and
+Wagtail
+)
+Streamline time-consuming and manual tasks to improve efficiency while also focusing on the research
+Increase self-sufficiency for administrators to manage the People Lab system without relying on external support
+Scale People Lab to support current and future audiences, potentially up to hundreds of thousands of users
+Be future-ready, including integrating new survey tools and innovative technology such as video interview task assessments (VITA) and AI
+And, of course, meet the University of Pennsylvania’s stringent data security and data privacy requirements.
+Add to this the need to manage a successful migration of 6,000 active learners and ≈4 million assessment question responses with zero downtime - this is the sort of project and challenge the Torchbox team loves.
+People Lab chose Torchbox to rebuild our platform because of their technical expertise, their track record with The Wharton School, and their approach to our partnership. At every step of the process, Torchbox brought a commitment to delivering a good product, with a great process, while keeping in mind our long term vision.
+Caitlin Satterfield
+Director, People Lab
+Our approach
+Understanding the challenge
+We got started by exploring the challenges of the legacy platform, building a rich understanding of the learner journeys, and building out the People Lab team’s short- and long-term goals.
+We crafted a bold platform vision statement:
+We mapped out and prioritised People Lab primary users (Wharton’s MBA, Executive MBA, and Executive Education students) as well as the potential future user landscape (teaching assistants, executive coaches, student advisors, content creators, and additional learners).
+We spent time with People Lab’s administrators to map their current pain points and needs. Ultimately they wanted to have greater confidence in the platform (e.g. by being able to identify issues and bugs preemptively) and greater flexibility to dynamically interact with groups of users.
+Defining the new data structure
+We worked hard to dig deep into People Lab’s existing data structure, database, and codebase to design a new structure that meets the team’s ambitious goals. We focused on modularity (so assessments can be re-used efficiently and new assessments can be added over time) and interoperability (People Lab integrates with multiple tools including the Qualtrics survey platform and the university’s single sign-on system).
+Torchbox did a fantastic job with their technical evaluation of our legacy platform and processes. Because of the discovery and commitment to understanding People Lab as an ecosystem, we were better able to collaborate, solve problems, and deliver an amazing product. Their thoroughness and team-wide level of understanding served us from project kick off to launch.
+Caitlin Satterfield
+Director, People Lab
+Moving to Wagtail
+Wagtail proved to be a perfect solution for People Lab:
+Wagtail is a well-known technology stack (Python and Django) widely used at the university - this means the team can be self-sufficient to manage the system in the long run
+Being built on Django’s strong foundations, Wagtail could easily be integrated with
+Qualtrics
+(and other future survey tools) and third-party data visualisation services
+Most importantly, Wagtail provides a user-friendly interface that makes platform and assessment data readily accessible and helps streamline time-consuming activities
+The outcome
+Launching People Lab!
+We’re happy to say the new platform is live, paving the way for The Wharton School to continue leading the way in transforming personal development.
+Here are the outcomes so far:
+Learners are using the new platform, undertaking surveys, getting nearly instantaneous results, and accessing a broader array of data visualisation tools
+6,000 active learners and 4 million assessment question responses successfully migrated
+The new platform meets AA accessibility standards and aligns with the university’s design system
+Improved efficiency of educational resource management and activity coordination
+New features provide administrators with greater control and oversight
+This is just the beginning - we’re looking forward to seeing the next chapter as People Lab’s reach continues to grow as a leader in achieving long-term behavioural change in Higher Education.
+Want to explore Wagtail CMS or have any questions about our approach?
+Get in touch
+by
+Tomasz Knapik
+Senior Engineer
+More
+A fresh look for the NIH Office of Intramural Training & Education (OITE)
+NIH Office of Intramural Training & Education (OITE)
+3 mins read
+Filter posts by category
+Digital products
+Research & design
+Public sector
+Unifying staff engagement and collaboration across four children's hospitals
+Children's Health Ireland
+5 mins read
+Filter posts by category
+Digital products
+Wagtail
+Public sector
+London Museum's radical digital transformation
+London Museum
+5 mins read
+Filter posts by category
+Innovation
+AI
+Digital products
+Wagtail
+Public sector
+See more work

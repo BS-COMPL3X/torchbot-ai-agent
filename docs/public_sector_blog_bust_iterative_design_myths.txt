@@ -1,0 +1,92 @@
+Ellie Ashman
+Director of Public Sector Practice
+7 myths about iterative design (and how to bust them)
+13 Jun 2023
+/
+8 mins read
+User-centred design is a powerful way to get the most impact from any project, whether that's a major digital transformation or a much smaller piece of work. We see brilliant outcomes when teams come together to understand what users need and experiment with different ways to meet those needs.
+In this blog, we look at some of the more common challenges we encounter and introduce some different ways to approach these challenges that can benefit your team, organisation, project and users.
+Head of UX Design, Ben, leads a workshop
+Challenge 1 - We already have a great idea, and our users loved it in Discovery
+Upfront research helps us build clarity about the problems to be solved and the impact those problems currently have for people. Often, the insights we gather from generative or exploratory research in discovery feel deep and illuminating enough that it can be tempting to move straight on to designing and building something without further research.
+Ongoing
+cycles of experimentation
+, testing and iteration can help us understand how individual features, components or design choices impact users’ experiences. If discovery research gives us insight about the problems to solve, and perhaps the opportunities or outcomes that we expect to add the most value, we still need ongoing research to ensure that the solutions we’ve come up with really do address those problems and realise those outcomes.
+Iterative user-centred design doesn’t just help us refine our ideas into designs that are ready to deliver. We might also observe differences in the ways that users perceive different tasks, content or patterns that help us refine an overall design approach to be as inclusive as possible.
+Sometimes, we may even learn something that challenges our understanding of the problem, the value of a product’s goal, or the approach we’re taking. While these can be difficult things to learn, the earlier we learn them, the more effectively (and cheaply) we can adapt and pivot to ensure the end result is valuable, usable and accessible.
+Bottom line: testing and iteration reduce the risk that you spend time and money on something that doesn’t do what you - or your users - need it to.
+Challenge 2 - We can always change it later
+Not all spending is equal - time and budget spent undoing earlier work can feel harder to justify, and frustrating for teams.
+Cost of change is an umbrella term for the time, cash, reputation and user impact of changing work you’ve already built, and perhaps already launched to users.
+A team in a room with a stack of pens and paper can come up with lots of ideas quickly. You can discuss, combine and refine those ideas in the room for the cost of your collective time and a few more bits of paper, gradually converging around a smaller number of ideas that feel good enough to progress. Discarding ideas as you learn and refine is quick and cheap, and things get better and clearer fairly quickly.
+You can even test some of those ideas with users as they are, to get fast feedback that informs your next move.
+Design Sprints
+can be a great way to accelerate this process for a specific, focused problem or feature.
+As a project progresses and your ideas become higher fidelity designs sketched out in tools like Figma or prototyped in code to test functionality, the process of changing them becomes slower and more expensive. Once your ideas have made the transition to working parts of your product, changing them in response to feedback not only takes longer, but comes with more complexity and risk because there are now many more moving parts and dependencies to update at the same time.
+Bottom line: early iteration supports better experiences for users, more effective use of budget, and a more efficient use of time, with fewer disruptive pivots as you approach your first release.
+Challenge 3 - it will be too slow and expensive to test everything, we should just move forwards
+Testing and iterating everything a user sees can be a costly and time-consuming endeavour which doesn’t always return on the invested time and money. That doesn’t mean there isn’t value in testing and iterating anything, though.
+Instead of seeing testing as a checkpoint to pass, it can be helpful to look at research and continuous iteration as a tactic for establishing and meeting a baseline level of confidence in your approach. This framing can also help teams identify where and when to focus research and iteration for the best possible value return, and sets you up for a smooth launch that delights your users.
+Fundamentally, research with your users reduces risk and increases confidence by addressing uncertainty.
+In practice, that might mean pulling out 2 or 3 specific parts of your new site with the greatest potential for negative impact (risk) or that you know the least about (confidence). By prioritising activities that test your planned approach in these targeted areas before you get too attached to a specific idea, you can converge much sooner on an approach that you know will be usable, accessible and valuable.
+Let’s take an example - perhaps your site includes a brand new feature for people to submit some details to access relevant information you provide. You may not need to test the principle of submitting information, but there’s likely to be value in testing particularly complex things like selecting multiple values, displaying long lists of options, or tracking progress through a multi-page form. Without testing and iterating, you run the risk of launching a form that some people won’t complete at all (preferring to abandon your service entirely) while others might submit a form with errors or misunderstandings, meaning lots of data clean up and correction to do once the form is submitted.
+Even one round of testing in a scenario like this can help inform your approach so you can continue with confidence, and spotlight the areas that aren’t quite right before you start building.
+Bottom line: testing and iteration are an effective tactical response to uncertainty, and can be targeted at granular detail or high level ideas depending on the context.
+Challenge 4 - We need senior stakeholders to “sign off” the final designs
+This can be a difficult thing to navigate, but comes up often enough that
+we’ve written about it before
+.
+Sign off assumes that there’s a set point at which designs are final, immutable, never to be changed again. That presents a challenge to user centred design and agile approaches because we’re working on the premise that everything is open to change as we continue to learn from inputs like user feedback and analytics data.
+We’ve seen great results from reversing this dynamic so that instead of sign-off in the late stages of a project, senior stakeholders are involved early and often. That can take different forms depending on what’s most appropriate, but we generally find that early consultation with stakeholders helps provide direction and context, and involving stakeholders in activities like roadmapping, planning, demos, research analysis and idea generation helps shape thinking and refine ideas upfront.
+By seeking out the concerns and ideas of your most senior stakeholders, you can more effectively navigate constraints and address concerns as you work, rather than tackling a stack of challenges just before launch.
+This approach also gives those stakeholders direct experience of the value of learning from users and iterating in response, so that the idea of a never-final design feels more like a pragmatic step forward than a leap into the unknown.
+Bottom line: involving your stakeholders as active contributors to learning and iteration shapes early thinking and takes the pressure off the end of a project.
+Challenge 5 - Stakeholders just want us to do this thing
+In this case, asking the right questions can help to shift the conversation in really constructive ways.
+More often than not, your stakeholders want tangible outcomes or measurable results, and they’re pushing a particular solution because they believe it has the potential to achieve that aim. By asking about the changes they expect to see, or the insights that led them to prioritise this idea, you can get a clearer picture of what success looks like.
+Once you know more about what your stakeholders are hoping to achieve, you can work collaboratively to find and evaluate the available options, and open the door to introducing alternatives that could contribute to the same goal in a way that is more usable or feasible than the initial idea.
+This is an example of where ‘just enough research’ can be especially useful. Perhaps we can run an A/B test, or test some wireframes, to validate or refine the preferred approach before you invest more in implementing it. By opening the conversation by asking about the changes stakeholders are expecting to see, we can talk about (and measure!) the impact of the work in a way that is meaningful for everyone involved.
+Bottom line: approaching specified solutions with curiosity can help open the conversation and introduce the idea of evidence, insight, or measurable change.
+Challenge 6 - We won’t get as many features if we spend more time on research and iteration
+It can be easy, once your product or service is up and running, to think of success purely in terms of features shipped. Research and iterative delivery can be a particularly powerful defence against feature-creep.
+Valuable products and services help users complete tasks they recognise and need, and solve problems they experience now. Focusing on number of features as a measure of value can compromise the success of your product:
+usability - each new feature adds to the learning curve for a new user, complicating your navigation and making it less obvious what value your product or service offers to users.
+operational risk - every feature you add needs maintenance, and more complexity in your service typically raises the cost of change and slows the pace.
+The key question, then, is: do we really need it? Using research to direct your focus and priorities helps you start from the needs your users currently have, and iteration helps make sure the things you build really address those needs.
+You might not get as many discrete features when you invest in research and design, but you significantly increase the chance that the features you build and maintain represent genuine value to your users and organisation whilst reducing the risk that you spend valuable budget on features that don’t contribute to the goals you’ve set.
+Bottom line: evaluate success based on usability and operational effectiveness, rather than volume, for the best possible return on investment.
+Challenge 7 - We know our processes, we don’t need to ask users
+A wise person
+once said that if you know enough to confirm something you’ve written is correct, you know too much to confirm that it is clear.
+Most likely, you and your team are experts in your domain and processes, but it’s also highly likely that your users won’t have that same level of knowledge.
+It can feel difficult to accept, but our subject expertise can limit our ability to clearly see the barriers a less familiar user might encounter when navigating our content or using our product. It’s difficult to know, without research, the context someone brings when approaching your product from a different perspective, and the information or context they don’t yet have, or don’t view in the same way.
+The better you know your processes, the more likely it is that you’ll miss something that is confusing, difficult, or unclear. Without insight from testing and considered iteration, you may start to see high volumes of support requests, abandoned journeys, or frustrating experiences for users that undermine their relationship with your organisation - that’s a high price to pay for a risk that can be mitigated with some well-planned research.
+Bottom line: testing familiar processes with new users reveals new perspectives that can help make your service better for users, simpler to operate, and reduce demand on support channels.
+Optimise for value first
+There’s a common thread through everything in this post: value.
+Value is much more than numbers in a spreadsheet - value is about identifying the outcomes that will make the biggest difference to your organisation and users, and focusing your efforts on finding the most effective levers you have to deliver those outcomes.
+Delivering value relies on being open to new insights and perspectives from users and other members of your team or organisation. By drawing on tools like research and iterative design you can respond to what you’re learning, so that the thing you end up delivering is the best possible reflection of all that you know.
+Shipping a single, truly valuable feature to your users can trigger a positive domino effect - showing your users you listen to them and respond to what you hear builds trust in your organisation to act in their best interests. Service users can rely on your organisation to provide services and content that are relevant to their needs as they experience them.
+It’s hard to achieve the same effect when your focus is on shipping more features, or based on less user insight.
+Got any questions? Get in touch to find out how our team can help.
+Get in touch
+More
+AI to scale qualitative research
+Cassandra Cardiff
+Senior User Researcher
+9 Jun 2025
+/
+3 mins read
+Reflections from the Unconference: AI, Data & Public Participation
+Ben Heasman
+Client Partner (Public Sector)
+26 Mar 2025
+/
+3 mins read
+Reducing friction for busy hospital workers through human-centred design
+Jeth Ordeniza
+Interaction Designer
+4 Mar 2025
+/
+3 mins read
+See more posts

@@ -1,0 +1,68 @@
+Quality Assurance Policy
+At Torchbox, our Quality Assurance Policy reflects our commitment to excellence, continual improvement, and responsive adaptation to meet the needs of our clients.
+Quality first culture
+Our commitment extends beyond the fulfilment of known requirements. We take pride in our approach, which involves a thorough understanding of our clients' organisations, the intricacies of user goals, and the unique challenges they face. It is our belief that true partnership involves not only meeting specified requirements but actively contributing to the establishment of a partnership with a shared realisation of a vision and measurable goals.
+Our team is committed to delivering digital solutions using industry standards and best practices.
+Client partnership and responsive feedback
+We foster strong partnerships with our clients, striving to understand their evolving needs, objectives, and priorities.
+We follow agile mindset using methodologies including:
+scrum using the principles from
+scrum.org
+and
+Kanban using
+defined Kanban practices
+This facilitate short feedback loops and
+shift left testing
+, allowing flexibility and adaptability to accommodate changing requirements and preferences.
+User research and monitoring tools such as
+G4 analytics
+,
+Debug bear
+and
+Sentry
+allow us to work with our clients to ensure we meet the user need and adapt to changing requirements.
+Rigorous quality assurance processes
+Our quality assurance
+aligns to ISTQB standards
+. The framework encompasses meticulous planning, robust testing methodologies, and comprehensive risk management strategies.
+Each project undergoes multiple checkpoints, including thorough code reviews, functional testing, integration testing ,usability testing, and compatibility assessments across various platforms and devices.
+Using recognised tools such as
+Gitlab
+,
+Heroku
+,
+Django tests
+; Continuous integration and automated testing are integral to our workflows, allowing us to maintain high-quality standards throughout development phases.
+Our automated testing follows the
+Testing Pyramid
+methodology ensuring efficiency and best practice in producing and maintaining our automated frameworks.
+We prioritise user experience (UX) evaluations and accessibility assessments to ensure our digital solutions are inclusive and user-friendly meeting the latest
+WCAG standards
+.
+Continuous improvement
+Feedback from clients, team members, and stakeholders is utilised to continually refine our processes, aiming for continual improvement. This process is supported by collaborative retrospectives and client satisfaction surveys.
+Post-project reviews and analyses guide us in identifying strengths and areas for improvement to elevate our methodologies and deliver superior solutions.
+Compliance and security measures
+We are certified
+ISO 27001
+compliant. Stringent adherence to relevant legal and regulatory requirements, including data protection and privacy laws, is a fundamental aspect of our operations.
+Compliance and security measures are well documented and available to all staff members.
+Regular training, audits and assessments are conducted to uphold compliance and security standards, ensuring client information remains secure and confidential.
+Accountability and responsibility
+We have a culture of Quality at Torchbox and each team member upholds the highest quality standards in their own and each others work, contributing to our commitment to excellence. Projects retrospectives encourage the team to identify areas for continual improvement.
+We define project ways of working to ensure a consistent team understanding of process, roles and the responsibilities in those roles.
+Transparency and documentation
+Our documented quality assurance processes and standards are accessible to all team members, ensuring consistent practices and alignment in approach. Clients have transparency into our quality assurance processes and methodologies, fostering trust and collaboration. We achieve this by:
+A company
+Test and Assurance strategy
+that outlines our goals and processes.
+Producing client specific
+Test Plans
+allows us to adapt our Quality approach to meet the client needs. Individual approaches are shared and agreed with our clients.
+Producing effective documentation to facilitate high quality testing and assurance practices such as:
+Gherkin Acceptance Criteria
+Manual Test Scripts
+Exploratory Session Charters
+Review and revision
+Regular reviews of this Quality Assurance Policy are conducted to ensure its efficacy and relevance in a constantly evolving digital landscape.
+Updates and revisions are made as needed to adapt to changing industry standards and the needs of our clients.

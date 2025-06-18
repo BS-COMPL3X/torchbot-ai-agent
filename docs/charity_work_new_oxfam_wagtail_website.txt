@@ -1,0 +1,97 @@
+A supporter-centred website for Oxfam GB
+A streamlined Wagtail CMS site, boosting engagement and donations through a user-first design approach
+Oxfam
+4 mins read
+Related work categories
+Digital products
+Wagtail
+Charity & non-profit
+Oxfam landing page
+The results
+10%
+uplift in conversion rate
+The streamlined donation process enhanced engagement and effectiveness
+16%
+increase in donations
+The user-focused design makes it easier and more compelling to support Oxfam's causes
+The challenge
+Following a successful replatform of
+Oxfam America
+onto Wagtail CMS, our collaboration with
+Oxfam GB
+started in early 2019, when they began exploring moving to a flexible open-source CMS — we knew just the thing!
+We started with a design sprint to embrace the
+Art of the Possible
+, which built confidence in using
+Wagtail
+and in how Torchbox and Oxfam could work together to rapidly turn Oxfam’s goals into reality. We picked their volunteering sign-up process for the sprint (previously a decentralised, paper-based system), which culminated in a launch that saw 1000 registrations in the first month. More importantly, it solidified Oxfam’s decision to move their flagship Oxfam GB website to Wagtail and we kicked off that August.
+We are so pleased with the result - a beautiful website telling Oxfam’s story through the voices of the people we work with.
+Theo Ratcliff
+Head of Website, Oxfam GB
+Our approach
+Starting from the ground up
+Oxfam had just rolled out a new public engagement strategy and the new website needed to ‘make it happen’ by reshaping and tailoring the entire experience to the needs of Oxfam’s supporters (and potential supporters), while driving organisational efficiencies.
+We started by re-modelling the Information Architecture (IA) based on Oxfam’s audience priorities. A top tasks survey quickly revealed that the supporters’ primary goal was to find out about the issues Oxfam works on — Oxfam’s supporters are really engaged with what Oxfam is doing on the ground. Much lower down the list was accessing “About Oxfam” information, which has bloated over time.
+An open card sort confirmed that supporters group this type of corporate content separately from issue-related content and gave rise to a new area in the top-level navigation for Oxfam in Action — where Oxfam detail the work they’re doing and the impact it’s having on individuals and communities, which ‘tree-tested’ well.
+Oxfam in Action screenshot
+Vision and value
+With a new IA in hand, and user interviews and journey mapping workshops under our belts, we felt like we were getting to know Oxfam’s supporters pretty well. We defined a shared vision to keep the team focussed — to create
+a place where people are empowered to join the fight against the injustice of poverty in their own way
+—
+and used OKRs to establish what success will look like.
+Having used an effort / user value plot to prioritise the work to achieve this vision, we had the beginnings of our product backlog and set about defining the design direction.
+It’s been a true partnership: quickly establishing a shared vision and working side-by-side every step of the way.
+Theo Ratcliff
+Head of Website, Oxfam GB
+Be brave, build trust and get personal
+The Oxfam brand is known globally but has taken a hit in recent years — the new website was an opportunity to freshen it up, while being instantly recognisable as Oxfam.
+The team were guided by a set of principles; to build trust, iterate, be brave but keep it simple, and to make the experience personal to the supporter and put them in control.
+Through a series of design sprints; with cycles of co-creation, rapid prototyping and user testing; the vision started to come to life. Stories from the people and communities whose lives have been transformed by Oxfam took centre stage, accompanied by powerful and positive imagery of change. Giving design a short head start, we began to build the site making use of Wagtail’s donation system, with the design and build sprints running in parallel.
+Prioritising in a pandemic
+A couple of months into the build, the Covid-19 pandemic hit, and as with much of the charity sector, Oxfam GB were hugely impacted; shutting their high street and online shop doors, cancelling major fundraising events, pausing volunteer recruitment and seeing donations drop. Key team members were put on furlough and our project went fully remote.
+Agile enabled us to reshape priorities quickly in response to Oxfam’s changing organisational needs and those of their supporters. We brought forward a launch of ‘
+Tag Your Bag
+’ as a standalone product on Wagtail just in time for the shops reopening in June; so Supporters who’d had a lockdown clearout could Gift Aid their donations.
+We then re-focussed efforts onto the
+main website
+, which has strengthened Oxfam’s digital presence, giving them the capability to be nimble in a changing world, and ultimately to empower their supporters on an individual level to
+beat poverty now and forever
+.
+Working with Torchbox for the last year has been genuinely transformative. Such enthusiastic, committed and happy people, Torchbox have been an absolute pleasure to work with.
+Theo Ratcliff
+Head of Website, Oxfam GB
+The outcome
+The proof is in the pudding
+Having established that our "North Star Metric" of success would be increased donations, we are overjoyed that Oxfam are now seeing a 10% uplift in the donation conversion rate and a 16% uplift in donations overall.
+Since launch we are continuing our collaboration with Oxfam and have moved into a cycle of ongoing enhancement, using data and feedback to shape the backlog priorities and we are excited to be supporting Oxfam in starting to bring their Wagtail development in house.
+https://www.oxfam.org.uk/
+Want to explore Wagtail CMS or have a question about our approach?
+Get in touch
+by
+Katy Cherry
+Director of Product Design & Build
+More
+PATH’s seamless move from WordPress to Wagtail
+PATH
+2 mins read
+Filter posts by category
+Wagtail
+Charity & non-profit
+Evolving the Internet Society's approach to fundraising
+The Internet Society
+5 mins read
+Filter posts by category
+Research & design
+Digital marketing
+Email marketing
+PPC
+Charity & non-profit
+Boosting visibility of National Art Pass
+Art Fund
+4 mins read
+Filter posts by category
+Digital marketing
+SEO
+Data
+Charity & non-profit
+See more work

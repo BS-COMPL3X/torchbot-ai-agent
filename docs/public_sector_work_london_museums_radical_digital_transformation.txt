@@ -1,0 +1,111 @@
+London Museum's radical digital transformation
+As
+London Museum
+launches its new website, Trish Thomas, Head of Digital Innovation, discusses our shared journey and innovative approaches. Our partnership aims to reflect London's rich history and stories online, enhance user experiences, and engage a diverse global audience.
+The website forms part of a transformation on and offline for the museum, as it launches its new brand and prepares to open a world-class new site in Smithfield.
+London Museum
+5 mins read
+Related work categories
+Innovation
+AI
+Digital products
+Wagtail
+Public sector
+Fashion City conservation © London Museum
+(c) London Museum.
+The results
+525%
+increase in traffic to collections
+66%
+engagement rate
+1,000
+keywords in top 10 search results
+The challenge
+Embracing the digital frontier
+When I joined London Museum two and a half years ago, it was clear that while we knew our physical audience well, our understanding of the digital audience was lacking. To bridge this gap, we embarked on a comprehensive research initiative in 2022 to uncover who our digital audiences are and who they could potentially be. We sought to understand the barriers preventing people from engaging with us online.
+The insights we gained were revealing. Our digital audience was predominantly white (about 90%) and over the age of 45 (around 75%). This led us to establish key performance indicators aimed at attracting a more diverse and younger audience, particularly focusing on increasing engagement among Londoners.
+The goal
+Aligning with the museum’s mission
+Our goals for the digital transformation project are intrinsically linked to the museum’s strategic objective of reaching a wider audience. London Museum has always focused on its physical visits, but we realised the need to bring our extensive and fascinating collection to global audiences beyond the museum’s walls. The challenge was not just about making the collections available but ensuring they were engaging and accessible.
+We are a social history museum whose collections span various topics from fashion to archaeology and photography to prehistory. Yet, it needed to get the traffic it deserved. We aimed to put 50,000 more objects online, add high-quality, zoomable object images, and make a portion of these available for free non-commercial usage under Creative Commons licences.
+Bringing the rebrand to life
+The rebranding from the Museum of London to London Museum marks a significant moment for us. We started out in 1976, the result of a merger between the Guildhall Museum (founded in 1826) and the London Museum (founded in 1912) and this rebrand is an important step in our transformation to create a world-class new museum in Smithfield and revitalise London Museum Docklands in Canary Wharf. It is a confident statement about who we are and what we do: a museum for and of the city, custodians of its stories and histories.
+Partnering with the
+Bureau of Visual Affairs
+for visual design, we ensured the new brand was developed into a full digital identity, creating a cohesive and visually engaging user experience. The new design is more accessible and puts editorial content and collections front and centre to show clearly that we are a museum with contemporary relevance, aligning with our goal to attract a younger and more diverse audience.
+Improving the user experience
+One of our key objectives is to improve online purchase journeys. We have introduced faster ways to pay, including Apple Pay, PayPal, and Google Pay, and improved the Gift Aid journeys for donations. By refining the browsing and booking experiences, we hope to boost conversion rates and revenues from online bookings.
+The strategy
+Overcoming barriers
+Our research revealed that many users didn’t understand what "collections" meant. We categorised our audience into three groups: those who know what they want, those who want to be inspired, and those who felt museums weren’t for them. To make our collections more relatable, we introduced an editorial layer of 1,000 stories about the most Googled London people, places, subjects and events, historical and contemporary, from the Great Fire to the Brixton Riots and Samuel Pepys to Stormzy.
+One user’s feedback particularly resonated with me. They asked, "If this is meant to be a website about important Londoners, where's the page about Anthony Joshua?" This question made us think differently about creating content beyond our physical collection to include topics of contemporary relevance to London more generally.
+Leveraging AI to enhance engagement
+A crucial part of our strategy has been to use artificial intelligence (AI) to enhance user engagement with our collection.
+Torchbox has utilised AI to create richer and deeper connections between editorial stories and collection objects. Using OpenAI's technology enabled us to create dynamic links between our stories and relevant objects, facilitating more engaging journeys through our collection.
+For example, a journey that starts with a page about Stormzy could signpost users to other stories and objects related to grime subculture, political activism, immigration or Croydon - all topics relating to Stormzy that can take you on ‘lateral’ journeys into our collections. This approach transforms a static browsing experience into potentially endless exploration - a rabbit hole of discovery.
+(c) London Museum.
+Additionally, our other technical partner Knowledge Integration has integrated the Natural Language Processing capabilities of IBM Watson, to extract keywords from our collections object record descriptions to surface more lateral rather than literal connections that go beyond surface similarities. OK, I’m looking at a ‘Charles II five guinea coin minted in 1688’ - but don’t just show me other coins, show me content about Charles II and Guinea in West Africa and the Glorious Revolution of 1688, offering more meaningful and intriguing pathways for users.
+(c) London Museum.
+Choosing the right partners
+Selecting Torchbox as a partner agency was an important decision. We were impressed by their approach during the pitch process. Unlike other agencies that simply agreed to our brief, Torchbox challenged our assumptions, leading to a more engaging and productive conversation.
+Their expertise in AI and their innovative use of
+Wagtail, an open-source CMS
+, made them a perfect fit for our needs.
+Wagtail offered a better user experience compared to other CMS options like Drupal. It allowed us to leverage a sizable developer community and create connections between stories and objects using AI.
+Coordinating multiple agencies
+Our project involved several agencies, each with a specific role. Besides Torchbox, we worked with the Bureau of Visual Affairs for visual design,
+Ticketsolve
+for the purchase path and
+Silverbear
+for the CRM system. Torchbox took the lead in managing the workflow, ensuring seamless collaboration among all parties.
+Final thoughts
+Reflecting on the journey
+This first phase of the museum’s five-year digital transformation journey has been complex and challenging, but immensely rewarding. We faced difficulties, particularly with the complexities and inconsistencies in our collections data. But, Torchbox has been very proactive at finding technical solutions to navigate these challenges successfully.
+We are excited about the future and the opportunities this project will bring. We aim to position London Museum as an innovator in digital engagement,
+reaching new audiences
+globally and ensuring our rich history and collections are accessible to all.
+This content is hosted by a third party. By showing the external content you accept the
+terms and conditions
+of YouTube.
+I accept
+Don't ask me again
+Special acknowledgement
+This project was developed with the support of
+Bloomberg Philanthropies’ Digital Accelerator
+for Arts and Culture.
+Award-winning
+The London Museum website has since won the award for
+Best Use of Digital UK at the Museums + Heritage Awards
+and was nominated for
+Best Use of AI at The Webby Awards.
+This winning project is a website that showcases a powerful and positive use of AI, blending genuine innovation with smart, practical outcomes. It not only harnesses cutting-edge technology but also stands out for its generous sharing of insights and learnings with the wider sector.
+Museums + Heritage Awards
+Want to explore Wagtail CMS or have a question about our approach?
+Get in touch
+by
+Trish Thomas
+Head of Digital Innovation at London Museum
+More
+A fresh look for the NIH Office of Intramural Training & Education (OITE)
+NIH Office of Intramural Training & Education (OITE)
+3 mins read
+Filter posts by category
+Digital products
+Research & design
+Public sector
+Unifying staff engagement and collaboration across four children's hospitals
+Children's Health Ireland
+5 mins read
+Filter posts by category
+Digital products
+Wagtail
+Public sector
+Building a learning assessment platform
+Wharton School at the University of Pennsylvania
+3 mins read
+Filter posts by category
+Digital products
+Tech
+Wagtail
+Higher education
+See more work

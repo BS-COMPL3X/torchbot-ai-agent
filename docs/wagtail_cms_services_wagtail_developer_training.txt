@@ -1,0 +1,36 @@
+Wagtail CMS developer training
+Our Wagtail developer training programme offers two courses to help build your understanding and skills in essential Django and Wagtail CMS practices.
+Our Wagtail CMS developer training courses
+Depending on your existing knowledge of Django and Wagtail, you can do both courses or jump straight into Wagtail CMS Fundamentals.
+Django Developer Fundamentals
+Wagtail CMS Fundamentals
+Expand your skills and deepen your understanding of this high-level Python web framework that encourages rapid development and clean, pragmatic design.
+Hosted by Senior Wagtail Developers, Django Developer Fundamentals provides insights and practical skills that extend way beyond typical tutorials and documentation.
+This course is suitable for anyone who has some Django experience and is now looking to take it to the next level. As a minimum we would expect you to have completed the
+Django tutorial
+before undertaking this course.
+Django Developer Fundamentals course details
+Rated 5 stars by the Mozilla Customer Experience team, this course will help turn beginners into proficient Wagtail CMS developers.
+Wagtail CMS Fundamentals is suitable for anyone who has completed the Django Developer Fundamentals course or is already at an intermediate level with Django. Before undertaking this course, you should ideally have completed the
+Wagtail tutorial
+.
+Three sessions will lead you through everything you need to know about the core elements of Wagtail CMS, including pages, snippets and Wagtail field types, so that you can take your own Wagtail sites to a new level.
+Wagtail CMS Fundamentals course details
+Django Developer Fundamentals
+Expand your skills and deepen your understanding of this high-level Python web framework that encourages rapid development and clean, pragmatic design.
+Hosted by Senior Wagtail Developers, Django Developer Fundamentals provides insights and practical skills that extend way beyond typical tutorials and documentation.
+This course is suitable for anyone who has some Django experience and is now looking to take it to the next level. As a minimum we would expect you to have completed the
+Django tutorial
+before undertaking this course.
+Django Developer Fundamentals course details
+Wagtail CMS Fundamentals
+Rated 5 stars by the Mozilla Customer Experience team, this course will help turn beginners into proficient Wagtail CMS developers.
+Wagtail CMS Fundamentals is suitable for anyone who has completed the Django Developer Fundamentals course or is already at an intermediate level with Django. Before undertaking this course, you should ideally have completed the
+Wagtail tutorial
+.
+Three sessions will lead you through everything you need to know about the core elements of Wagtail CMS, including pages, snippets and Wagtail field types, so that you can take your own Wagtail sites to a new level.
+Wagtail CMS Fundamentals course details
+Want to find out more?
+Ian Bellchambers
+Chief Growth Officer (Wagtail)
+Get in touch

@@ -1,0 +1,78 @@
+Extra 3 million clicks a month amplifies NHS content in search engine results
+Strategic SEO work led to a significant increase in organic traffic plus improved visibility of content in search.
+NHS Digital
+4 mins read
+Related work categories
+Digital marketing
+SEO
+Public sector
+nhs.uk
+The results
+3m
+Monthly organic clicks
+16%
+Rise in impressions YoY
+The challenge
+Strengthening NHS health information through search
+The NHS website is one of the most-visited health websites in the world with more than 500 million sessions yearly.
+Some 90% of those sessions start on a search engine, and so a programme of Search Engine Optimisation (SEO) makes sure content on the site is able to be found easily and quickly.
+Providing health information is a hotly-contested field, with huge international organisations including the Mayo Clinic and WebMD providing competition for content. Less reputable websites also get attention on their content, especially where users are searching for health information that is not clinically-approved – and where the NHS cannot compete.
+This poses a problem: if fewer people visit the NHS website, then search engines will surface its content less visibly and frequently. This in turn means fewer people will see the site and visit, downgrading trust in the organisation and potentially spreading misinformation.
+To protect its reputation and fulfil its remit of giving people the most accurate and up-to-date health information, the NHS needed to understand how to create content that both works for users searching for content in search engines and users on the website.
+Our approach
+Let's get started
+Given how important organic search is in users’ journeys, the NHS had a need for a dedicated SEO resource, so we immediately got to work building internal capability.
+Once the team was formed, we took stock. The organic health of the NHS website is extremely strong, with many factors that search engines like, including a high domain authority, lots of links to the site from other, trusted websites and content ranking in top positions for high volume keywords.
+As the basics were in place, we focused on organic growth to keep the site and content relevant. Strong organic growth also means not spending money on adverts, which would take budget away from other areas of the organisation.
+Search engine results are international, meaning the NHS website is in competition with other, international healthcare experts. We tackled this by finding content gaps – topics that competitor sites publish content about, but where the NHS website does not have a search presence. We also support teams when they review existing content on the site, giving recommendations around how to optimise pages for search.
+Increasingly, Google is serving information up directly in the search engine results page, using a range of design elements. This removes the need for a user to click through to a website and keeps them on the results page.
+This is one of the most significant changes to results pages in the last few years. Google recently updated over 250 healthcare results pages to show health information taken directly from the NHS website.
+This presents a range of challenges – including needing to make sure that the search engines pull through all the contextual information and doesn’t change the meaning.
+The team worked on ‘content modularisation’, which is where they wrote content in sections that were able to be taken out by search engines as ‘snippets’ and displayed on the results page. There are some extra technical considerations to work like this, including establishing relationships between entities using new markup they are developing alongside Google.
+The team at NHS Digital have written a great piece about their journey towards
+providing modularised content for search
+.
+The outcomes
+Enhancing search visibility
+The NHS’s goal is not just to increase traffic to the website. It is also to make sure that its content is discoverable in organic search, and that the site’s content meets user needs.
+Since our work began, we’ve seen a year-on-year rise in impressions of 16%, and a 6% increase in organic clicks (note these stats are pre-pandemic, during which traffic to the NHS site rose dramatically).
+3m monthly organic clicks
+16% rise in impressions YoY
+Defined organic search strategy
+Upskilled teams across the NHS to integrate SEO into content production
+Because of the volume of content production across the NHS, there was a need for SEO to be embedded across all teams working on the site. This meant knowledge transfer to encourage and allow for a culture change. Product owners now consider if any planned transformations will negatively affect users’ search experiences. User researchers look for user demand for a topic, which reveals a new user need. Content designers consider what users are searching for, and what language they’re using to search, to include these terms in content.
+As search is evolving, the NHS will face new challenges in getting its information found online. Becoming a leading source of information in voice search, across platforms and devices, is a key part of its organic search strategy.
+Organic search is now an integral part in maintaining the NHS’s reputation in the healthcare space.
+We have learnt so much about SEO and how to optimise digital products to stay up-to-date in the fast moving digital world. With this partnership, the NHS website has been able to implement some valuable changes to its design and the team now recognise the value of SEO and have established new models of working to make sure it is at the centre of all product and website design.
+Stromi Lof
+Product Manager, NHS Digital
+Looking for support with your organisation's SEO strategy?
+Get in touch
+by
+Jenny Hearn
+SEO Consultant
+More
+A fresh look for the NIH Office of Intramural Training & Education (OITE)
+NIH Office of Intramural Training & Education (OITE)
+3 mins read
+Filter posts by category
+Digital products
+Research & design
+Public sector
+Unifying staff engagement and collaboration across four children's hospitals
+Children's Health Ireland
+5 mins read
+Filter posts by category
+Digital products
+Wagtail
+Public sector
+London Museum's radical digital transformation
+London Museum
+5 mins read
+Filter posts by category
+Innovation
+AI
+Digital products
+Wagtail
+Public sector
+See more work

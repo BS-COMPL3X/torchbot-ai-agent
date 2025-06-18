@@ -1,0 +1,55 @@
+Will Heinemann
+New Business Director
+NASA’s Jet Propulsion Laboratory launches on Wagtail CMS
+8 Mar 2021
+/
+2 mins read
+The eyes of the world turned to JPL as the Perseverance Rover touched down on Mars. They did so via the new
+jpl.nasa.gov
+site, the Lab’s digital home for missions, science news, images and videos, recently redesigned and rebuilt on Wagtail.
+Following
+Caltech’s lead
+, JPL chose Wagtail to replace their content management infrastructure and enlisted us to help them do it in time for the Mars landing.
+Our role was to help define the technical architecture and content model, ensure the best use of
+Wagtail
+and augment JPL’s sprint team to develop features from the backlog, including integrating with 3rd party systems and migrating content from legacy platforms. Additionally, we were engaged to take an initial design concept forward, developing it into the look and feel that you see on the site today.
+We worked as part of a fully remote multi-agency/client project team, split across Pasadena (UTC -8), Chennai (UTC +5:30) and the UK (UTC), focused on a hard launch date in time for Perseverance’s arrival on Mars.
+The JPL site is headless. The front end is built in
+Vue
+using
+NuxtJS
+, and connects to Wagtail via GraphQL, using the increasingly popular
+wagtail-grapple
+package. We used
+Storybook
+to develop the interface components, and set up automated accessibility tests for all UI components. Thanks to
+wagtail-headless-preview
+, NASA editors preview their draft content on the real front-end before pushing stories live.
+JPL’s content has deep historical significance. Many thousands of news items, missions and images, dating back from
+the 1950s
+, were moved from the old ColdFusion site, with an automated ETL pipeline to manage and test the migration.
+JPL is a federally-funded research and development centre managed by Caltech for NASA.
+We’re so proud to have worked with JPL on this project, which was carried out by a completely remote team, in the time it took Perseverance to travel 300 million miles to Mars. Wagtail isn’t rocket science, but it played a part in this extraordinary achievement, and we’re very grateful to everyone in the open source community who’s been part of it.
+Tom Dyson, Torchbox co-founder and Wagtail Lead
+Want to explore Wagtail CMS or have a question about our approach?
+Get in touch
+More
+AI to scale qualitative research
+Cassandra Cardiff
+Senior User Researcher
+9 Jun 2025
+/
+3 mins read
+Reflections from the Unconference: AI, Data & Public Participation
+Ben Heasman
+Client Partner (Public Sector)
+26 Mar 2025
+/
+3 mins read
+Reducing friction for busy hospital workers through human-centred design
+Jeth Ordeniza
+Interaction Designer
+4 Mar 2025
+/
+3 mins read
+See more posts

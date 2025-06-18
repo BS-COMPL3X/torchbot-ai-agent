@@ -1,0 +1,47 @@
+Lisa Ballam
+Head of Marketing
+What's New in Wagtail CMS - March 2024
+20 Feb 2024
+/
+1 min read
+We have loads to share in the next episode of What's New in Wagtail, including features in the latest release and exciting packages ahead.
+This event has now passed. Watch the recording below:
+This content is hosted by a third party. By showing the external content you accept the
+terms and conditions
+of YouTube.
+I accept
+Don't ask me again
+Here’s what we’ve got lined up:
+UI design ideas — a preview of exciting features that could make it into future updates.
+Universal listings: Effortlessly filter your content search by page type, site, locale, and more. No more sifting through endless results!
+Wagtail AI: New package updates and plans.
+Newsletter package sneak preview: Automate sending Wagtail content to your mailing list.
+And lots more!
+As always, we’re hosting the event at two different times to accommodate Wagtail's global audience:
+March 12th at 10 am GMT -
+register your place on Zoom
+March 13th at 5 pm GMT / 1 pm ET -
+register your place on Zoom
+We hope to see you there!
+Want to explore Wagtail CMS?
+Get in touch
+More
+What’s new in Wagtail returns - May 2025
+Lisa Ballam
+Head of Marketing
+4 Apr 2025
+/
+1 min read
+The design journey behind Wagtail's page editor evolution
+Ben Enright
+Principal Interaction Designer
+12 Mar 2025
+/
+4 mins read
+How much power do web assets use?
+James Hancock
+Engineer
+18 Feb 2025
+/
+4 mins read
+See more posts
